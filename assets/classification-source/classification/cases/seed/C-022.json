@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-022",
+  "tags": {
+    "audience_id": "P04",
+    "motivation_id": "M06",
+    "scenario_id": "S06"
+  },
+  "rule_ids": [
+    "R-005"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-022.png",
+    "external_uri": "https://img.alicdn.com/imgextra/i2/2213990792954/O1CN01R3hlwp1Xgz4jOeuv4_!!2213990792954.png_q50.jpg_.webp",
+    "format": "png",
+    "width": 1440,
+    "height": 1440,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "天猫",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://detail.tmall.com/item.htm?abbucket=17&id=979632225962&mi_id=0000RvBMM9_NLl4pe34TFPvegIcgjXVvYtnp2AbhGCJ6vGU&ns=1&priceTId=214786f917907753621513396e11f9&skuId=5937745633755&spm=a21n57.1.hoverItem.34&utparam=%7B%22aplus_abtest%22%3A%22ba17ee4f4d93bac37f70663ca89c34bc%22%7D&xxc=taobaoSearch",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "开盒特写同时传达份量与仪式感，暖色符合节庆和家庭语义。",
+  "style_analysis": {
+    "palette": "背景#E8D4C5；辅助#8A6E5B；强调#A8322E；正文#53443D",
+    "typography": "温暖衬线、礼赠标题稳重、关键信息加粗",
+    "composition": "礼盒近景居中，局部开盒展示内容物，标题位于上部留白",
+    "information_hierarchy": "第一焦点：商品主体；信息密度：低；促销强度：中",
+    "spacing_and_details": "商品主体占比约62%；避免：避免食品被文字覆盖、红金元素堆叠、包装边缘裁切严重。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": false
+}

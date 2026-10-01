@@ -1,0 +1,55 @@
+{
+  "test_mode": "visual_diagnostic_only",
+  "dimensions": {
+    "composition": {
+      "score": 8.5,
+      "evidence": "文字在左、商品在右，产品完整，边桌落地，清楚边界与共同透视；面板稍常规"
+    },
+    "hierarchy": {
+      "score": 9,
+      "evidence": "品牌、主标题、历史句、次级说明与日期形成有秩序的字级，不再跨区"
+    },
+    "color": {
+      "score": 8.5,
+      "evidence": "深蓝、暖白与木色统一，产品轮廓和字对比明确；整体仍偏深色"
+    },
+    "typography": {
+      "score": 8.5,
+      "evidence": "长句分两行，英文收敛，移除填色框；仍有原图要求保留的重复标题和示例文案"
+    },
+    "consistency": {
+      "score": 8.5,
+      "evidence": "产品呈现在真实墙地窗空间，使用关系比原图合理；无C标签，判断只基于可见卫浴类别"
+    },
+    "finish": {
+      "score": 8.5,
+      "evidence": "金属、石材、木材、浴缸表面区分清楚，接触阴影合理；局部光影仍像精细建筑渲染"
+    }
+  },
+  "weights": {
+    "composition": 20,
+    "hierarchy": 20,
+    "color": 15,
+    "typography": 20,
+    "consistency": 15,
+    "finish": 10
+  },
+  "visual_score_unrounded": 8.6,
+  "visual_score": 8.6,
+  "visual_pass": true,
+  "formal_pass": false,
+  "total_generation_rounds": 2,
+  "max_generation_rounds": 8,
+  "design_direction_switch": false,
+  "confidence": 0.8,
+  "stop_reason": "visual_target_reached_but_identity_and_confirmed_copy_missing",
+  "original_product_available": false,
+  "complete_product_input_available": false,
+  "content_check": {
+    "brand": "placeholder; not confirmed",
+    "history_claim": "source placeholder preserved, not verified",
+    "date": "2024年7月20日 retained; not current campaign confirmation",
+    "product_identity": "tub surface/shape and shower hardware details redrawn; not source-locked",
+    "watermark": "source attribution and ID visible; not guaranteed pixel-identical"
+  }
+}

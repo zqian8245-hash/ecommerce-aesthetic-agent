@@ -1,0 +1,304 @@
+任务：围绕原始商品重新设计海报，可大幅改变旧海报的构图、背景、字体、配色与光影。图1不是必须模仿的风格模板。
+
+实际图像输入：
+图1 当前海报：当前生成海报（图像）
+图2 原始商品图：原始商品图
+执行时必须附上真实图像，路径文本不代替图像输入。图2是商品身份依据，商品不允许由图1中的生成物替代。
+
+营销目标：营销目标
+C组场景标签：P03、M02、S01
+
+本轮统一设计方向：围绕商品及C组标签建立可信的商品广告；用原始素材做主角，不模仿旧科技促销模板
+商品呈现：原商品图做主视觉，允许等比放大及重新定位，包装和标签不重绘
+信息架构：重建商品区与独立信息区；核心卖点相邻分组，价格形成明确但不过度抢眼的行动节点
+字体与排版：采用适合商品气质的清晰字级与统一对齐；取消膨胀立体文字，保留输入原文
+配色：从原商品与场景推导主色，控制辅助色和高亮，避免无理由霓虹
+背景：使用低干扰且支持场景标签的背景；有空间和支撑关系，不堆叠透明器械
+光照/材质：采用一致方向的柔和主光和自然接触阴影，区分玻璃、金属及包装表面
+去除的非必要元素：无功能发光底座、无关器械、多余悬浮珍珠、膨胀立体文字
+
+必须逐字保留的价格文案："价格文案"
+必须保留的卖点原文：
+- "卖点1"
+- "卖点2"
+其他保护项：
+- 商品主体：以product_img为身份依据，保护包装、标签、形状和比例
+- 卖点原文：卖点1
+- 卖点原文：卖点2
+- 价格文案：价格文案
+- 可确认的Logo及必要活动事实（如存在）：从原素材保留，不重绘
+
+具体问题与修改：
+1. [构图与视觉平衡/P1] 虚构演示：主体被大量无功能装饰包围，商品比例偏小。
+   动作：以原始商品图作为主焦点，允许等比放大和移位，取消大型道具占位，以合理留白重建画面。
+2. [视觉层级/P1] 虚构演示：立体大标题压过商品和核心信息。
+   动作：重做字级与分区，以商品、核心卖点、价格形成清楚阅读路径，将标题作为辅助营销层。
+3. [风格与场景适配/P1] 虚构演示：太空装置与日常场景标签缺少关联。
+   动作：按scene_tags重新选择视觉背景，移除无功能科技装置，场景道具最多保留有解释作用的部分。
+4. [自然质感与完成度/P1] 虚构演示：统一塑料高光与悬浮装饰造成不可信的材质。
+   动作：采用单一主光，区分包装/金属/玻璃材质，增加合理接触阴影；原商品和标签用真实素材保留。
+5. 现有视觉方案需要整体重新设计，局部微调不足以解决主要问题
+   动作：重构方向：围绕商品及C组标签建立可信的商品广告；用原始素材做主角，不模仿旧科技促销模板；商品呈现：原商品图做主视觉，允许等比放大及重新定位，包装和标签不重绘；布局：重建商品区与独立信息区；核心卖点相邻分组，价格形成明确但不过度抢眼的行动节点；移除：无功能发光底座、无关器械、多余悬浮珍珠、膨胀立体文字；保护商品身份与输入事实，允许换背景、字体、配色及位置
+
+可以移动和等比例缩放真实商品、重排全部文案，但不得更改包装、标签、商品形状或价格数字。原始商品与Logo优先真实素材合成，文字精确排版；不生成微小标签假字，不新增卖点或功效承诺。改善塑料高光、透视/阴影矛盾和无功能装饰，保持所选场景的合理表达，不一律改成极简米白背景。
+输出一张新候选图，保持当前海报实际宽高比，尺寸由制作阶段读取实际图像元数据确认。工具无法支持精确素材保留/尺寸时记录限制。
+验收：核对原商品、所有卖点、价格、确认Logo及必要活动信息；查看新图并按相同量表重新评分。任何身份或事实变化都不得判pass=true。
+
+视觉参考（不是分数标准）：
+{
+  "schema_version": "1.0",
+  "library_version": "2.2",
+  "input_scene_tags": [
+    "P03",
+    "M02",
+    "S01"
+  ],
+  "product_category": "cleaning",
+  "resolved_tags": {
+    "audience_id": "P03",
+    "motivation_id": "M02",
+    "scenario_id": "S01"
+  },
+  "rule_id": "R-003",
+  "rule_match_level": "exact",
+  "style_guidance": {
+    "palette": [
+      {
+        "role": "background",
+        "name": "background_1",
+        "hex": "#F7F2E8"
+      },
+      {
+        "role": "background",
+        "name": "background_2",
+        "hex": "#F2F6F0"
+      },
+      {
+        "role": "background",
+        "name": "background_3",
+        "hex": "#EEF4F7"
+      },
+      {
+        "role": "support",
+        "name": "support_1",
+        "hex": "#D9CBB9"
+      },
+      {
+        "role": "support",
+        "name": "support_2",
+        "hex": "#BFD2C1"
+      },
+      {
+        "role": "support",
+        "name": "support_3",
+        "hex": "#C6D8E1"
+      },
+      {
+        "role": "accent",
+        "name": "accent_1",
+        "hex": "#E89A55"
+      },
+      {
+        "role": "accent",
+        "name": "accent_2",
+        "hex": "#6FA77A"
+      },
+      {
+        "role": "accent",
+        "name": "accent_3",
+        "hex": "#4F91A8"
+      },
+      {
+        "role": "text",
+        "name": "text_1",
+        "hex": "#3E443E"
+      },
+      {
+        "role": "text",
+        "name": "text_2",
+        "hex": "#304238"
+      },
+      {
+        "role": "text",
+        "name": "text_3",
+        "hex": "#2F3E45"
+      },
+      {
+        "role": "material",
+        "name": "material_1",
+        "hex": "#B99B79"
+      },
+      {
+        "role": "material",
+        "name": "material_2",
+        "hex": "#D7C5A6"
+      }
+    ],
+    "headline_character": "亲和清晰无衬线，功能数字醒目",
+    "body_character": "简洁易读",
+    "composition": "真实家庭场景，主体居中，周围2至3个功能点",
+    "product_ratio": 0.62,
+    "info_density": 3,
+    "promotion_intensity": 2,
+    "cta_guidance": "使用与购买动机一致的短行动提示",
+    "prohibited_styles": [
+      "避免暗黑科技风",
+      "功能点过多和背景杂乱"
+    ]
+  },
+  "warnings": [],
+  "cases": [
+    {
+      "case_id": "C-006",
+      "image_path": "assets/classification-source/classification/cases/seed/C-006.jpg",
+      "image_sha256": "fc65d6eb4bbbfd1a3af39b152347e9f7588a1e32ef8c91d85833530da696238a",
+      "style_family": "黄色功能可视化",
+      "observed_subject": "扫地机吸力展示",
+      "matched_tag_count": 3,
+      "category_match": true,
+      "match_level": "exact_tags",
+      "cross_category_transfer_only": false,
+      "visual_strengths": [
+        "机身、颗粒与吸力示意共同说明功能；下方样本形成可比较分组。"
+      ],
+      "visual_risks": [
+        "特效和巨大10000Pa可竞争注意力；效果与数值必须来自新任务母本。"
+      ],
+      "transferable_principles": [
+        "功能效果图与证据分区，不把特效替代商品。"
+      ],
+      "metadata_note": null,
+      "source_review_status": "draft",
+      "quality_label": null,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-017",
+      "image_path": "assets/classification-source/classification/cases/seed/C-017.jpg",
+      "image_sha256": "4b350d79a07713b8043d76b6847819e90585aae6f9ab2ffa9dec009941d47539",
+      "style_family": "真实居家加效果线",
+      "observed_subject": "扫地机导航示意",
+      "matched_tag_count": 3,
+      "category_match": true,
+      "match_level": "exact_tags",
+      "cross_category_transfer_only": false,
+      "visual_strengths": [
+        "室内布局与前景机身共同说明导航用途，功能词组有规律。"
+      ],
+      "visual_risks": [
+        "多条光线与三项功能形成较高密度；不能以激光线数量暗示真实性能。"
+      ],
+      "transferable_principles": [
+        "真实使用情景支持功能说明，效果线保持最少必要数量。"
+      ],
+      "metadata_note": null,
+      "source_review_status": "draft",
+      "quality_label": null,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-007",
+      "image_path": "assets/classification-source/classification/cases/seed/C-007.webp",
+      "image_sha256": "2d6b8d57eda186b029e047b39ece65278374e33cc73a8d30634ffb1593057d5d",
+      "style_family": "真实厨房场景",
+      "observed_subject": "窄缝收纳柜尺寸演示",
+      "matched_tag_count": 3,
+      "category_match": false,
+      "match_level": "exact_tags",
+      "cross_category_transfer_only": true,
+      "visual_strengths": [
+        "使用位置和尺寸箭头解释适配关系，手部动作显示开门方式。"
+      ],
+      "visual_risks": [
+        "多方向标注易拥挤；尺寸信息不能来自参考图自动迁移。"
+      ],
+      "transferable_principles": [
+        "用真实场景展示适配，用少量尺寸说明关键结构。"
+      ],
+      "metadata_note": null,
+      "source_review_status": "draft",
+      "quality_label": null,
+      "eligible_for_score_calibration": false
+    }
+  ],
+  "known_tag_count": 3
+}
+先实际查看所选案例图，选择一条统一方向，仅借鉴构图、信息层级及材质光线，不复制参考商品、Logo、文案或功效。跨品类仅借视觉关系。原始商品图始终为身份依据。图片路径相对于Agent包根目录；宿主须读取真实图像。规则为建议，不替代本轮设计判断及内容核验。
+
+用户偏好案例：
+{
+  "schema_version": "1.0",
+  "product_category": "cleaning",
+  "label_source": "user_folder",
+  "use_mode": "preference_calibration_not_numeric_ground_truth",
+  "selected_cases": [
+    {
+      "case_id": "G-002",
+      "user_quality_label": "好",
+      "image_path": "reference-library/quality-cases/G-002.jpg",
+      "image_sha256": "ffa834fbfd962911ffc7d1f7ebfaa749547ee7a9ab9d0b2361f0aa0701b65421",
+      "product_category": "home_appliances",
+      "category_match": false,
+      "dimension_observations": {
+        "composition": "桌面与不同高度陈列形成中心商品群",
+        "hierarchy": "优惠数字为主、行动按钮为次、商品为展示中心",
+        "color": "红叶与暖米色形成促销气氛而不全画面高饱和",
+        "typography": "300与50的字体强化优惠，时间文字对比偏弱",
+        "consistency": "厨房换新与居家家电呈现一致",
+        "finish": "地毯、木质与玻璃光影有区分"
+      },
+      "limitations": "活动时间浅白字与亮背景对比不足；红叶只借氛围不复制",
+      "modify_direction": "把场景、优惠、商品分区，强化次级必要文字对比",
+      "dimension_scores": null,
+      "formal_pass": null
+    },
+    {
+      "case_id": "M-001",
+      "user_quality_label": "中",
+      "image_path": "reference-library/quality-cases/M-001.jpg",
+      "image_sha256": "8edc3011995f7e7f4f30cb7db332cf20cba3247997b6f1712a750fb89cfc7cf5",
+      "product_category": "home_appliances",
+      "category_match": false,
+      "dimension_observations": {
+        "composition": "高低展台让商品可见，但餐具、清洁电器混排",
+        "hierarchy": "主题、优惠、CTA、倒计时构成多个高权重块",
+        "color": "蓝白与金色优惠协调，主体区域色彩较稳定",
+        "typography": "立体标题与多种胶囊组件增加模板感",
+        "consistency": "厨房主题中清洁电器及悬浮柑橘需要明确用途联系",
+        "finish": "展台较平滑，周边悬浮餐具有摆拍装饰感"
+      },
+      "limitations": "并非全图不清楚，问题是信息组件和悬浮道具过多",
+      "modify_direction": "合并优惠与CTA，删无功能悬浮物，主品类分组",
+      "dimension_scores": null,
+      "formal_pass": null
+    },
+    {
+      "case_id": "P-001",
+      "user_quality_label": "差",
+      "image_path": "reference-library/quality-cases/P-001.jpg",
+      "image_sha256": "1d1eab1ac654c1e7708cf6322b208fbe6bc48370f2dc4cef716f1c61da4ea7be",
+      "product_category": "home_appliances",
+      "category_match": false,
+      "dimension_observations": {
+        "composition": "三个主体分级展台可见，外围丝带占据较大范围",
+        "hierarchy": "大标题与重复双12标记争夺注意",
+        "color": "红白主题清楚，但底部红台丝带叠加过重",
+        "typography": "主副标题存在明显异常汉字组合，厚字效降低清爽感",
+        "consistency": "促销气氛明确，红包丝带对商品用途贡献有限",
+        "finish": "商品边缘可见，强镜面与线光带放大陈列模板感"
+      },
+      "limitations": "不能只按红色扣分；文字异常与装饰竞争是主要证据",
+      "modify_direction": "先逐字修复文案，再删除多数红包线光，重建简明商品陈列",
+      "dimension_scores": null,
+      "formal_pass": null
+    }
+  ],
+  "warnings": [
+    "仅选择calibration集，reserved_test不参与提示词。",
+    "类别为用户整体偏好；分项观察由AI补充，不是人工逐维标注。",
+    "跨品类仅比较视觉原则，缺少原商品母本与完整营销任务，不能判正式pass。",
+    "好类并非全维达标；差类并非全维低分。禁止按标签预设评分或以接近参考图作为通过条件。"
+  ]
+}
+执行前查看实际案例图，借正例的视觉关系、避负例的具体缺陷；禁止按类别预设分数，不复制商品、文案或Logo。只能选一个统一方向，严格保护本轮输入事实。
+

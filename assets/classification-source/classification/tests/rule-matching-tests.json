@@ -1,0 +1,50 @@
+[
+  {
+    "test_id": "RM-EXACT",
+    "classification": {
+      "audience_id": "P02",
+      "motivation_id": "M03",
+      "scenario_id": "S03"
+    },
+    "expected_rule_id": "R-001",
+    "expected_level": "exact",
+    "actual_rule_id": "R-001",
+    "passed": true
+  },
+  {
+    "test_id": "RM-TWO",
+    "classification": {
+      "audience_id": "P04",
+      "motivation_id": "M06",
+      "scenario_id": "S01"
+    },
+    "expected_rule_id": "R-105",
+    "expected_level": "two_dimension",
+    "actual_rule_id": "R-105",
+    "passed": true
+  },
+  {
+    "test_id": "RM-SINGLE",
+    "classification": {
+      "audience_id": "P06",
+      "motivation_id": "M02",
+      "scenario_id": "S02"
+    },
+    "expected_rule_id": "R-202",
+    "expected_level": "single_dimension",
+    "actual_rule_id": "R-202",
+    "passed": true
+  },
+  {
+    "test_id": "RM-GLOBAL",
+    "classification": {
+      "audience_id": "P06",
+      "motivation_id": "M06",
+      "scenario_id": "S01"
+    },
+    "expected_rule_id": "R-DEFAULT",
+    "expected_level": "global",
+    "actual_rule_id": "R-DEFAULT",
+    "passed": true
+  }
+]

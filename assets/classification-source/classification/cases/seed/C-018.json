@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-018",
+  "tags": {
+    "audience_id": "P05",
+    "motivation_id": "M03",
+    "scenario_id": "S01"
+  },
+  "rule_ids": [
+    "R-010"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-018.webp",
+    "external_uri": "https://img.alicdn.com/imgextra/i3/2215257299546/O1CN01seL1lu2KO7xNkrCQO_!!2215257299546.jpg_q50.jpg_.webp",
+    "format": "webp",
+    "width": 800,
+    "height": 800,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "天猫",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://detail.tmall.com/item.htm?abbucket=17&fpChannel=101&fpChannelSig=6b4bec113b25a0eb3a9312f22cd1539c79fff140&id=722765525710&mi_id=0000L8AUkWsCBJ-hI2NPFAKzIs5oD5Bwo8AhD_wTGtvy83c&ns=1&priceTId=214786f917907744782648055e11f9&skuId=6005136012083&spm=a21n57.1.hoverItem.17&utparam=%7B%22aplus_abtest%22%3A%2228647fe4b15cfafac5cdf6d29839a774%22%7D&xxc=taobaoSearch",
+    "collected_date": "2026-10-01",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "商品文本能够确认家庭常备与耐用诉求；具体视觉判断需重新读取原图。",
+  "style_analysis": {
+    "palette": "待从原图复核；建议先记录背景/辅助/强调/正文各1色",
+    "typography": "待原图复核",
+    "composition": "待原图复核",
+    "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：中",
+    "spacing_and_details": "商品主体占比约45%；避免：避免在未查看原图时确定配色、构图和信息层级。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

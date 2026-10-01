@@ -1,0 +1,237 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "v2 internal calculated assessment",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "2.0"
+      ]
+    },
+    "status": {
+      "enum": [
+        "incomplete",
+        "pass",
+        "revise",
+        "content_failure",
+        "content_unverified",
+        "pending_upstream",
+        "blocked_upstream"
+      ]
+    },
+    "score_unrounded": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 10
+    },
+    "threshold": {
+      "type": "number"
+    },
+    "dimensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "enum": [
+              "composition",
+              "hierarchy",
+              "color",
+              "typography",
+              "consistency",
+              "finish"
+            ]
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "score": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "threshold": {
+            "type": "number"
+          },
+          "gap": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "pass": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "required": [
+          "key",
+          "label",
+          "score",
+          "threshold",
+          "gap",
+          "pass",
+          "evidence",
+          "confidence"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "below_threshold": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "composition",
+          "hierarchy",
+          "color",
+          "typography",
+          "consistency",
+          "finish"
+        ]
+      },
+      "minItems": 0
+    },
+    "config_snapshot": {
+      "type": "object"
+    },
+    "design_plan": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "strategy": {
+              "enum": [
+                "refine",
+                "rebuild",
+                "redesign"
+              ]
+            },
+            "direction": {
+              "type": "string",
+              "minLength": 1
+            },
+            "product_presentation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "layout": {
+              "type": "string",
+              "minLength": 1
+            },
+            "typography": {
+              "type": "string",
+              "minLength": 1
+            },
+            "palette": {
+              "type": "string",
+              "minLength": 1
+            },
+            "background": {
+              "type": "string",
+              "minLength": 1
+            },
+            "lighting": {
+              "type": "string",
+              "minLength": 1
+            },
+            "remove_elements": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0
+            },
+            "preserve_additional": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0
+            },
+            "strategy_reason": {
+              "type": "object",
+              "properties": {
+                "structural_failed_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "naturalness_failure": {
+                  "type": "boolean"
+                },
+                "model_proposal": {
+                  "enum": [
+                    "auto",
+                    "refine",
+                    "rebuild",
+                    "redesign"
+                  ]
+                }
+              },
+              "required": [
+                "structural_failed_count",
+                "naturalness_failure",
+                "model_proposal"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "strategy",
+            "direction",
+            "product_presentation",
+            "layout",
+            "typography",
+            "palette",
+            "background",
+            "lighting",
+            "remove_elements",
+            "preserve_additional",
+            "strategy_reason"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "generation_assets_ready": {
+      "type": "boolean"
+    },
+    "overall_qualified": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "schema_version",
+    "status",
+    "score_unrounded",
+    "threshold",
+    "dimensions",
+    "below_threshold",
+    "config_snapshot",
+    "design_plan",
+    "generation_assets_ready",
+    "overall_qualified"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-017",
+  "tags": {
+    "audience_id": "P03",
+    "motivation_id": "M02",
+    "scenario_id": "S01"
+  },
+  "rule_ids": [
+    "R-003"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-017.jpg",
+    "external_uri": "https://m.media-amazon.com/images/I/81r5iQUgQOL._AC_SL1500_.jpg",
+    "format": "jpg",
+    "width": 1500,
+    "height": 1500,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "Amazon",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://www.amazon.com/Tikom-Self-Emptying-Navigation-L8000-Plus/dp/B0FKH1RW65/ref=sr_1_12?crid=1R8YD27QB2YLM&dib=eyJ2IjoiMSJ9.dtvUAg-OKNkCoDKBice5cEBXZrm1D1qLuaXYFdinee22n4W2DbA8TZxNz-Sq9afzgx8OzTxUbfCribQxaIuRxmNsl-PR8IjDEexoLOU0wH6C6mT1Bc1YjskJhgE13Dca7hkKqD8hq0LMNdkAK4VVxWaGY2TuyRGGJWwkHSVG-lpUmQaMH6W1dccBS16qQQJ-_Z7ggiidhI5pEtG7-TUybYcy4u5RmFcZ8hERr0bSYbY.vesIRHeQGr7Z9XTvrDg6iuI-3Xk5_q_2zHwBJUzxkPM&dib_tag=se&keywords=Sweeping+robot&qid=1790774251&sprefix=coffee+machine%2Caps%2C672&sr=8-12",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "生活场景建立使用代入，冷色技术标识清楚解释导航能力。",
+  "style_analysis": {
+    "palette": "背景#E0DFDA；辅助#D8AE88；强调#43A6B1；正文#2A2C2B",
+    "typography": "理性科技无衬线、参数数字清晰",
+    "composition": "真实家居场景为底，产品置前景，导航效果线叠加说明",
+    "information_hierarchy": "第一焦点：核心卖点；信息密度：中；促销强度：低",
+    "spacing_and_details": "商品主体占比约42%；避免：避免科技线遮挡家具和产品、背景过暖导致机身不突出。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": false
+}

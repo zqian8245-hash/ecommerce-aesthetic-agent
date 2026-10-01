@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-005",
+  "tags": {
+    "audience_id": "P01",
+    "motivation_id": "M05",
+    "scenario_id": "S05"
+  },
+  "rule_ids": [
+    "R-002"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-005.jpg",
+    "external_uri": "https://alexnld.com/wp-content/uploads/2023/05/IP6D1198_B5-2.jpg",
+    "format": "jpg",
+    "width": 750,
+    "height": 750,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "Alexnld",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://alexnld.com/product/remax-tws-19-semi-in-ear-dual-host-wireless-bluetooth-earphones-purple/",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "统一紫色调建立潮流感，深色文字保证卖点可读。",
+  "style_analysis": {
+    "palette": "背景#DED9F0；辅助#CBC2EA；强调#7663C8；正文#2B2D3E",
+    "typography": "科技感无衬线、英文短句、字重对比明显",
+    "composition": "耳机右侧放大，手机辅助，左侧短卖点与参数分层",
+    "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：低",
+    "spacing_and_details": "商品主体占比约48%；避免：避免紫色低对比、参数堆满、手机画面抢过耳机。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

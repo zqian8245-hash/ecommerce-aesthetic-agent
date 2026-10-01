@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "run_id": "test-001",
+  "poster_version": "v01",
+  "mode": "standalone",
+  "config_snapshot": {
+    "schema_version": "1.0",
+    "profile": "strict",
+    "rubric_version": "1.0",
+    "total_threshold": 85,
+    "score_step": 0.5,
+    "dimensions": {
+      "composition": {
+        "label": "构图与视觉平衡",
+        "weight": 20,
+        "threshold": 4
+      },
+      "hierarchy": {
+        "label": "视觉层级",
+        "weight": 20,
+        "threshold": 4
+      },
+      "color": {
+        "label": "配色与对比",
+        "weight": 15,
+        "threshold": 4
+      },
+      "typography": {
+        "label": "字体与排版",
+        "weight": 20,
+        "threshold": 4
+      },
+      "consistency": {
+        "label": "品牌及风格一致性",
+        "weight": 15,
+        "threshold": 4
+      },
+      "finish": {
+        "label": "画面完成度",
+        "weight": 10,
+        "threshold": 4
+      }
+    },
+    "loop": {
+      "default_edit_rounds": 1,
+      "max_edit_rounds": 3,
+      "stagnation_rounds": 2,
+      "min_total_gain": 2,
+      "max_minutes": 15,
+      "max_tokens": null,
+      "max_actions_per_round": 3
+    }
+  },
+  "total_score": 74,
+  "total_threshold": 85,
+  "total_gap": 11,
+  "dimensions": [
+    {
+      "key": "composition",
+      "label": "构图与视觉平衡",
+      "score": 4,
+      "threshold": 4,
+      "gap": 0,
+      "weight": 20,
+      "pass": true,
+      "evidence": "演示：主体位置稳定，画面左右重量基本平衡",
+      "confidence": "medium"
+    },
+    {
+      "key": "hierarchy",
+      "label": "视觉层级",
+      "score": 3.5,
+      "threshold": 4,
+      "gap": 0.5,
+      "weight": 20,
+      "pass": false,
+      "evidence": "演示：右上装饰元素抢夺主标题注意力",
+      "confidence": "medium"
+    },
+    {
+      "key": "color",
+      "label": "配色与对比",
+      "score": 4,
+      "threshold": 4,
+      "gap": 0,
+      "weight": 15,
+      "pass": true,
+      "evidence": "演示：主配色统一，正文与背景有清晰对比",
+      "confidence": "medium"
+    },
+    {
+      "key": "typography",
+      "label": "字体与排版",
+      "score": 3,
+      "threshold": 4,
+      "gap": 1,
+      "weight": 20,
+      "pass": false,
+      "evidence": "演示：底部价格与按钮左边缘不对齐，组内间距不一致",
+      "confidence": "medium"
+    },
+    {
+      "key": "consistency",
+      "label": "品牌及风格一致性",
+      "score": 4,
+      "threshold": 4,
+      "gap": 0,
+      "weight": 15,
+      "pass": true,
+      "evidence": "演示：图像与文字气质基本统一；没有外部品牌规范",
+      "confidence": "medium"
+    },
+    {
+      "key": "finish",
+      "label": "画面完成度",
+      "score": 4,
+      "threshold": 4,
+      "gap": 0,
+      "weight": 10,
+      "pass": true,
+      "evidence": "演示：主体边缘与阴影基本自然",
+      "confidence": "medium"
+    }
+  ],
+  "below_threshold": [
+    "hierarchy",
+    "typography"
+  ],
+  "aesthetic_pass": false,
+  "overall_qualified": false,
+  "consistency_scope": "internal_only",
+  "issues": [
+    {
+      "id": "A01",
+      "dimension": "hierarchy",
+      "priority": "P1",
+      "location": "右上装饰区",
+      "evidence": "演示：装饰元素比主标题更抢眼",
+      "action": "降低该装饰元素的饱和度和视觉面积，保留原有文字和主体位置",
+      "protected_content": [
+        "主标题原文",
+        "商品外观",
+        "Logo"
+      ],
+      "acceptance_check": "缩略图观看时，商品及主标题先于装饰元素被注意"
+    },
+    {
+      "id": "A02",
+      "dimension": "typography",
+      "priority": "P1",
+      "location": "底部价格与行动按钮",
+      "evidence": "演示：左边缘和组内间距不统一",
+      "action": "将价格与按钮文字统一左对齐，采用一致的组内间距，保持当前字号辨识度",
+      "protected_content": [
+        "价格数值",
+        "行动提示原文",
+        "活动日期"
+      ],
+      "acceptance_check": "底部信息对齐统一，无重叠，价格和行动提示可读性不下降"
+    }
+  ],
+  "selected_issue_ids": [
+    "A01",
+    "A02"
+  ],
+  "edit_ready": true,
+  "status": "revise",
+  "route": "poster_edit",
+  "reason": "存在低于单项标准的维度",
+  "generation_status": "not_requested"
+}

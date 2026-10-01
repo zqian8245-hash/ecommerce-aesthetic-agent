@@ -1,0 +1,24 @@
+{
+  "test_mode": "visual_diagnostic_only",
+  "dimension_scores": {
+    "composition": 8,
+    "hierarchy": 7.5,
+    "color": 8.5,
+    "typography": 8,
+    "consistency": 8,
+    "finish": 7.5
+  },
+  "visual_score": 7.93,
+  "visual_pass": false,
+  "formal_pass": false,
+  "remaining_issues": [
+    "标题仍过大，商品呈现偏下角",
+    "斜向光影与展台仍带舞台感",
+    "瓶身品牌和微字发生变化，无法身份验收"
+  ],
+  "next_actions": [
+    "降低标题级别，重建更均衡文图关系",
+    "取消阶梯展台与戏剧光束，改真实软光",
+    "单独标记包装文字不可正式通过"
+  ]
+}

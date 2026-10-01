@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-007",
+  "tags": {
+    "audience_id": "P03",
+    "motivation_id": "M02",
+    "scenario_id": "S01"
+  },
+  "rule_ids": [
+    "R-003"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-007.webp",
+    "external_uri": "https://img.alicdn.com/imgextra/i2/2212455037527/O1CN01mkk5SP25TQITstv8h_!!2212455037527.jpg_q50.jpg_.webp",
+    "format": "webp",
+    "width": 800,
+    "height": 800,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "淘宝",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://item.taobao.com/item.htm?abbucket=17&id=1000468515877&mi_id=0000mSEyN0O-ODV_rXaF_8ctPIlNXxZsv3LdYn5YUhcdgPI&ns=1&priceTId=2150449c17907690783903132e1080&skuId=6155856379435&spm=a21n57.1.hoverItem.22&utparam=%7B%22aplus_abtest%22%3A%223deeb24c9c4adda5ba5c1d51a1fd3ac3%22%7D&xxc=taobaoSearch",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "场景直接说明容量和摆放方式，降低理解与购买决策成本。",
+  "style_analysis": {
+    "palette": "背景#DBCFC2；辅助#C3B8A6；强调#79935D；正文#403A34",
+    "typography": "实用清晰、尺寸数字醒目",
+    "composition": "真实厨房场景中展示产品，尺寸线和收纳前后关系辅助说明",
+    "information_hierarchy": "第一焦点：使用效果；信息密度：中；促销强度：低",
+    "spacing_and_details": "商品主体占比约46%；避免：避免道具遮挡结构、尺寸标注交叉、背景物品过密。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Orchestrator context, not business input",
+  "type": "object",
+  "properties": {
+    "mode": {
+      "enum": [
+        "standalone",
+        "integrated"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "hard_check": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "pass",
+            "fail",
+            "unverified"
+          ]
+        },
+        "report_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "version",
+        "status",
+        "report_ref"
+      ],
+      "additionalProperties": false
+    },
+    "consumer": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "pass",
+            "fail",
+            "unverified"
+          ]
+        },
+        "report_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "version",
+        "status",
+        "report_ref"
+      ],
+      "additionalProperties": false
+    },
+    "canvas": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "format": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "width",
+        "height",
+        "format"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "mode",
+    "version"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,70 @@
+{
+  "poster_version": "v01",
+  "image_inspected": true,
+  "text_preservation_ready": true,
+  "hard_issue_detected": false,
+  "consistency_scope": "internal_only",
+  "demo_notice": "纯虚构结构演示，未查看真实图片；不得作为实测记录或用于实际生成",
+  "scores": {
+    "composition": {
+      "score": 4,
+      "evidence": "演示：主体位置稳定，画面左右重量基本平衡",
+      "confidence": "medium"
+    },
+    "hierarchy": {
+      "score": 3.5,
+      "evidence": "演示：右上装饰元素抢夺主标题注意力",
+      "confidence": "medium"
+    },
+    "color": {
+      "score": 4,
+      "evidence": "演示：主配色统一，正文与背景有清晰对比",
+      "confidence": "medium"
+    },
+    "typography": {
+      "score": 3,
+      "evidence": "演示：底部价格与按钮左边缘不对齐，组内间距不一致",
+      "confidence": "medium"
+    },
+    "consistency": {
+      "score": 4,
+      "evidence": "演示：图像与文字气质基本统一；没有外部品牌规范",
+      "confidence": "medium"
+    },
+    "finish": {
+      "score": 4,
+      "evidence": "演示：主体边缘与阴影基本自然",
+      "confidence": "medium"
+    }
+  },
+  "issues": [
+    {
+      "id": "A01",
+      "dimension": "hierarchy",
+      "priority": "P1",
+      "location": "右上装饰区",
+      "evidence": "演示：装饰元素比主标题更抢眼",
+      "action": "降低该装饰元素的饱和度和视觉面积，保留原有文字和主体位置",
+      "protected_content": [
+        "主标题原文",
+        "商品外观",
+        "Logo"
+      ],
+      "acceptance_check": "缩略图观看时，商品及主标题先于装饰元素被注意"
+    },
+    {
+      "id": "A02",
+      "dimension": "typography",
+      "priority": "P1",
+      "location": "底部价格与行动按钮",
+      "evidence": "演示：左边缘和组内间距不统一",
+      "action": "将价格与按钮文字统一左对齐，采用一致的组内间距，保持当前字号辨识度",
+      "protected_content": [
+        "价格数值",
+        "行动提示原文",
+        "活动日期"
+      ],
+      "acceptance_check": "底部信息对齐统一，无重叠，价格和行动提示可读性不下降"
+    }
+  ]
+}

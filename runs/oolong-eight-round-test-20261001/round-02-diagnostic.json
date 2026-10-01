@@ -1,0 +1,49 @@
+{
+  "test_mode": "visual_diagnostic_only",
+  "dimensions": {
+    "composition": {
+      "score": 8.5,
+      "evidence": "瓶体完整落地，果半为辅助，干净前景不遮挡产品；主体仍略居中保守"
+    },
+    "hierarchy": {
+      "score": 9,
+      "evidence": "酸甜橙C是主标题，0糖文字减字重，副文案更小；商品与横排底部形成清楚阅读路径"
+    },
+    "color": {
+      "score": 9,
+      "evidence": "蓝色、金黄色、米白与深蓝字关系统一，关键字对比明确"
+    },
+    "typography": {
+      "score": 8.5,
+      "evidence": "主副字体和字重有区分，取消竖排与多处微字；整体风格仍较常规"
+    },
+    "consistency": {
+      "score": 8.5,
+      "evidence": "落地柑橘与水边夏日环境贴合可见饮料主题；无C标签和营销目标，适配依据仅限图中主题"
+    },
+    "finish": {
+      "score": 8,
+      "evidence": "瓶体、果肉、石面材质可辨且有接触阴影；茶液和果肉高光仍偏鲜亮，部分凝露仍像渲染"
+    }
+  },
+  "weights": {
+    "composition": 20,
+    "hierarchy": 20,
+    "color": 15,
+    "typography": 20,
+    "consistency": 15,
+    "finish": 10
+  },
+  "visual_score_unrounded": 8.625,
+  "visual_score": 8.63,
+  "visual_pass": true,
+  "formal_pass": false,
+  "confidence": 0.8,
+  "total_generation_rounds": 2,
+  "max_generation_rounds": 8,
+  "design_direction_switch": false,
+  "stop_reason": "visual_target_reached_but_packaging_identity_blocked",
+  "protected_copy_check": "six_visible_chinese_lines_preserved; not verified ingredient claims",
+  "identity_check": "fail/unverified: orange round label changed to new text; no original product source",
+  "original_product_available": false
+}

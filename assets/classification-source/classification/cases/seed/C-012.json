@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-012",
+  "tags": {
+    "audience_id": "P02",
+    "motivation_id": "M03",
+    "scenario_id": "S02"
+  },
+  "rule_ids": [
+    "R-006"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-012.jpg",
+    "external_uri": "https://m.media-amazon.com/images/I/61h9Etg5SOL._AC_SL1500_.jpg",
+    "format": "jpg",
+    "width": 1500,
+    "height": 1500,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "Amazon",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://www.amazon.com/Apple-Cancellation-Translation-Headphones-High-Fidelity/dp/B0FQFB8FMG/ref=sr_1_1?crid=190H7NFYD8V0P&dib=eyJ2IjoiMSJ9.qrqPyMKizxXgS6zb0nktGb4iAhxwfQKbdu8Ktwc1rUGaM-2OTdnpBs38pKxZUgwFd7hhyE3Dk5LLiaI4GPILTi_0UN2PE3jWgP4_utgbSW8RFfVuHQrR1hvW3QCzTBAFuBFfxRep-QIBaIGfD9sIojg9PdAzQiicS5kMH_MAhzJ-aPEWEPwhpdMYQEizvGcUIy4rIZVMIC9NzyUqwjLq2HvqCHf3LDXkGOkZoFRrRKY.jsKpVkssOP-MZnkzbbXOh4MSzTETsfAxZTb13AH8wgs&dib_tag=se&keywords=airpods&qid=1790771264&sprefix=airpods%2Caps%2C377&sr=8-1",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "简洁构图突出产品辨识度，也符合稳定可靠的品牌感知。",
+  "style_analysis": {
+    "palette": "背景#F5F5F7；辅助#D8D8DB；强调#5A67D8；正文#222226",
+    "typography": "极简无衬线、中英短句、字重克制",
+    "composition": "产品居中或偏右，短标题置左上，大面积白灰留白",
+    "information_hierarchy": "第一焦点：商品主体；信息密度：低；促销强度：低",
+    "spacing_and_details": "商品主体占比约45%；避免：避免大段参数、过多彩色光效、浅灰文字对比不足。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

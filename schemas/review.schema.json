@@ -1,0 +1,380 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "v2 internal vision review",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "2.0"
+      ]
+    },
+    "sample_only": {
+      "type": "boolean"
+    },
+    "source_poster": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_product": {
+      "type": "string",
+      "minLength": 1
+    },
+    "poster_inspected": {
+      "type": "boolean"
+    },
+    "product_inspected": {
+      "type": "boolean"
+    },
+    "generation_assets_ready": {
+      "type": "boolean"
+    },
+    "protected_content_check": {
+      "enum": [
+        "pass",
+        "fail",
+        "unverified"
+      ]
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "composition": {
+          "type": "object",
+          "properties": {
+            "score": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 10,
+                  "multipleOf": 0.5
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence": {
+              "type": "string",
+              "minLength": 1
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "score",
+            "evidence",
+            "confidence"
+          ],
+          "additionalProperties": false
+        },
+        "hierarchy": {
+          "type": "object",
+          "properties": {
+            "score": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 10,
+                  "multipleOf": 0.5
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence": {
+              "type": "string",
+              "minLength": 1
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "score",
+            "evidence",
+            "confidence"
+          ],
+          "additionalProperties": false
+        },
+        "color": {
+          "type": "object",
+          "properties": {
+            "score": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 10,
+                  "multipleOf": 0.5
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence": {
+              "type": "string",
+              "minLength": 1
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "score",
+            "evidence",
+            "confidence"
+          ],
+          "additionalProperties": false
+        },
+        "typography": {
+          "type": "object",
+          "properties": {
+            "score": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 10,
+                  "multipleOf": 0.5
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence": {
+              "type": "string",
+              "minLength": 1
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "score",
+            "evidence",
+            "confidence"
+          ],
+          "additionalProperties": false
+        },
+        "consistency": {
+          "type": "object",
+          "properties": {
+            "score": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 10,
+                  "multipleOf": 0.5
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence": {
+              "type": "string",
+              "minLength": 1
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "score",
+            "evidence",
+            "confidence"
+          ],
+          "additionalProperties": false
+        },
+        "finish": {
+          "type": "object",
+          "properties": {
+            "score": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 10,
+                  "multipleOf": 0.5
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence": {
+              "type": "string",
+              "minLength": 1
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "score",
+            "evidence",
+            "confidence"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "composition",
+        "hierarchy",
+        "color",
+        "typography",
+        "consistency",
+        "finish"
+      ],
+      "additionalProperties": false
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dimension": {
+            "enum": [
+              "composition",
+              "hierarchy",
+              "color",
+              "typography",
+              "consistency",
+              "finish"
+            ]
+          },
+          "priority": {
+            "enum": [
+              "P0",
+              "P1",
+              "P2"
+            ]
+          },
+          "problem": {
+            "type": "string",
+            "minLength": 1
+          },
+          "suggestion": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "dimension",
+          "priority",
+          "problem",
+          "suggestion"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "design_plan": {
+      "type": "object",
+      "properties": {
+        "strategy": {
+          "enum": [
+            "auto",
+            "refine",
+            "rebuild",
+            "redesign"
+          ]
+        },
+        "direction": {
+          "type": "string",
+          "minLength": 1
+        },
+        "product_presentation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layout": {
+          "type": "string",
+          "minLength": 1
+        },
+        "typography": {
+          "type": "string",
+          "minLength": 1
+        },
+        "palette": {
+          "type": "string",
+          "minLength": 1
+        },
+        "background": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lighting": {
+          "type": "string",
+          "minLength": 1
+        },
+        "remove_elements": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "preserve_additional": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "strategy",
+        "direction",
+        "product_presentation",
+        "layout",
+        "typography",
+        "palette",
+        "background",
+        "lighting",
+        "remove_elements",
+        "preserve_additional"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "source_poster",
+    "source_product",
+    "poster_inspected",
+    "product_inspected",
+    "generation_assets_ready",
+    "protected_content_check",
+    "dimensions",
+    "issues",
+    "design_plan"
+  ],
+  "additionalProperties": false
+}

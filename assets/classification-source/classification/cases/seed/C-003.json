@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-003",
+  "tags": {
+    "audience_id": "P02",
+    "motivation_id": "M03",
+    "scenario_id": "S03"
+  },
+  "rule_ids": [
+    "R-001"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-003.webp",
+    "external_uri": "https://gw.alicdn.com/imgextra/O1CN01rSHzCC4XhoJ2vH2e_!!2616970884-0-picasso.jpg_.webp",
+    "format": "webp",
+    "width": 1440,
+    "height": 1440,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "天猫",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://detail.tmall.com/item.htm?ali_refid=a3_430673_1006%3A1681657267%3AH%3Aze%2BXo8Sqz1ppDeDL%2B%2FZ8Xg%3D%3D%3A75510290da8b963e764bd9cc604032d5&ali_trackid=282_75510290da8b963e764bd9cc604032d5&id=726771006218&loginBonus=1&mi_id=0000TpLhyL1nsm_whqRb-9zCd93a2l0cptMTO26qyUCOThM&mm_sceneid=1_0_4594526834_0_0&priceTId=213e0a4317907600932104062e0e99&skuId=5438520567134&spm=a21n57.sem.item.23&utparam=%7B%22aplus_abtest%22%3A%22811798f1ada4516ebcc43e9f6a151008%22%7D&xxc=ad_ztc",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "手部动作直接解释使用方式，产品、场景和功能信息层级清楚。",
+  "style_analysis": {
+    "palette": "背景#F6F6F2；辅助#D0C5B8；强调#8B2437；正文#241F20",
+    "typography": "现代无衬线、功能数字加粗",
+    "composition": "右侧产品与手持演示，左侧纵向卖点徽章，留白分区",
+    "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：中",
+    "spacing_and_details": "商品主体占比约52%；避免：避免徽章过多、背景道具杂乱、产品深色区域丢失细节。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

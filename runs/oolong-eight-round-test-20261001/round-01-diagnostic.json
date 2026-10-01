@@ -1,0 +1,26 @@
+{
+  "test_mode": "visual_diagnostic_only",
+  "dimension_scores": {
+    "composition": 8.5,
+    "hierarchy": 8,
+    "color": 9,
+    "typography": 8.5,
+    "consistency": 8.5,
+    "finish": 8
+  },
+  "visual_score_unrounded": 8.425,
+  "visual_score": 8.43,
+  "visual_pass": false,
+  "formal_pass": false,
+  "evidence": [
+    "落地商品与单枚柑橘形成可解释场景，消除悬浮气泡",
+    "两行大标题同级抢主次",
+    "凝露、高光与前景叶片偏多，仍有强化生成质感",
+    "瓶身橙色圆标文字发生变化，不能称商品身份保护完成"
+  ],
+  "next_actions": [
+    "减少次级标题体量和字重",
+    "降低水珠与反射强度",
+    "清理前景叶片，保留清楚底部横排"
+  ]
+}

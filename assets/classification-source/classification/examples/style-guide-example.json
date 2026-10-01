@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "request_id": "REQ-EXAMPLE-001",
+  "source_rule_ids": [
+    "R-001"
+  ],
+  "source_case_ids": [
+    "C-002",
+    "C-003"
+  ],
+  "fallback_level": "exact",
+  "palette": [
+    {
+      "role": "background",
+      "name": "background_1",
+      "hex": "#F6F3EA"
+    },
+    {
+      "role": "background",
+      "name": "background_2",
+      "hex": "#F3F5F7"
+    },
+    {
+      "role": "background",
+      "name": "background_3",
+      "hex": "#E9EEF2"
+    },
+    {
+      "role": "support",
+      "name": "support_1",
+      "hex": "#D8D0C3"
+    },
+    {
+      "role": "support",
+      "name": "support_2",
+      "hex": "#B8C5CC"
+    },
+    {
+      "role": "support",
+      "name": "support_3",
+      "hex": "#A9B8A6"
+    },
+    {
+      "role": "accent",
+      "name": "accent_1",
+      "hex": "#D9824B"
+    },
+    {
+      "role": "accent",
+      "name": "accent_2",
+      "hex": "#557A8B"
+    },
+    {
+      "role": "accent",
+      "name": "accent_3",
+      "hex": "#6D8B63"
+    },
+    {
+      "role": "text",
+      "name": "text_1",
+      "hex": "#2F3437"
+    },
+    {
+      "role": "text",
+      "name": "text_2",
+      "hex": "#263238"
+    },
+    {
+      "role": "text",
+      "name": "text_3",
+      "hex": "#3E443E"
+    },
+    {
+      "role": "material",
+      "name": "material_1",
+      "hex": "#B8BEC2"
+    },
+    {
+      "role": "material",
+      "name": "material_2",
+      "hex": "#8D735B"
+    }
+  ],
+  "typography": {
+    "headline_character": "简洁无衬线，标题中粗，正文清晰",
+    "body_character": "简洁易读",
+    "alignment": "left"
+  },
+  "layout": {
+    "composition": "商品居中或右侧偏大，卖点按网格排列",
+    "product_ratio": 0.58,
+    "information_hierarchy": [
+      "商品",
+      "核心卖点",
+      "价格",
+      "行动提示"
+    ]
+  },
+  "info_density": 3,
+  "promotion_intensity": 3,
+  "cta_guidance": "使用与购买动机一致的短行动提示",
+  "prohibited_styles": [
+    "避免荧光撞色",
+    "文字满版和遮挡商品结构"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "sample_only": true,
+  "source_poster": "当前生成海报（图像）",
+  "source_product": "原始商品图",
+  "poster_inspected": true,
+  "product_inspected": true,
+  "generation_assets_ready": true,
+  "protected_content_check": "pass",
+  "dimensions": {
+    "composition": {
+      "score": 6,
+      "evidence": "虚构演示：商品较小，画面大部分由不相关发光器械占据。",
+      "confidence": 0.85
+    },
+    "hierarchy": {
+      "score": 6,
+      "evidence": "虚构演示：厚重标题和装饰先于商品/核心卖点被注意。",
+      "confidence": 0.85
+    },
+    "color": {
+      "score": 8,
+      "evidence": "虚构演示：配色大方向协调，商品区域仍有明暗优化空间。",
+      "confidence": 0.85
+    },
+    "typography": {
+      "score": 8,
+      "evidence": "虚构演示：卖点与价格的字级分组尚可，但整体网格需要重做。",
+      "confidence": 0.85
+    },
+    "consistency": {
+      "score": 6,
+      "evidence": "虚构演示：场景标签偏日常使用，太空舱装饰没有足够依据。",
+      "confidence": 0.85
+    },
+    "finish": {
+      "score": 6,
+      "evidence": "虚构演示：不同材质呈相似塑料高光，悬浮道具缺少接触关系。",
+      "confidence": 0.85
+    }
+  },
+  "issues": [
+    {
+      "id": "A01",
+      "dimension": "composition",
+      "priority": "P1",
+      "problem": "虚构演示：主体被大量无功能装饰包围，商品比例偏小。",
+      "suggestion": "以原始商品图作为主焦点，允许等比放大和移位，取消大型道具占位，以合理留白重建画面。"
+    },
+    {
+      "id": "A02",
+      "dimension": "hierarchy",
+      "priority": "P1",
+      "problem": "虚构演示：立体大标题压过商品和核心信息。",
+      "suggestion": "重做字级与分区，以商品、核心卖点、价格形成清楚阅读路径，将标题作为辅助营销层。"
+    },
+    {
+      "id": "A03",
+      "dimension": "consistency",
+      "priority": "P1",
+      "problem": "虚构演示：太空装置与日常场景标签缺少关联。",
+      "suggestion": "按scene_tags重新选择视觉背景，移除无功能科技装置，场景道具最多保留有解释作用的部分。"
+    },
+    {
+      "id": "A04",
+      "dimension": "finish",
+      "priority": "P1",
+      "problem": "虚构演示：统一塑料高光与悬浮装饰造成不可信的材质。",
+      "suggestion": "采用单一主光，区分包装/金属/玻璃材质，增加合理接触阴影；原商品和标签用真实素材保留。"
+    }
+  ],
+  "design_plan": {
+    "strategy": "redesign",
+    "direction": "围绕商品及C组标签建立可信的商品广告；用原始素材做主角，不模仿旧科技促销模板",
+    "product_presentation": "原商品图做主视觉，允许等比放大及重新定位，包装和标签不重绘",
+    "layout": "重建商品区与独立信息区；核心卖点相邻分组，价格形成明确但不过度抢眼的行动节点",
+    "typography": "采用适合商品气质的清晰字级与统一对齐；取消膨胀立体文字，保留输入原文",
+    "palette": "从原商品与场景推导主色，控制辅助色和高亮，避免无理由霓虹",
+    "background": "使用低干扰且支持场景标签的背景；有空间和支撑关系，不堆叠透明器械",
+    "lighting": "采用一致方向的柔和主光和自然接触阴影，区分玻璃、金属及包装表面",
+    "remove_elements": [
+      "无功能发光底座",
+      "无关器械",
+      "多余悬浮珍珠",
+      "膨胀立体文字"
+    ],
+    "preserve_additional": []
+  }
+}

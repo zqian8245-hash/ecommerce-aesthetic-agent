@@ -1,0 +1,347 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-10-01",
+  "purpose": "Explain user preferences without inventing numeric ground truth",
+  "cases": [
+    {
+      "case_id": "G-001",
+      "product_category": "consumer_electronics",
+      "scene_family": "lifestyle",
+      "dimension_observations": {
+        "composition": "露营草地与格纹布构成斜向稳定商品区",
+        "hierarchy": "手写主题、折扣与商品三级信息清楚",
+        "color": "草绿与米白呼应户外，暗草地支撑白字",
+        "typography": "手写大标题与规整副标题形成有控制的对比",
+        "consistency": "野餐布与便携设备解释出行动机",
+        "finish": "草叶、织物与商品金属质感有区分"
+      },
+      "limitations": "底部细则较小；手写体仅适用于短标题，不搬到规格说明",
+      "modify_direction": "借鉴真实场景与商品用途的关系，保留单一主要活动信息",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "G-002",
+      "product_category": "home_appliances",
+      "scene_family": "warm_promotion",
+      "dimension_observations": {
+        "composition": "桌面与不同高度陈列形成中心商品群",
+        "hierarchy": "优惠数字为主、行动按钮为次、商品为展示中心",
+        "color": "红叶与暖米色形成促销气氛而不全画面高饱和",
+        "typography": "300与50的字体强化优惠，时间文字对比偏弱",
+        "consistency": "厨房换新与居家家电呈现一致",
+        "finish": "地毯、木质与玻璃光影有区分"
+      },
+      "limitations": "活动时间浅白字与亮背景对比不足；红叶只借氛围不复制",
+      "modify_direction": "把场景、优惠、商品分区，强化次级必要文字对比",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "G-003",
+      "product_category": "mixed",
+      "scene_family": "multi_banner",
+      "dimension_observations": {
+        "composition": "各子横幅均采用左文右物，外层是拼图",
+        "hierarchy": "子横幅优惠清晰，外层留白不是单海报信息层级",
+        "color": "上幅暖棕下幅冷蓝，各自配色统一",
+        "typography": "短英文层级明确，细字仍需目标尺寸核验",
+        "consistency": "节庆礼盒与清洁产品场景分别成立",
+        "finish": "上幅织物暖光、下幅冷色展台区别清晰"
+      },
+      "limitations": "两幅主题不同，不拼成一个生成方向；不能把外边距当海报内容",
+      "modify_direction": "按独立横幅借鉴文图分区，不复制拼图结构",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "G-004",
+      "product_category": "parenting",
+      "scene_family": "warm_lifestyle",
+      "dimension_observations": {
+        "composition": "商品组位于桌面及前景，留出上方文字区",
+        "hierarchy": "标题、20%优惠、时间层级明确",
+        "color": "木色暖光与淡粉商品形成温暖统一氛围",
+        "typography": "衬线主题与粗体促销构成有节制的字体关系",
+        "consistency": "新年居家舒适与母婴产品使用情境协调",
+        "finish": "木纹、织物和窗外冷景产生材质及纵深对比"
+      },
+      "limitations": "商品群较多，单品海报应减量；右侧装饰文字并非必要",
+      "modify_direction": "借鉴真实材质与有逻辑光线，单品时明确唯一主角",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "G-005",
+      "product_category": "consumer_electronics",
+      "scene_family": "multi_banner",
+      "dimension_observations": {
+        "composition": "四幅横幅有清楚文图分区及商品尺度",
+        "hierarchy": "每幅独立主题和CTA，不把四幅作为一个标题",
+        "color": "米白与浅金底色统一，产品屏幕为局部色彩",
+        "typography": "黑字层级与按钮形式稳定，小条款需目标尺寸核验",
+        "consistency": "数码促销以产品展示为主，礼盒只在对应子幅使用",
+        "finish": "机身材质较克制，商品边缘辨识清楚"
+      },
+      "limitations": "多语言多营销目标的拼图；不能全部合并为一张海报",
+      "modify_direction": "裁出或选定一个子幅再借鉴栅格和字体层级",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "G-006",
+      "product_category": "consumer_electronics",
+      "scene_family": "catalog_grid",
+      "dimension_observations": {
+        "composition": "四卡同高排列，产品适度越出卡片上缘",
+        "hierarchy": "主标题与卡片信息分工清楚，每卡独立CTA",
+        "color": "白色整体与深色卡片形成稳定对比",
+        "typography": "四卡文字与按钮位置一致，规格文字较细",
+        "consistency": "适合新品目录，不等于单商品主视觉",
+        "finish": "各产品有独立材质背景，卡片边界清楚"
+      },
+      "limitations": "在手机竖图上四列会导致字小；不能用卡片图证明单品主体足够大",
+      "modify_direction": "借鉴对齐和重复规则，单品海报保留一个主体而非复制四卡",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "G-007",
+      "product_category": "consumer_electronics",
+      "scene_family": "multi_banner",
+      "dimension_observations": {
+        "composition": "各子幅以左文右物或前景商品建立重心",
+        "hierarchy": "文字简短，场景与商品组有明显主次",
+        "color": "绿色户外与蓝天保持自然场景关联",
+        "typography": "字号关系简明，短手写主题仅用于中间子幅",
+        "consistency": "户外电源、充电配件与出行场景存在联系",
+        "finish": "草地织物与金属有区分，少量悬浮在促销子幅出现"
+      },
+      "limitations": "三幅独立布局；悬浮商品并非绝对低分，应核对情境及阴影",
+      "modify_direction": "借鉴用途场景，选择一个子幅方向控制道具数量",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "G-008",
+      "product_category": "audio",
+      "scene_family": "red_promotion",
+      "dimension_observations": {
+        "composition": "耳机与耳塞组形成有节奏的大小排列",
+        "hierarchy": "优惠为主、产品为次、细则为末，主信息迅速可见",
+        "color": "红底白字与白/绿商品构成明确色彩对比",
+        "typography": "粗白斜体统一，大数字不过多装饰描边",
+        "consistency": "强促销动机下红色与丝带合理，不要求生活实景",
+        "finish": "耳机材质、高光与主图边缘较干净"
+      },
+      "limitations": "底部细则小且对比弱；悬浮组图不能用于检验真实身份",
+      "modify_direction": "保留促销强度，减少字效与无信息装饰，商品留出呼吸空间",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "G-009",
+      "product_category": "parenting",
+      "scene_family": "performance_report",
+      "dimension_observations": {
+        "composition": "商品沿阶梯分组，上方保留战报信息区",
+        "hierarchy": "2亿为唯一大数字，主题与解释次级",
+        "color": "浅蓝白色统一，商品展示不被背景色淹没",
+        "typography": "数字与文字粗细明确，底部来源细字较小",
+        "consistency": "这是战报视觉，不能直接校准商品售价可见度",
+        "finish": "浅石阶与白商品存在材质和阴影区别"
+      },
+      "limitations": "GMV战报不是促销价格；蓝白商品与底色的边界需保持",
+      "modify_direction": "只借数字层级与陈列秩序，不搬运战报数字或营销结论",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "M-001",
+      "product_category": "home_appliances",
+      "scene_family": "blue_promotion",
+      "dimension_observations": {
+        "composition": "高低展台让商品可见，但餐具、清洁电器混排",
+        "hierarchy": "主题、优惠、CTA、倒计时构成多个高权重块",
+        "color": "蓝白与金色优惠协调，主体区域色彩较稳定",
+        "typography": "立体标题与多种胶囊组件增加模板感",
+        "consistency": "厨房主题中清洁电器及悬浮柑橘需要明确用途联系",
+        "finish": "展台较平滑，周边悬浮餐具有摆拍装饰感"
+      },
+      "limitations": "并非全图不清楚，问题是信息组件和悬浮道具过多",
+      "modify_direction": "合并优惠与CTA，删无功能悬浮物，主品类分组",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "M-002",
+      "product_category": "home_appliances",
+      "scene_family": "kitchen_promotion",
+      "dimension_observations": {
+        "composition": "岛台商品群有生活场景基础，锅与电器较拥挤",
+        "hierarchy": "两行大标题接近同级，压缩商品区",
+        "color": "暖木与浅蓝橙色形成较完整配色",
+        "typography": "标题描边投影偏厚，Logo明显重复",
+        "consistency": "厨房产品与环境匹配，但悬浮锅与餐具破坏生活逻辑",
+        "finish": "材质有区分，空中锅无明显悬挂支撑依据"
+      },
+      "limitations": "重复SUPOR与京东是可见问题，类别为中仍需单独检查身份信息",
+      "modify_direction": "去重复Logo、重排标题级别，把悬浮器具落地或删除",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "M-003",
+      "product_category": "consumer_electronics",
+      "scene_family": "orange_promotion",
+      "dimension_observations": {
+        "composition": "中央主手表与两侧产品有主次，上下文字区独立",
+        "hierarchy": "标题、折扣、产品、直播信息层级较多且间隔偏散",
+        "color": "橙色金色统一，黑字可读",
+        "typography": "基本无衬线字清楚，文字级别与底部行动信息仍可收敛",
+        "consistency": "礼盒气球与节庆关联弱，商品间功能联系需目标说明",
+        "finish": "产品与圆台较干净，装饰气球强化通用活动模板"
+      },
+      "limitations": "这张不是拥挤反例；主要是模板化陈列与冗长竖向节奏",
+      "modify_direction": "压缩无效空隙，用商品用途场景替代通用气球礼盒",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "P-001",
+      "product_category": "home_appliances",
+      "scene_family": "red_promotion",
+      "dimension_observations": {
+        "composition": "三个主体分级展台可见，外围丝带占据较大范围",
+        "hierarchy": "大标题与重复双12标记争夺注意",
+        "color": "红白主题清楚，但底部红台丝带叠加过重",
+        "typography": "主副标题存在明显异常汉字组合，厚字效降低清爽感",
+        "consistency": "促销气氛明确，红包丝带对商品用途贡献有限",
+        "finish": "商品边缘可见，强镜面与线光带放大陈列模板感"
+      },
+      "limitations": "不能只按红色扣分；文字异常与装饰竞争是主要证据",
+      "modify_direction": "先逐字修复文案，再删除多数红包线光，重建简明商品陈列",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "P-002",
+      "product_category": "cleaning",
+      "scene_family": "catalog_ribbon",
+      "dimension_observations": {
+        "composition": "细长清洁电器在横幅中呈并列，中央与右侧高度竞争",
+        "hierarchy": "除品牌外只有型号小条，缺少醒目核心主题",
+        "color": "橙色曲带高对比，蓝色标签引入额外强调色",
+        "typography": "型号文字偏小，短条对齐关系不统一",
+        "consistency": "可作为型号陈列页，但对单商品营销主视觉支撑有限",
+        "finish": "机身大体可辨，底部裁切与曲带遮挡削弱展示完整性"
+      },
+      "limitations": "用户标为差，但不能声称字乱码或材质崩坏；目标不同可能改变评价",
+      "modify_direction": "选择一个主型号，放大真实商品，补输入支持的主题并收敛背景曲带",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "P-003",
+      "product_category": "home_appliances",
+      "scene_family": "red_promotion",
+      "dimension_observations": {
+        "composition": "多个商品平均铺排，红色平台和倒影增加复杂度",
+        "hierarchy": "大标题可读，但官方补贴与活动动作缺少细分层级",
+        "color": "蓝天红台强对比，底部水面红白倒影造成视觉噪声",
+        "typography": "标题字体普通但基本可读，不能虚构乱码",
+        "consistency": "厨房与清洁类混陈列，水面背景未解释用途",
+        "finish": "水面反射、绒面边缘与硬质展台材质关系杂乱"
+      },
+      "limitations": "不是所有商品都不清晰；主要是焦点平均与材质叠加",
+      "modify_direction": "建立主商品，移除无必要水面倒影，统一展台与真实光影",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "P-004",
+      "product_category": "personal_care",
+      "scene_family": "neon_promotion",
+      "dimension_observations": {
+        "composition": "多件产品、霓虹通道及前景角色挤占视觉空间",
+        "hierarchy": "优惠可见，但多个高对比包装与角色造成焦点竞争",
+        "color": "紫粉霓虹大面积高饱和，商品自身色彩被侵入",
+        "typography": "立体优惠与多处场景文字增加阅读噪声",
+        "consistency": "日化与赛博城市及卡通车之间缺少明确用途联系",
+        "finish": "大量发光边缘和悬浮展示放大人工舞台感"
+      },
+      "limitations": "不能仅因赛博风低分；问题是过多视觉焦点与商品识别受扰",
+      "modify_direction": "保留一个优惠与一个主商品组，移除角色/多层灯带，重做低噪声场景",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    },
+    {
+      "case_id": "P-005",
+      "product_category": "projector",
+      "scene_family": "orange_promotion",
+      "dimension_observations": {
+        "composition": "三台投影设备分层悬浮，底部活动台占比偏大",
+        "hierarchy": "上部促销内容密集，下部品牌与618重复",
+        "color": "橙粉活动色明确，白机身与浅底对比偏弱",
+        "typography": "小图源文字较模糊，促销行多且相似级别",
+        "consistency": "家庭影院目标没有实际投影/观看线索，道具偏通用",
+        "finish": "悬浮设备阴影与支撑关系弱，曲面反射加强模板感"
+      },
+      "limitations": "低分不能全部归咎模糊，输入清晰度与设计缺陷要分别记录",
+      "modify_direction": "收敛优惠层级，以真实投影用途替代通用展台，提升商品边界对比",
+      "observation_source": "AI_full_image_review",
+      "dimension_scores": null,
+      "original_product_available": false,
+      "factual_copy_verified": false,
+      "formal_pass": null
+    }
+  ]
+}

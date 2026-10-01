@@ -1,0 +1,1311 @@
+{
+  "schema_version": "1.0",
+  "library_version": "2.2",
+  "created_date": "2026-10-01",
+  "source_archive": "classification(1).zip",
+  "source_root": "assets/classification-source/classification",
+  "case_count": 22,
+  "rule_count": 27,
+  "quality_labeled_count": 0,
+  "human_approved_case_count": 0,
+  "cases": [
+    {
+      "case_id": "C-002",
+      "product_category": "bags",
+      "observed_subject": "通勤包与容量场景",
+      "style_family": "暖米色生活静物",
+      "visual_strengths": [
+        "包体与生活配件建立容量感；中部商品与底部活动信息分区清楚。"
+      ],
+      "visual_risks": [
+        "配件较多，帽子和水杯只应在支持容量/使用情境时出现；底部活动条不能遮挡商品。"
+      ],
+      "transferable_principles": [
+        "以生活静物说明使用场景；优惠条与主画面独立。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P02",
+          "name": "职场通勤人群"
+        },
+        "motivation_id": {
+          "id": "M03",
+          "name": "品质信任"
+        },
+        "scenario_id": {
+          "id": "S03",
+          "name": "通勤车载"
+        }
+      },
+      "rule_ids": [
+        "R-001"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-002.jpg",
+      "image_sha256": "933943fbebe224fa027d22dad573ceceebdfcef4532539d25b63498a628bf527",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-002.json",
+      "source_style_analysis": {
+        "palette": "背景#EAE5DC；辅助#DAD1C2；强调#A82824；正文#292522",
+        "typography": "简洁现代、标题略粗、说明克制",
+        "composition": "居中静物陈列，包体为核心，配饰营造通勤氛围，底部促销条",
+        "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：中",
+        "spacing_and_details": "商品主体占比约58%；避免：避免配饰抢主体、同色导致轮廓不清、促销条遮挡商品。"
+      },
+      "source": {
+        "platform": "天猫",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://detail.tmall.com/item.htm?ali_refid=a3_430673_1006%3A1121224139%3AH%3AuKySGzIxCBE20iB5lNKBmg%3D%3D%3Af8efc08a005af7770f6dc52bca8a4714&ali_trackid=318_f8efc08a005af7770f6dc52bca8a4714&id=964645377689&loginBonus=1&mi_id=0000I1HdS2uSbpaF5nT9C19LQSeU27U_QxsoApJWBKSr96A&mm_sceneid=0_0_111683677_0_0&priceTId=213e030b17907625617238766e10d7&skuId=6111573592996&spm=a21n57.sem.item.103&utparam=%7B%22aplus_abtest%22%3A%2267ac047d5235ba6cf69ee65aa3db21a5%22%7D&xxc=ad_ztc",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-003",
+      "product_category": "coffee",
+      "observed_subject": "手持便携咖啡机演示",
+      "style_family": "暖白功能演示",
+      "visual_strengths": [
+        "手部操作、咖啡杯和出液过程直接说明使用方式；左侧短卖点分组清楚。"
+      ],
+      "visual_risks": [
+        "手部不能压过商品关键结构，胶囊卖点标签不能在新任务中机械复制。"
+      ],
+      "transferable_principles": [
+        "用使用动作替代无功能道具，短卖点配合商品演示。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P02",
+          "name": "职场通勤人群"
+        },
+        "motivation_id": {
+          "id": "M03",
+          "name": "品质信任"
+        },
+        "scenario_id": {
+          "id": "S03",
+          "name": "通勤车载"
+        }
+      },
+      "rule_ids": [
+        "R-001"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-003.webp",
+      "image_sha256": "2fb1093b934dadf6b184409c66bee38479c1bdb3be290542d47bafd9b7d99d0d",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-003.json",
+      "source_style_analysis": {
+        "palette": "背景#F6F6F2；辅助#D0C5B8；强调#8B2437；正文#241F20",
+        "typography": "现代无衬线、功能数字加粗",
+        "composition": "右侧产品与手持演示，左侧纵向卖点徽章，留白分区",
+        "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：中",
+        "spacing_and_details": "商品主体占比约52%；避免：避免徽章过多、背景道具杂乱、产品深色区域丢失细节。"
+      },
+      "source": {
+        "platform": "天猫",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://detail.tmall.com/item.htm?ali_refid=a3_430673_1006%3A1681657267%3AH%3Aze%2BXo8Sqz1ppDeDL%2B%2FZ8Xg%3D%3D%3A75510290da8b963e764bd9cc604032d5&ali_trackid=282_75510290da8b963e764bd9cc604032d5&id=726771006218&loginBonus=1&mi_id=0000TpLhyL1nsm_whqRb-9zCd93a2l0cptMTO26qyUCOThM&mm_sceneid=1_0_4594526834_0_0&priceTId=213e0a4317907600932104062e0e99&skuId=5438520567134&spm=a21n57.sem.item.23&utparam=%7B%22aplus_abtest%22%3A%22811798f1ada4516ebcc43e9f6a151008%22%7D&xxc=ad_ztc",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-004",
+      "product_category": "cosmetics",
+      "observed_subject": "粉色唇部化妆品",
+      "style_family": "粉色同色系促销",
+      "visual_strengths": [
+        "瓶体放大、同色系背景统一，卖点和优惠区围绕商品组织。"
+      ],
+      "visual_risks": [
+        "大标题、容量和价格标签较多；不应从图中借用95%或5元等事实。"
+      ],
+      "transferable_principles": [
+        "统一色系并区分商品与背景，促销条件独立可读。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P01",
+          "name": "青年学生与潮流新人"
+        },
+        "motivation_id": {
+          "id": "M05",
+          "name": "审美悦己"
+        },
+        "scenario_id": {
+          "id": "S05",
+          "name": "休闲社交"
+        }
+      },
+      "rule_ids": [
+        "R-002"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-004.webp",
+      "image_sha256": "ff66dccb8e3bffd760a81c351c045640d004d20412c92280ce8c6a7661dad099",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-004.json",
+      "source_style_analysis": {
+        "palette": "背景#F2D4D7；辅助#D2929C；强调#B64E64；正文#4A2930",
+        "typography": "圆润时尚、标题醒目、数字强调",
+        "composition": "产品居中放大，粉色同色系层叠，价格角标独立",
+        "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：中",
+        "spacing_and_details": "商品主体占比约62%；避免：避免粉色层次过近、装饰遮盖色号、价格与产品争抢中心。"
+      },
+      "source": {
+        "platform": "天猫",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://detail.tmall.com/item.htm?abbucket=17&id=1046008003404&mi_id=0000VaEg3Ra8xnA5cN_WdNcn9OViaowW49-gFgYkIZGJyjM&ns=1&priceTId=213e01f617907656020187070e0f41&skuId=6239069839489&spm=a21n57.1.hoverItem.17&utparam=%7B%22aplus_abtest%22%3A%22025bb29a1cdc62d133c1e23f90cfcc22%22%7D&xxc=taobaoSearch",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-005",
+      "product_category": "audio",
+      "observed_subject": "耳机功能与手机辅助",
+      "style_family": "浅紫科技功能",
+      "visual_strengths": [
+        "耳机主体清楚，手机承担连接/播放场景解释，左侧信息形成层级。"
+      ],
+      "visual_risks": [
+        "左下参数/示意区密度较高，浅紫小字对比要结合输出尺寸检查。"
+      ],
+      "transferable_principles": [
+        "辅助设备支持功能，避免把手机变成主角。"
+      ],
+      "metadata_note": "核对后原JSON已正确写明耳机为主体、手机辅助，不列描述错误。",
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P01",
+          "name": "青年学生与潮流新人"
+        },
+        "motivation_id": {
+          "id": "M05",
+          "name": "审美悦己"
+        },
+        "scenario_id": {
+          "id": "S05",
+          "name": "休闲社交"
+        }
+      },
+      "rule_ids": [
+        "R-002"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-005.jpg",
+      "image_sha256": "de2f5c481f43487a6af8ffec8b451a7ae223e11d2b8f71822e918f8ae5edd8c2",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-005.json",
+      "source_style_analysis": {
+        "palette": "背景#DED9F0；辅助#CBC2EA；强调#7663C8；正文#2B2D3E",
+        "typography": "科技感无衬线、英文短句、字重对比明显",
+        "composition": "耳机右侧放大，手机辅助，左侧短卖点与参数分层",
+        "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：低",
+        "spacing_and_details": "商品主体占比约48%；避免：避免紫色低对比、参数堆满、手机画面抢过耳机。"
+      },
+      "source": {
+        "platform": "Alexnld",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://alexnld.com/product/remax-tws-19-semi-in-ear-dual-host-wireless-bluetooth-earphones-purple/",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-006",
+      "product_category": "cleaning",
+      "observed_subject": "扫地机吸力展示",
+      "style_family": "黄色功能可视化",
+      "visual_strengths": [
+        "机身、颗粒与吸力示意共同说明功能；下方样本形成可比较分组。"
+      ],
+      "visual_risks": [
+        "特效和巨大10000Pa可竞争注意力；效果与数值必须来自新任务母本。"
+      ],
+      "transferable_principles": [
+        "功能效果图与证据分区，不把特效替代商品。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P03",
+          "name": "家庭育儿人群"
+        },
+        "motivation_id": {
+          "id": "M02",
+          "name": "功能效率"
+        },
+        "scenario_id": {
+          "id": "S01",
+          "name": "居家生活"
+        }
+      },
+      "rule_ids": [
+        "R-003"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-006.jpg",
+      "image_sha256": "fc65d6eb4bbbfd1a3af39b152347e9f7588a1e32ef8c91d85833530da696238a",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-006.json",
+      "source_style_analysis": {
+        "palette": "背景#F3D073；辅助#776977；强调#F05A28；正文#262125",
+        "typography": "粗体无衬线、性能数字突出",
+        "composition": "产品居中，吸力效果环绕，核心参数置顶或置侧",
+        "information_hierarchy": "第一焦点：核心卖点；信息密度：中；促销强度：中",
+        "spacing_and_details": "商品主体占比约50%；避免：避免特效遮住机身、参数无单位、使用过多竞品式夸张爆炸元素。"
+      },
+      "source": {
+        "platform": "Amazon",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://www.amazon.com/roborock-Q7-M5-Self-Emptying-Anti-Tangle/dp/B0DWX69JVG/ref=sr_1_16?crid=1OTYL8LOQHEY7&dib=eyJ2IjoiMSJ9.dtvUAg-OKNkCoDKBice5cEBXZrm1D1qLuaXYFdinee22n4W2DbA8TZxNz-Sq9afzgx8OzTxUbfCribQxaIuRxpk5ITJvMxYK4KYke4rOL3R4qft1933UtzNv6q8Emyi6RIL0h6vfIfJ6Ye6AYPa6QqsTkqmcS9zKrfle-9xueaoGH91GSZK3t7ewXjgahoft3XTJMYm6IeomtS_XTIz6sY25ID4tLW7mpJNkTF6j5eOmVl03bEvI9YduqxlBVzFMFzHsmxYFBlgkk4hPonLDLPxiMswHfh47su5T93lMXBA.0dz6cfowJu3ljAKlPCjxrsIVQUtRrYMLwyvmXDxWoao&dib_tag=se&keywords=Sweeping%2Brobot&qid=1790766646&s=apparel&sprefix=sweeping%2Brobot%2Cfashion%2C440&sr=1-16-catcorr&th=1",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-007",
+      "product_category": "storage",
+      "observed_subject": "窄缝收纳柜尺寸演示",
+      "style_family": "真实厨房场景",
+      "visual_strengths": [
+        "使用位置和尺寸箭头解释适配关系，手部动作显示开门方式。"
+      ],
+      "visual_risks": [
+        "多方向标注易拥挤；尺寸信息不能来自参考图自动迁移。"
+      ],
+      "transferable_principles": [
+        "用真实场景展示适配，用少量尺寸说明关键结构。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P03",
+          "name": "家庭育儿人群"
+        },
+        "motivation_id": {
+          "id": "M02",
+          "name": "功能效率"
+        },
+        "scenario_id": {
+          "id": "S01",
+          "name": "居家生活"
+        }
+      },
+      "rule_ids": [
+        "R-003"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-007.webp",
+      "image_sha256": "2d6b8d57eda186b029e047b39ece65278374e33cc73a8d30634ffb1593057d5d",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-007.json",
+      "source_style_analysis": {
+        "palette": "背景#DBCFC2；辅助#C3B8A6；强调#79935D；正文#403A34",
+        "typography": "实用清晰、尺寸数字醒目",
+        "composition": "真实厨房场景中展示产品，尺寸线和收纳前后关系辅助说明",
+        "information_hierarchy": "第一焦点：使用效果；信息密度：中；促销强度：低",
+        "spacing_and_details": "商品主体占比约46%；避免：避免道具遮挡结构、尺寸标注交叉、背景物品过密。"
+      },
+      "source": {
+        "platform": "淘宝",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://item.taobao.com/item.htm?abbucket=17&id=1000468515877&mi_id=0000mSEyN0O-ODV_rXaF_8ctPIlNXxZsv3LdYn5YUhcdgPI&ns=1&priceTId=2150449c17907690783903132e1080&skuId=6155856379435&spm=a21n57.1.hoverItem.22&utparam=%7B%22aplus_abtest%22%3A%223deeb24c9c4adda5ba5c1d51a1fd3ac3%22%7D&xxc=taobaoSearch",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-008",
+      "product_category": "stationery",
+      "observed_subject": "笔与储墨/数量规格",
+      "style_family": "灰阶规格信息",
+      "visual_strengths": [
+        "多支笔与剖面细节建立规格识别，黑白字级和局部红色品牌区清楚。"
+      ],
+      "visual_risks": [
+        "大数字1100m与12支是性能/规格和数量，不是价格；灰底黑字局部对比需检查。"
+      ],
+      "transferable_principles": [
+        "商品成组与规格信息双焦点；不要把所有大数字当售价。"
+      ],
+      "metadata_note": "原元数据将第一焦点描述为促销价格，实际图像未见明确售价；改用规格/数量解释。",
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "full_image_and_contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P05",
+          "name": "大众务实人群"
+        },
+        "motivation_id": {
+          "id": "M01",
+          "name": "价格收益"
+        },
+        "scenario_id": {
+          "id": "S02",
+          "name": "工作学习"
+        }
+      },
+      "rule_ids": [
+        "R-004"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-008.jpg",
+      "image_sha256": "c71391127812c5dd1f38d7bed5ad73045ac5defa6e55817e7bc492540e55b2b8",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-008.json",
+      "source_style_analysis": {
+        "palette": "背景#DEE0E2；辅助#AEB2B5；强调#E84A32；正文#212121",
+        "typography": "粗黑无衬线、数字大、信息紧凑",
+        "composition": "多支产品横向或扇形铺陈，数量与价格形成双焦点",
+        "information_hierarchy": "第一焦点：促销价格；信息密度：高；促销强度：高",
+        "spacing_and_details": "商品主体占比约56%；避免：避免灰度层次不足、型号文字过小、促销标签覆盖笔身。"
+      },
+      "source": {
+        "platform": "天猫",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://detail.tmall.com/item.htm?abbucket=17&id=902067455978&mi_id=0000lq0rD2kq3F_nOUPUPVZxoU4gS4om-1_7QXoYvWNHzfU&ns=1&priceTId=213e026617907678887844857e11de&skuId=5948498141927&spm=a21n57.1.hoverItem.42&utparam=%7B%22aplus_abtest%22%3A%22dce08b6fedbf5a00f3b954994922ef6c%22%7D&xxc=taobaoSearch",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-009",
+      "product_category": "lighting",
+      "observed_subject": "夹式台灯功能与定制",
+      "style_family": "浅色工作台场景",
+      "visual_strengths": [
+        "完整灯臂、桌面和夹持结构说明使用方式，标题和底部信息分组明确。"
+      ],
+      "visual_risks": [
+        "底部定制/生产文字较多，对普通零售海报可能不适合；不可借用厂商属性。"
+      ],
+      "transferable_principles": [
+        "展示结构与安装关系，场景配件少而有功能。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P05",
+          "name": "大众务实人群"
+        },
+        "motivation_id": {
+          "id": "M01",
+          "name": "价格收益"
+        },
+        "scenario_id": {
+          "id": "S02",
+          "name": "工作学习"
+        }
+      },
+      "rule_ids": [
+        "R-004"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-009.webp",
+      "image_sha256": "8908aa1dab82af717f2abccef6dc381d62d4934a4a46306732509138c0e08fe3",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-009.json",
+      "source_style_analysis": {
+        "palette": "背景#F5F4F6；辅助#E0E0E0；强调#E87B32；正文#242424",
+        "typography": "理性无衬线、卖点加粗、标注清楚",
+        "composition": "左侧功能说明，右侧产品大图，橙色小标签做路径引导",
+        "information_hierarchy": "第一焦点：核心卖点；信息密度：中；促销强度：中",
+        "spacing_and_details": "商品主体占比约50%；避免：避免白色产品融入背景、标签数量过多、连线交叉。"
+      },
+      "source": {
+        "platform": "淘宝",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://item.taobao.com/item.htm?abbucket=17&id=1084934884067&mi_id=0000HwOEIRFusGzATe0upANnFc0o8H--CQ9FIBtWokFeNGQ&ns=1&priceTId=2147839e17907687740034577e10b2&skuId=6301874199622&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%22a9da1851d598c91faae7a75120e4f5d4%22%7D&xxc=taobaoSearch",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-010",
+      "product_category": "fragrance",
+      "observed_subject": "香水礼盒成组陈列",
+      "style_family": "浅蓝礼赠",
+      "visual_strengths": [
+        "正面礼盒与产品形成稳定组块，背景低干扰，品牌与商品层级清楚。"
+      ],
+      "visual_risks": [
+        "品牌较大、小字很小；低信息密度不等于满足所有促销任务。"
+      ],
+      "transferable_principles": [
+        "完整礼盒组合、统一底色和可控阴影营造仪式感。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P04",
+          "name": "成熟品质人群"
+        },
+        "motivation_id": {
+          "id": "M06",
+          "name": "情感礼赠"
+        },
+        "scenario_id": {
+          "id": "S06",
+          "name": "节庆礼赠"
+        }
+      },
+      "rule_ids": [
+        "R-005"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-010.webp",
+      "image_sha256": "374f7e52b40b9be0058a5f7e3e4455c0739ca8355819cad28fca67660c7ca918",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-010.json",
+      "source_style_analysis": {
+        "palette": "背景#CBDDE9；辅助#D4E5F1；强调#8E6B4C；正文#303A42",
+        "typography": "优雅衬线结合简洁无衬线、字距舒展",
+        "composition": "礼盒与单品居中对称陈列，大面积留白，品牌置顶",
+        "information_hierarchy": "第一焦点：商品主体；信息密度：低；促销强度：低",
+        "spacing_and_details": "商品主体占比约50%；避免：避免促销贴纸过大、字体种类过多、礼盒边缘被裁切。"
+      },
+      "source": {
+        "platform": "天猫",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://detail.tmall.com/item.htm?abbucket=17&id=986894429236&mi_id=0000zxiGPIGcML1Box3HfEqyAdaCEUDMmENEAqQbVuevU_o&ns=1&priceTId=213e03fa17907705112407016e1026&skuId=5966515336106&spm=a21n57.1.hoverItem.2&utparam=%7B%22aplus_abtest%22%3A%22cc83b305927889283dda813bb8dc2afa%22%7D&xxc=taobaoSearch",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-011",
+      "product_category": "gift",
+      "observed_subject": "工艺礼盒展示",
+      "style_family": "深红礼赠",
+      "visual_strengths": [
+        "深红空间与金色工艺建立统一气质，前后礼盒结构完整。"
+      ],
+      "visual_risks": [
+        "金色与暗背景细节需要保留，不能额外添加夸大的礼赠功效或认证。"
+      ],
+      "transferable_principles": [
+        "用材质与包装表达礼赠，比堆节日符号更有效。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P04",
+          "name": "成熟品质人群"
+        },
+        "motivation_id": {
+          "id": "M06",
+          "name": "情感礼赠"
+        },
+        "scenario_id": {
+          "id": "S06",
+          "name": "节庆礼赠"
+        }
+      },
+      "rule_ids": [
+        "R-005"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-011.webp",
+      "image_sha256": "3adbfe1ccccf992d815595da6ea6353a043c56134fae2611806685760d7330ad",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-011.json",
+      "source_style_analysis": {
+        "palette": "背景#590C11；辅助#320608；强调#C8A45D；正文#EEE6D9",
+        "typography": "典雅衬线、标题克制、金色细节",
+        "composition": "礼盒居中或偏中轴，深色背景，产品与包装形成前后层次",
+        "information_hierarchy": "第一焦点：商品主体；信息密度：低；促销强度：低",
+        "spacing_and_details": "商品主体占比约55%；避免：避免大面积亮金、廉价光效、红色饱和过高导致细节丢失。"
+      },
+      "source": {
+        "platform": "天猫",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://detail.tmall.com/item.htm?id=1028752736106&mi_id=0000WBrAhcoX9doMQXHUJCadwrv-w66YU0e8c9z56GXtYWI&spm=a21xtw.29978516.0.0&xxc=shop",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-012",
+      "product_category": "audio",
+      "observed_subject": "耳机翻译功能",
+      "style_family": "浅色单品极简",
+      "visual_strengths": [
+        "放大的耳机与短标题聚焦核心功能；背景留白、少量颜色区分辅助文字。"
+      ],
+      "visual_risks": [
+        "没有促销价并不构成美学缺陷，但不足以校准促销价格可见度；参考功能不能迁移。"
+      ],
+      "transferable_principles": [
+        "一个核心功能、一个清晰主体，语言信息与视觉焦点配合。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P02",
+          "name": "职场通勤人群"
+        },
+        "motivation_id": {
+          "id": "M03",
+          "name": "品质信任"
+        },
+        "scenario_id": {
+          "id": "S02",
+          "name": "工作学习"
+        }
+      },
+      "rule_ids": [
+        "R-006"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-012.jpg",
+      "image_sha256": "8f942ca83b18c278bb5a9b8e6c935117e4c0d6ffe62019284221e5206e1bc8ed",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-012.json",
+      "source_style_analysis": {
+        "palette": "背景#F5F5F7；辅助#D8D8DB；强调#5A67D8；正文#222226",
+        "typography": "极简无衬线、中英短句、字重克制",
+        "composition": "产品居中或偏右，短标题置左上，大面积白灰留白",
+        "information_hierarchy": "第一焦点：商品主体；信息密度：低；促销强度：低",
+        "spacing_and_details": "商品主体占比约45%；避免：避免大段参数、过多彩色光效、浅灰文字对比不足。"
+      },
+      "source": {
+        "platform": "Amazon",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://www.amazon.com/Apple-Cancellation-Translation-Headphones-High-Fidelity/dp/B0FQFB8FMG/ref=sr_1_1?crid=190H7NFYD8V0P&dib=eyJ2IjoiMSJ9.qrqPyMKizxXgS6zb0nktGb4iAhxwfQKbdu8Ktwc1rUGaM-2OTdnpBs38pKxZUgwFd7hhyE3Dk5LLiaI4GPILTi_0UN2PE3jWgP4_utgbSW8RFfVuHQrR1hvW3QCzTBAFuBFfxRep-QIBaIGfD9sIojg9PdAzQiicS5kMH_MAhzJ-aPEWEPwhpdMYQEizvGcUIy4rIZVMIC9NzyUqwjLq2HvqCHf3LDXkGOkZoFRrRKY.jsKpVkssOP-MZnkzbbXOh4MSzTETsfAxZTb13AH8wgs&dib_tag=se&keywords=airpods&qid=1790771264&sprefix=airpods%2Caps%2C377&sr=8-1",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-013",
+      "product_category": "coffee",
+      "observed_subject": "咖啡机与功能列表",
+      "style_family": "暖白家电信息",
+      "visual_strengths": [
+        "右侧完整机身与左侧图标功能列表形成稳定双栏，黑字在浅底上清楚。"
+      ],
+      "visual_risks": [
+        "功能列表较密，英文行长和图标密度要按实际屏幕阅读条件判断。"
+      ],
+      "transferable_principles": [
+        "两栏功能架构与等距对齐，保留主图和文本各自空间。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P02",
+          "name": "职场通勤人群"
+        },
+        "motivation_id": {
+          "id": "M03",
+          "name": "品质信任"
+        },
+        "scenario_id": {
+          "id": "S01",
+          "name": "居家生活"
+        }
+      },
+      "rule_ids": [
+        "R-101"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-013.jpg",
+      "image_sha256": "a037f61e1a3cf5cb04432179046ceb0df1cb6e3c94f224ab0d9730c8eddc5493",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-013.json",
+      "source_style_analysis": {
+        "palette": "背景#E2DEDA；辅助#9B8F84；强调#A87345；正文#181717",
+        "typography": "现代无衬线、功能标题加粗、说明规整",
+        "composition": "右侧机器大图，左侧分点功能，局部材质特写辅助",
+        "information_hierarchy": "第一焦点：核心卖点；信息密度：中；促销强度：低",
+        "spacing_and_details": "商品主体占比约48%；避免：避免黑色机身细节压暗、说明文字过密、杯具抢主体。"
+      },
+      "source": {
+        "platform": "Amazon",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://www.amazon.com/Keurig-K-Elite-Single-Coffee-Brushed/dp/B07N3GRVGS/ref=sr_1_16?crid=1M8FZ13GALM4Q&dib=eyJ2IjoiMSJ9.aqLVEluI-CElJAop_ZKVZy-CJ-r6nPZn2Q7PdF1oPXKdXChgQbbHU8E_i6rVGv1sNmYNbLQPSG03JNoGl7o_tC2qJd2yq6UKtHcrqzbMScEXtVKOxLGuXz4SpM401VJmhQv7pqJXOITGg4TNtNbXsfLP8xYcwMGvEHpqQ6jdgjF6e9YHVY37aqqFR16Sym7CMP77leq8NXFIUwF0nVGYiEhSappmqtBphBWFjQTYitMVgPqDGmwkiDaY1d3Xg3d4lwr3Gb1O-rjsgeTA-Zd9eyHPt6ZFTzSxNDpsAxG1scw.YlRTrNHONrU9acaTsDREVgfYPLCxt2YHn4ly1MQh6-Q&dib_tag=se&keywords=Coffee%2Bmachine&qid=1790771579&sprefix=coffee%2Bmachine%2Caps%2C522&sr=8-16&th=1",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-014",
+      "product_category": "home_fragrance",
+      "observed_subject": "趣味香氛静物",
+      "style_family": "明黄悦己",
+      "visual_strengths": [
+        "黄色、绿果与几何台体形成明确色彩主题，商品和包装有统一展示关系。"
+      ],
+      "visual_risks": [
+        "水果和造型装饰可能压过小件商品；不能把“没有极简留白”直接当差案例。"
+      ],
+      "transferable_principles": [
+        "有理由的高饱和主题与少量几何陈列，配件支持情绪。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P01",
+          "name": "青年学生与潮流新人"
+        },
+        "motivation_id": {
+          "id": "M05",
+          "name": "审美悦己"
+        },
+        "scenario_id": {
+          "id": "S01",
+          "name": "居家生活"
+        }
+      },
+      "rule_ids": [
+        "R-102"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-014.webp",
+      "image_sha256": "edd524341065d8ddb039565e911fa940a2e2a031cd3048c2cca8dc6199a2cc7c",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-014.json",
+      "source_style_analysis": {
+        "palette": "背景#F9E1B0；辅助#FFBE33；强调#55A65B；正文#49371B",
+        "typography": "活泼圆体或几何无衬线、标题有节奏",
+        "composition": "多件产品错落陈列，圆形道具与色块围绕中心，保留呼吸感",
+        "information_hierarchy": "第一焦点：氛围主题；信息密度：中；促销强度：低",
+        "spacing_and_details": "商品主体占比约48%；避免：避免颜色数量失控、装饰物遮住包装、幼稚卡通化。"
+      },
+      "source": {
+        "platform": "淘宝",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://item.taobao.com/item.htm?abbucket=17&id=952878237638&mi_id=0000xwfTIKHa1iU7xn1hVNw5afgmoArC3KNJrXCPfunNIZ8&ns=1&priceTId=213e0a0b17907720603817519e1106&skuId=5870781960981&spm=a21n57.1.hoverItem.4&utparam=%7B%22aplus_abtest%22%3A%22bfd95e5fde497aa8f0ebde750d6a3092%22%7D&xxc=taobaoSearch",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-015",
+      "product_category": "accessories",
+      "observed_subject": "潮流挂件会员活动",
+      "style_family": "深青撞色",
+      "visual_strengths": [
+        "对角商品摆放有动势，主体和底部会员优惠分区清楚。"
+      ],
+      "visual_risks": [
+        "满减条件与日期小字要按最终尺寸复核，不能借用参考角色或优惠事实。"
+      ],
+      "transferable_principles": [
+        "动势构图仍需独立信息区和清楚主体。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P01",
+          "name": "青年学生与潮流新人"
+        },
+        "motivation_id": {
+          "id": "M05",
+          "name": "审美悦己"
+        },
+        "scenario_id": {
+          "id": "S05",
+          "name": "休闲社交"
+        }
+      },
+      "rule_ids": [
+        "R-002"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-015.webp",
+      "image_sha256": "84e7c1236daf9eaf71e70530ca67fe236d87fd0a1b71b45a7e1162dcaf45f060",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-015.json",
+      "source_style_analysis": {
+        "palette": "背景#0E626B；辅助#317D86；强调#F0C94B；正文#F5F1E8",
+        "typography": "潮流粗体、品牌字醒目、短文案",
+        "composition": "产品中心放大并形成动势，底部设置独立促销信息带",
+        "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：中",
+        "spacing_and_details": "商品主体占比约55%；避免：避免暗背景吞掉轮廓、装饰过多、促销条压缩主体空间。"
+      },
+      "source": {
+        "platform": "天猫",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://detail.tmall.com/item.htm?abbucket=17&id=1016991163312&mi_id=0000a62LT3kLpdmv-aoIMGJz0UbC7bACKP_8yQnqOnvA520&rn=9a987e4d33df11384f6e322eb11966f0&spm=a1z10.5-b-s.w4011-15691211890.13.58c07775bLv40r&sku_properties=134942334%3A16301649857",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-016",
+      "product_category": "razor",
+      "observed_subject": "刀片套装数量与价格",
+      "style_family": "浅色强促销",
+      "visual_strengths": [
+        "刀片组合与8.35元价格条形成明确双焦点，数量条件紧邻价格。"
+      ],
+      "visual_risks": [
+        "价格区相对强，需避免吞没主体；锐利边缘和品牌细节不能在新图中重画。"
+      ],
+      "transferable_principles": [
+        "强促销也可以整洁，价格、数量和条件成组。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P05",
+          "name": "大众务实人群"
+        },
+        "motivation_id": {
+          "id": "M01",
+          "name": "价格收益"
+        },
+        "scenario_id": {
+          "id": "S01",
+          "name": "居家生活"
+        }
+      },
+      "rule_ids": [
+        "R-011"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-016.jpg",
+      "image_sha256": "3173bbf6d055532a3fa34faff9f42ef210011a1e17100376226ad62cfcf993ee",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-016.json",
+      "source_style_analysis": {
+        "palette": "背景#E8E7F4；辅助#C3BFC3；强调#D83A32；正文#29272C",
+        "typography": "促销粗体、价格数字特大、说明简短",
+        "composition": "产品居中成组陈列，上方卖点，下方红色价格带",
+        "information_hierarchy": "第一焦点：促销价格；信息密度：中；促销强度：高",
+        "spacing_and_details": "商品主体占比约52%；避免：避免红色面积过大、价格遮挡刀头、功效表述不清。"
+      },
+      "source": {
+        "platform": "拼多多",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://pifa.pinduoduo.com/goods/detail/?gid=372286763508&sn=68999.3533417.48.372286763508&refer_page_id=68999_1790772607314_1fc81cc63",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-017",
+      "product_category": "cleaning",
+      "observed_subject": "扫地机导航示意",
+      "style_family": "真实居家加效果线",
+      "visual_strengths": [
+        "室内布局与前景机身共同说明导航用途，功能词组有规律。"
+      ],
+      "visual_risks": [
+        "多条光线与三项功能形成较高密度；不能以激光线数量暗示真实性能。"
+      ],
+      "transferable_principles": [
+        "真实使用情景支持功能说明，效果线保持最少必要数量。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P03",
+          "name": "家庭育儿人群"
+        },
+        "motivation_id": {
+          "id": "M02",
+          "name": "功能效率"
+        },
+        "scenario_id": {
+          "id": "S01",
+          "name": "居家生活"
+        }
+      },
+      "rule_ids": [
+        "R-003"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-017.jpg",
+      "image_sha256": "4b350d79a07713b8043d76b6847819e90585aae6f9ab2ffa9dec009941d47539",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-017.json",
+      "source_style_analysis": {
+        "palette": "背景#E0DFDA；辅助#D8AE88；强调#43A6B1；正文#2A2C2B",
+        "typography": "理性科技无衬线、参数数字清晰",
+        "composition": "真实家居场景为底，产品置前景，导航效果线叠加说明",
+        "information_hierarchy": "第一焦点：核心卖点；信息密度：中；促销强度：低",
+        "spacing_and_details": "商品主体占比约42%；避免：避免科技线遮挡家具和产品、背景过暖导致机身不突出。"
+      },
+      "source": {
+        "platform": "Amazon",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://www.amazon.com/Tikom-Self-Emptying-Navigation-L8000-Plus/dp/B0FKH1RW65/ref=sr_1_12?crid=1R8YD27QB2YLM&dib=eyJ2IjoiMSJ9.dtvUAg-OKNkCoDKBice5cEBXZrm1D1qLuaXYFdinee22n4W2DbA8TZxNz-Sq9afzgx8OzTxUbfCribQxaIuRxmNsl-PR8IjDEexoLOU0wH6C6mT1Bc1YjskJhgE13Dca7hkKqD8hq0LMNdkAK4VVxWaGY2TuyRGGJWwkHSVG-lpUmQaMH6W1dccBS16qQQJ-_Z7ggiidhI5pEtG7-TUybYcy4u5RmFcZ8hERr0bSYbY.vesIRHeQGr7Z9XTvrDg6iuI-3Xk5_q_2zHwBJUzxkPM&dib_tag=se&keywords=Sweeping+robot&qid=1790774251&sprefix=coffee+machine%2Caps%2C672&sr=8-12",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-018",
+      "product_category": "battery",
+      "observed_subject": "电池续航与材料证据",
+      "style_family": "白粉蓝参数",
+      "visual_strengths": [
+        "粉色电池居中，顶部续航标题、三组证据圆点和箭头构成功能路径。"
+      ],
+      "visual_risks": [
+        "240%与证据文案、脚注需原母本支持；圆点/光箭头较多，容易产生证据堆叠感。"
+      ],
+      "transferable_principles": [
+        "中心单品加分组证据；不要复制参数或无理由的发光箭头。"
+      ],
+      "metadata_note": "原风格分析含待原图复核字段；本次已观察实际图片补充定性布局与色彩，不补造精确色号。",
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "full_image_and_contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P05",
+          "name": "大众务实人群"
+        },
+        "motivation_id": {
+          "id": "M03",
+          "name": "品质信任"
+        },
+        "scenario_id": {
+          "id": "S01",
+          "name": "居家生活"
+        }
+      },
+      "rule_ids": [
+        "R-010"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-018.webp",
+      "image_sha256": "ea953e06ee733e9bbd048ad1bfd637120fa19237b3d380e89d6c2ffa3ea5fd3a",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-018.json",
+      "source_style_analysis": {
+        "palette": "待从原图复核；建议先记录背景/辅助/强调/正文各1色",
+        "typography": "待原图复核",
+        "composition": "待原图复核",
+        "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：中",
+        "spacing_and_details": "商品主体占比约45%；避免：避免在未查看原图时确定配色、构图和信息层级。"
+      },
+      "source": {
+        "platform": "天猫",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://detail.tmall.com/item.htm?abbucket=17&fpChannel=101&fpChannelSig=6b4bec113b25a0eb3a9312f22cd1539c79fff140&id=722765525710&mi_id=0000L8AUkWsCBJ-hI2NPFAKzIs5oD5Bwo8AhD_wTGtvy83c&ns=1&priceTId=214786f917907744782648055e11f9&skuId=6005136012083&spm=a21n57.1.hoverItem.17&utparam=%7B%22aplus_abtest%22%3A%2228647fe4b15cfafac5cdf6d29839a774%22%7D&xxc=taobaoSearch",
+        "collected_date": "2026-10-01",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-019",
+      "product_category": "camera",
+      "observed_subject": "专业电影机展示",
+      "style_family": "深蓝专业设备",
+      "visual_strengths": [
+        "暗背景衬托黑色机身，有限轮廓光帮助结构识别，下方三项特性分组。"
+      ],
+      "visual_risks": [
+        "黑色机身局部细节可能压暗；需保持技术名词和参数真实，不能泛用科技风。"
+      ],
+      "transferable_principles": [
+        "深色可成熟可信，照明用于结构识别而不是堆光效。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P04",
+          "name": "成熟品质人群"
+        },
+        "motivation_id": {
+          "id": "M04",
+          "name": "专业性能"
+        },
+        "scenario_id": {
+          "id": "S02",
+          "name": "工作学习"
+        }
+      },
+      "rule_ids": [
+        "R-009"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-019.webp",
+      "image_sha256": "04fa3b7ea1846eba8ef0601df48c84f744a2f87b897dcecbd174e26e0be24551",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-019.json",
+      "source_style_analysis": {
+        "palette": "背景#151E28；辅助#394656；强调#4D8FCB；正文#F2F5F7",
+        "typography": "专业科技无衬线、标题紧凑、英文型号突出",
+        "composition": "深色舞台式居中陈列，侧逆光勾边，卖点按钮规整排布",
+        "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：低",
+        "spacing_and_details": "商品主体占比约58%；避免：避免纯黑吞没结构、蓝光过艳、把专业参数做成低价促销贴。"
+      },
+      "source": {
+        "platform": "天猫",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://detail.tmall.com/item.htm?abbucket=17&id=672898569437&mi_id=0000gMGuabS65xY2HaRkQEBi3ik9zCImwTUjCXVIImafEp4&rn=b75ba6459b2d298e2979718002b871ec&spm=a1z10.5-b-s.w4011-14439324799.166.64683178EmH4op",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-020",
+      "product_category": "home_fragrance",
+      "observed_subject": "扩香晶石与包装",
+      "style_family": "白绿自然材质",
+      "visual_strengths": [
+        "产品、包装、石材与滴管形成成组关系，颜色和真实表面纹理统一。"
+      ],
+      "visual_risks": [
+        "大包装比小瓶更强，只适用于套装展示；不能从配件推断所有商品用途。"
+      ],
+      "transferable_principles": [
+        "通过真实材质与有功能配件建立气质，留白为商品服务。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "full_image_and_contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P04",
+          "name": "成熟品质人群"
+        },
+        "motivation_id": {
+          "id": "M05",
+          "name": "审美悦己"
+        },
+        "scenario_id": {
+          "id": "S01",
+          "name": "居家生活"
+        }
+      },
+      "rule_ids": [
+        "R-007"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-020.png",
+      "image_sha256": "a3a3c859e41232d369285d77ddfd8c33d6252a0c8166c6c88c45614906bc0225",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-020.json",
+      "source_style_analysis": {
+        "palette": "背景#F5F5F5；辅助#9BA686；强调#3E4C2C；正文#252A22",
+        "typography": "简洁衬线或人文无衬线、字距舒展",
+        "composition": "产品与包装成组置中偏下，大面积留白，植物色块辅助",
+        "information_hierarchy": "第一焦点：商品主体；信息密度：低；促销强度：低",
+        "spacing_and_details": "商品主体占比约40%；避免：避免高饱和荧光色、道具过满、长文案破坏留白。"
+      },
+      "source": {
+        "platform": "天猫",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://detail.tmall.com/item.htm?abbucket=17&id=743619549404&mi_id=0000tsK4XFWj71hg34elWrdkW9IS3_r_rcLb-2-BUsS7Lnw&ns=1&priceTId=214786f917907751372941631e11f9&skuId=5704271585729&spm=a21n57.1.hoverItem.6&utparam=%7B%22aplus_abtest%22%3A%22155ce7be8f5613a59b1f1944398e7465%22%7D&xxc=taobaoSearch",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-021",
+      "product_category": "fragrance",
+      "observed_subject": "香水赠品与手提包组合",
+      "style_family": "浅蓝品牌套装",
+      "visual_strengths": [
+        "上方品牌、中部礼赠组合、下方赠送条件分成三区；整体背景统一。"
+      ],
+      "visual_risks": [
+        "赠品手提包比单瓶更显眼；不同于单瓶特写，赠送条件小字需仔细排版。"
+      ],
+      "transferable_principles": [
+        "按信息任务决定主焦点；套装展示与单品主视觉不应混为一类。"
+      ],
+      "metadata_note": "实际画面核心是手提袋、包装、香水等完整赠品组合，应补充此信息任务，避免按单瓶特写套用。",
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "full_image_and_contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P04",
+          "name": "成熟品质人群"
+        },
+        "motivation_id": {
+          "id": "M05",
+          "name": "审美悦己"
+        },
+        "scenario_id": {
+          "id": "S05",
+          "name": "休闲社交"
+        }
+      },
+      "rule_ids": [
+        "R-008"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-021.webp",
+      "image_sha256": "b659034dceaecf68b613fa501d1bcfb9c68962e0353a1d5b57455e184e8999e2",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-021.json",
+      "source_style_analysis": {
+        "palette": "背景#A4BECF；辅助#92A4B5；强调#668197；正文#25313A",
+        "typography": "优雅衬线与简洁无衬线组合、品牌字突出",
+        "composition": "香水与礼盒错落居中，品牌置顶，浅蓝背景保留留白",
+        "information_hierarchy": "第一焦点：商品主体；信息密度：低；促销强度：低",
+        "spacing_and_details": "商品主体占比约50%；避免：避免蓝色层次太近、过度闪光、附加促销元素破坏高级感。"
+      },
+      "source": {
+        "platform": "天猫",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://detail.tmall.com/item.htm?ali_refid=a3_420434_1006%3A2569175837%3AN%3A7QwQ9NQKZK559F0j22ii2w%3D%3D%3A9d372bce70e161779c4d0db6e86f2b7e&ali_trackid=199_9d372bce70e161779c4d0db6e86f2b7e&id=964363483125&mi_id=0000QYByRDtG0Q8aQ8qxVD0Qg5T6cdsmrblZEOsOzbdaxZw&mm_sceneid=5_1_7835744917_0_0&priceTId=214786f917907752036984345e11f9&skuId=6072683042054&spm=a21n57.1.hoverItem.3&utparam=%7B%22aplus_abtest%22%3A%2271cbb26958726c1184a79da1ea814258%22%7D&xxc=ad_ztc",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-022",
+      "product_category": "food_gift",
+      "observed_subject": "食品礼盒近景",
+      "style_family": "暖米红礼赠",
+      "visual_strengths": [
+        "斜向开盒近景强调礼盒内容与包装，红底与暖色光保持统一。"
+      ],
+      "visual_risks": [
+        "商品靠边较多，礼盒近景不适用于所有单品；食品和文案不能来自参考自动复制。"
+      ],
+      "transferable_principles": [
+        "近景展示真实礼盒内容，用包装与光照表达赠礼。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P04",
+          "name": "成熟品质人群"
+        },
+        "motivation_id": {
+          "id": "M06",
+          "name": "情感礼赠"
+        },
+        "scenario_id": {
+          "id": "S06",
+          "name": "节庆礼赠"
+        }
+      },
+      "rule_ids": [
+        "R-005"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-022.png",
+      "image_sha256": "bf2a9f3a795fd29b49967c6ce8955c33496fd1c7dd6aa2164a2215d1e2f1098f",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-022.json",
+      "source_style_analysis": {
+        "palette": "背景#E8D4C5；辅助#8A6E5B；强调#A8322E；正文#53443D",
+        "typography": "温暖衬线、礼赠标题稳重、关键信息加粗",
+        "composition": "礼盒近景居中，局部开盒展示内容物，标题位于上部留白",
+        "information_hierarchy": "第一焦点：商品主体；信息密度：低；促销强度：中",
+        "spacing_and_details": "商品主体占比约62%；避免：避免食品被文字覆盖、红金元素堆叠、包装边缘裁切严重。"
+      },
+      "source": {
+        "platform": "天猫",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://detail.tmall.com/item.htm?abbucket=17&id=979632225962&mi_id=0000RvBMM9_NLl4pe34TFPvegIcgjXVvYtnp2AbhGCJ6vGU&ns=1&priceTId=214786f917907753621513396e11f9&skuId=5937745633755&spm=a21n57.1.hoverItem.34&utparam=%7B%22aplus_abtest%22%3A%22ba17ee4f4d93bac37f70663ca89c34bc%22%7D&xxc=taobaoSearch",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-023",
+      "product_category": "skincare",
+      "observed_subject": "护肤罐与质地/功能",
+      "style_family": "浅灰白功能",
+      "visual_strengths": [
+        "上方主标题与三项短卖点、下方商品和质地形成清晰信息结构。"
+      ],
+      "visual_risks": [
+        "大标题、圆角功能标签和圆章可能竞争焦点；功效承诺必须由新任务母本支持。"
+      ],
+      "transferable_principles": [
+        "质地背景解释商品，短卖点与主图分区；容器高光不过曝。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "full_image_and_contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false,
+      "tags": {
+        "audience_id": {
+          "id": "P04",
+          "name": "成熟品质人群"
+        },
+        "motivation_id": {
+          "id": "M02",
+          "name": "功能效率"
+        },
+        "scenario_id": {
+          "id": "S01",
+          "name": "居家生活"
+        }
+      },
+      "rule_ids": [
+        "R-012"
+      ],
+      "image_path": "assets/classification-source/classification/cases/seed/C-023.png",
+      "image_sha256": "a0216fc863c342cebf25339bc3ac4afd3b0015a72fa1213b9ba3ed376bd411c2",
+      "source_metadata_path": "assets/classification-source/classification/cases/seed/C-023.json",
+      "source_style_analysis": {
+        "palette": "背景#F0EDF1；辅助#DBD9DE；强调#B44B53；正文#2B2B30",
+        "typography": "理性精致、功效标题加粗、说明克制",
+        "composition": "产品居中放大，功效标题置上，红色重点词做小面积强调",
+        "information_hierarchy": "第一焦点：核心卖点；信息密度：中；促销强度：中",
+        "spacing_and_details": "商品主体占比约48%；避免：避免功效词过多、红色大面积使用、产品高光过曝。"
+      },
+      "source": {
+        "platform": "淘宝",
+        "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+        "url": "https://item.taobao.com/item.htm?abbucket=17&id=847108752325&mi_id=0000sIX7RMjy45_hftzpz1fx0SG1HdrxWYzOpNxpLAviQIs&ns=1&priceTId=214786f917907757358914177e11f9&skuId=5796820042888&spm=a21n57.imgsearch.item.7&utparam=%7B%22aplus_abtest%22%3A%222bc30aa9dfa72bee2d30710f2cd8b111%22%7D&xxc=taobaoSearch",
+        "collected_date": "2026-09-30",
+        "usage_status": "research_reference_only"
+      },
+      "source_review_status": "draft",
+      "use_mode": "research_style_reference",
+      "eligible_for_reference": true,
+      "eligible_for_score_calibration": false
+    }
+  ]
+}

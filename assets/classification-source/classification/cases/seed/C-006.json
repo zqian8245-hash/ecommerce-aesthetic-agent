@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-006",
+  "tags": {
+    "audience_id": "P03",
+    "motivation_id": "M02",
+    "scenario_id": "S01"
+  },
+  "rule_ids": [
+    "R-003"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-006.jpg",
+    "external_uri": "https://m.media-amazon.com/images/I/71auiEZ+gQL._AC_SL1500_.jpg",
+    "format": "jpg",
+    "width": 1500,
+    "height": 1445,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "Amazon",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://www.amazon.com/roborock-Q7-M5-Self-Emptying-Anti-Tangle/dp/B0DWX69JVG/ref=sr_1_16?crid=1OTYL8LOQHEY7&dib=eyJ2IjoiMSJ9.dtvUAg-OKNkCoDKBice5cEBXZrm1D1qLuaXYFdinee22n4W2DbA8TZxNz-Sq9afzgx8OzTxUbfCribQxaIuRxpk5ITJvMxYK4KYke4rOL3R4qft1933UtzNv6q8Emyi6RIL0h6vfIfJ6Ye6AYPa6QqsTkqmcS9zKrfle-9xueaoGH91GSZK3t7ewXjgahoft3XTJMYm6IeomtS_XTIz6sY25ID4tLW7mpJNkTF6j5eOmVl03bEvI9YduqxlBVzFMFzHsmxYFBlgkk4hPonLDLPxiMswHfh47su5T93lMXBA.0dz6cfowJu3ljAKlPCjxrsIVQUtRrYMLwyvmXDxWoao&dib_tag=se&keywords=Sweeping%2Brobot&qid=1790766646&s=apparel&sprefix=sweeping%2Brobot%2Cfashion%2C440&sr=1-16-catcorr&th=1",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "强对比配色和效果线把抽象性能转成直观感受。",
+  "style_analysis": {
+    "palette": "背景#F3D073；辅助#776977；强调#F05A28；正文#262125",
+    "typography": "粗体无衬线、性能数字突出",
+    "composition": "产品居中，吸力效果环绕，核心参数置顶或置侧",
+    "information_hierarchy": "第一焦点：核心卖点；信息密度：中；促销强度：中",
+    "spacing_and_details": "商品主体占比约50%；避免：避免特效遮住机身、参数无单位、使用过多竞品式夸张爆炸元素。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

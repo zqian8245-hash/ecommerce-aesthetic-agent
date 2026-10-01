@@ -1,0 +1,22 @@
+{
+  "test_mode": "visual_diagnostic_only",
+  "dimension_scores": {
+    "composition": 8.5,
+    "hierarchy": 8.5,
+    "color": 8.5,
+    "typography": 8.5,
+    "consistency": 8,
+    "finish": 8
+  },
+  "visual_score": 8.38,
+  "visual_pass": false,
+  "formal_pass": false,
+  "history_best_unrounded": 8.375,
+  "stagnation_count": 2,
+  "next_action": "change_design_direction",
+  "evidence": [
+    "优惠移到底部，视觉节奏有所变化，但整体仍沿用蓝色模板",
+    "瓶身光边和台面纹理仍偏生成式",
+    "品牌变化未修复，无正式身份核验"
+  ]
+}

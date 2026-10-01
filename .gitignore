@@ -1,0 +1,24 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+*.ppt
+*.pptx
+*.zip
+task/
+
+# Public text-only distribution
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.svg
+*.pdf
+*.mp4

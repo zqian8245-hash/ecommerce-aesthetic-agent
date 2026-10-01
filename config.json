@@ -1,0 +1,55 @@
+{
+  "schema_version": "2.0",
+  "rubric_version": "2.0",
+  "score_scale": 10,
+  "score_step": 0.5,
+  "total_threshold": 8.5,
+  "dimensions": {
+    "composition": {
+      "label": "构图与视觉平衡",
+      "weight": 20,
+      "threshold": 8
+    },
+    "hierarchy": {
+      "label": "视觉层级",
+      "weight": 20,
+      "threshold": 8
+    },
+    "color": {
+      "label": "配色与对比",
+      "weight": 15,
+      "threshold": 8
+    },
+    "typography": {
+      "label": "字体与排版",
+      "weight": 20,
+      "threshold": 8
+    },
+    "consistency": {
+      "label": "风格与场景适配",
+      "weight": 15,
+      "threshold": 8
+    },
+    "finish": {
+      "label": "自然质感与完成度",
+      "weight": 10,
+      "threshold": 8
+    }
+  },
+  "redesign": {
+    "default": "auto",
+    "structural_failure_count": 2,
+    "naturalness_rebuild_below": 7,
+    "preserve_layout": false
+  },
+  "loop": {
+    "mode": "until_pass_or_blocked",
+    "default_generation_rounds": 8,
+    "max_generation_rounds": 8,
+    "stagnation_rounds": 2,
+    "min_total_gain": 0.2,
+    "max_minutes": null,
+    "stagnation_action": "change_design_direction",
+    "retain_best_candidate": true
+  }
+}

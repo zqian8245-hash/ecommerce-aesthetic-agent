@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "request_id": "REQ-EXAMPLE-001",
+  "audience": {
+    "primary_id": "P02",
+    "secondary_ids": [],
+    "confidence": 0.91,
+    "evidence": [
+      "输入明确出现上班通勤"
+    ]
+  },
+  "purchase_motivation": {
+    "primary_id": "M03",
+    "secondary_ids": [],
+    "confidence": 0.88,
+    "evidence": [
+      "输入强调材质与可靠性"
+    ]
+  },
+  "scenario": {
+    "primary_id": "S03",
+    "secondary_ids": [],
+    "confidence": 0.93,
+    "evidence": [
+      "输入明确出现地铁通勤"
+    ]
+  },
+  "selected_rule_ids": [
+    "R-001"
+  ],
+  "recommended_case_ids": [
+    "C-002",
+    "C-003"
+  ],
+  "fallback_level": "exact",
+  "needs_human_review": false,
+  "review_reason": ""
+}

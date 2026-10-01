@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-014",
+  "tags": {
+    "audience_id": "P01",
+    "motivation_id": "M05",
+    "scenario_id": "S01"
+  },
+  "rule_ids": [
+    "R-102"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-014.webp",
+    "external_uri": "https://img.alicdn.com/imgextra/i1/405393707/O1CN018YcP9K1dFrHvBY7EY_!!405393707.jpg_q50.jpg_.webp",
+    "format": "webp",
+    "width": 1800,
+    "height": 2400,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "淘宝",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://item.taobao.com/item.htm?abbucket=17&id=952878237638&mi_id=0000xwfTIKHa1iU7xn1hVNw5afgmoArC3KNJrXCPfunNIZ8&ns=1&priceTId=213e0a0b17907720603817519e1106&skuId=5870781960981&spm=a21n57.1.hoverItem.4&utparam=%7B%22aplus_abtest%22%3A%22bfd95e5fde497aa8f0ebde750d6a3092%22%7D&xxc=taobaoSearch",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "明快色彩与趣味道具准确传达愉悦和家居氛围。",
+  "style_analysis": {
+    "palette": "背景#F9E1B0；辅助#FFBE33；强调#55A65B；正文#49371B",
+    "typography": "活泼圆体或几何无衬线、标题有节奏",
+    "composition": "多件产品错落陈列，圆形道具与色块围绕中心，保留呼吸感",
+    "information_hierarchy": "第一焦点：氛围主题；信息密度：中；促销强度：低",
+    "spacing_and_details": "商品主体占比约48%；避免：避免颜色数量失控、装饰物遮住包装、幼稚卡通化。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": false
+}

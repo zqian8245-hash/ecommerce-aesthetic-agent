@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-019",
+  "tags": {
+    "audience_id": "P04",
+    "motivation_id": "M04",
+    "scenario_id": "S02"
+  },
+  "rule_ids": [
+    "R-009"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-019.webp",
+    "external_uri": "https://img.alicdn.com/imgextra/i1/1773095659/O1CN01iZFoYaARZaE1chua_!!4611686018427382507-0-item_pic.jpg_q50.jpg_.webp",
+    "format": "webp",
+    "width": 800,
+    "height": 800,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "天猫",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://detail.tmall.com/item.htm?abbucket=17&id=672898569437&mi_id=0000gMGuabS65xY2HaRkQEBi3ik9zCImwTUjCXVIImafEp4&rn=b75ba6459b2d298e2979718002b871ec&spm=a1z10.5-b-s.w4011-14439324799.166.64683178EmH4op",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "暗色场景强化专业设备定位，轮廓光保持复杂机身的识别度。",
+  "style_analysis": {
+    "palette": "背景#151E28；辅助#394656；强调#4D8FCB；正文#F2F5F7",
+    "typography": "专业科技无衬线、标题紧凑、英文型号突出",
+    "composition": "深色舞台式居中陈列，侧逆光勾边，卖点按钮规整排布",
+    "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：低",
+    "spacing_and_details": "商品主体占比约58%；避免：避免纯黑吞没结构、蓝光过艳、把专业参数做成低价促销贴。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-015",
+  "tags": {
+    "audience_id": "P01",
+    "motivation_id": "M05",
+    "scenario_id": "S05"
+  },
+  "rule_ids": [
+    "R-002"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-015.webp",
+    "external_uri": "https://img.alicdn.com/imgextra/i1/2885348004/O1CN01yI6qZjAFg4L1chua_!!4611686018427382436-0-item_pic.jpg_q50.jpg_.webp",
+    "format": "webp",
+    "width": 800,
+    "height": 800,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "天猫",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://detail.tmall.com/item.htm?abbucket=17&id=1016991163312&mi_id=0000a62LT3kLpdmv-aoIMGJz0UbC7bACKP_8yQnqOnvA520&rn=9a987e4d33df11384f6e322eb11966f0&spm=a1z10.5-b-s.w4011-15691211890.13.58c07775bLv40r&sku_properties=134942334%3A16301649857",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "高识别撞色与动态摆放适合潮玩传播，促销信息区也较完整。",
+  "style_analysis": {
+    "palette": "背景#0E626B；辅助#317D86；强调#F0C94B；正文#F5F1E8",
+    "typography": "潮流粗体、品牌字醒目、短文案",
+    "composition": "产品中心放大并形成动势，底部设置独立促销信息带",
+    "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：中",
+    "spacing_and_details": "商品主体占比约55%；避免：避免暗背景吞掉轮廓、装饰过多、促销条压缩主体空间。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": false
+}

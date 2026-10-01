@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Shared Agent output",
+  "type": "object",
+  "properties": {
+    "agent_name": {
+      "enum": [
+        "consumer_agent",
+        "aesthetic_agent"
+      ]
+    },
+    "score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10
+    },
+    "pass": {
+      "type": "boolean"
+    },
+    "problem_list": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "modify_suggestion": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "protected_content": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "judge_dimensions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "required": [
+        "judge_dimensions",
+        "confidence"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "agent_name",
+    "score",
+    "pass",
+    "problem_list",
+    "modify_suggestion",
+    "protected_content",
+    "meta"
+  ],
+  "additionalProperties": false
+}

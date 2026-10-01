@@ -1,0 +1,33 @@
+{
+  "version": "2.4",
+  "test_date": "2026-10-01",
+  "cases": [
+    {
+      "case": "skincare",
+      "path": "runs/618-v23-test-20261001",
+      "original": "original.png",
+      "best_image": "best-candidate-eight-round-rule.png",
+      "report": "8轮规则测试报告.md",
+      "visual_score": 8.58,
+      "formal_pass": false
+    },
+    {
+      "case": "oolong",
+      "path": "runs/oolong-eight-round-test-20261001",
+      "original": "original.png",
+      "best_image": "best-candidate.png",
+      "report": "测试报告.md",
+      "visual_score": 8.63,
+      "formal_pass": false
+    },
+    {
+      "case": "bathroom",
+      "path": "runs/bathroom-eight-round-test-20261001",
+      "original": "original.png",
+      "best_image": "best-candidate.png",
+      "report": "测试报告.md",
+      "visual_score": 8.6,
+      "formal_pass": false
+    }
+  ]
+}

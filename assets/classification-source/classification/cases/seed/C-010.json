@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-010",
+  "tags": {
+    "audience_id": "P04",
+    "motivation_id": "M06",
+    "scenario_id": "S06"
+  },
+  "rule_ids": [
+    "R-005"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-010.webp",
+    "external_uri": "https://img.alicdn.com/imgextra/i4/2219802899119/O1CN01sjyBaO2HEYpMnlPwr_!!4611686018427384495-0-item_pic.jpg_q50.jpg_.webp",
+    "format": "webp",
+    "width": 750,
+    "height": 1000,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "天猫",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://detail.tmall.com/item.htm?abbucket=17&id=986894429236&mi_id=0000zxiGPIGcML1Box3HfEqyAdaCEUDMmENEAqQbVuevU_o&ns=1&priceTId=213e03fa17907705112407016e1026&skuId=5966515336106&spm=a21n57.1.hoverItem.2&utparam=%7B%22aplus_abtest%22%3A%22cc83b305927889283dda813bb8dc2afa%22%7D&xxc=taobaoSearch",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "对称和低密度强化仪式感，浅蓝背景突出包装质感。",
+  "style_analysis": {
+    "palette": "背景#CBDDE9；辅助#D4E5F1；强调#8E6B4C；正文#303A42",
+    "typography": "优雅衬线结合简洁无衬线、字距舒展",
+    "composition": "礼盒与单品居中对称陈列，大面积留白，品牌置顶",
+    "information_hierarchy": "第一焦点：商品主体；信息密度：低；促销强度：低",
+    "spacing_and_details": "商品主体占比约50%；避免：避免促销贴纸过大、字体种类过多、礼盒边缘被裁切。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

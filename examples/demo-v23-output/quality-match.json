@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "product_category": "home_appliances",
+  "label_source": "user_folder",
+  "use_mode": "preference_calibration_not_numeric_ground_truth",
+  "selected_cases": [
+    {
+      "case_id": "G-002",
+      "user_quality_label": "好",
+      "image_path": "reference-library/quality-cases/G-002.jpg",
+      "image_sha256": "ffa834fbfd962911ffc7d1f7ebfaa749547ee7a9ab9d0b2361f0aa0701b65421",
+      "product_category": "home_appliances",
+      "category_match": true,
+      "dimension_observations": {
+        "composition": "桌面与不同高度陈列形成中心商品群",
+        "hierarchy": "优惠数字为主、行动按钮为次、商品为展示中心",
+        "color": "红叶与暖米色形成促销气氛而不全画面高饱和",
+        "typography": "300与50的字体强化优惠，时间文字对比偏弱",
+        "consistency": "厨房换新与居家家电呈现一致",
+        "finish": "地毯、木质与玻璃光影有区分"
+      },
+      "limitations": "活动时间浅白字与亮背景对比不足；红叶只借氛围不复制",
+      "modify_direction": "把场景、优惠、商品分区，强化次级必要文字对比",
+      "dimension_scores": null,
+      "formal_pass": null
+    },
+    {
+      "case_id": "M-001",
+      "user_quality_label": "中",
+      "image_path": "reference-library/quality-cases/M-001.jpg",
+      "image_sha256": "8edc3011995f7e7f4f30cb7db332cf20cba3247997b6f1712a750fb89cfc7cf5",
+      "product_category": "home_appliances",
+      "category_match": true,
+      "dimension_observations": {
+        "composition": "高低展台让商品可见，但餐具、清洁电器混排",
+        "hierarchy": "主题、优惠、CTA、倒计时构成多个高权重块",
+        "color": "蓝白与金色优惠协调，主体区域色彩较稳定",
+        "typography": "立体标题与多种胶囊组件增加模板感",
+        "consistency": "厨房主题中清洁电器及悬浮柑橘需要明确用途联系",
+        "finish": "展台较平滑，周边悬浮餐具有摆拍装饰感"
+      },
+      "limitations": "并非全图不清楚，问题是信息组件和悬浮道具过多",
+      "modify_direction": "合并优惠与CTA，删无功能悬浮物，主品类分组",
+      "dimension_scores": null,
+      "formal_pass": null
+    },
+    {
+      "case_id": "P-001",
+      "user_quality_label": "差",
+      "image_path": "reference-library/quality-cases/P-001.jpg",
+      "image_sha256": "1d1eab1ac654c1e7708cf6322b208fbe6bc48370f2dc4cef716f1c61da4ea7be",
+      "product_category": "home_appliances",
+      "category_match": true,
+      "dimension_observations": {
+        "composition": "三个主体分级展台可见，外围丝带占据较大范围",
+        "hierarchy": "大标题与重复双12标记争夺注意",
+        "color": "红白主题清楚，但底部红台丝带叠加过重",
+        "typography": "主副标题存在明显异常汉字组合，厚字效降低清爽感",
+        "consistency": "促销气氛明确，红包丝带对商品用途贡献有限",
+        "finish": "商品边缘可见，强镜面与线光带放大陈列模板感"
+      },
+      "limitations": "不能只按红色扣分；文字异常与装饰竞争是主要证据",
+      "modify_direction": "先逐字修复文案，再删除多数红包线光，重建简明商品陈列",
+      "dimension_scores": null,
+      "formal_pass": null
+    }
+  ],
+  "warnings": [
+    "仅选择calibration集，reserved_test不参与提示词。",
+    "类别为用户整体偏好；分项观察由AI补充，不是人工逐维标注。",
+    "跨品类仅比较视觉原则，缺少原商品母本与完整营销任务，不能判正式pass。",
+    "好类并非全维达标；差类并非全维低分。禁止按标签预设评分或以接近参考图作为通过条件。"
+  ]
+}

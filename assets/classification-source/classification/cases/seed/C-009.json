@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-009",
+  "tags": {
+    "audience_id": "P05",
+    "motivation_id": "M01",
+    "scenario_id": "S02"
+  },
+  "rule_ids": [
+    "R-004"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-009.webp",
+    "external_uri": "https://img.alicdn.com/imgextra/i3/2218725961557/O1CN01RdC4m3ofoOH1chua_!!2218725961557.jpg_q50.jpg_.webp",
+    "format": "webp",
+    "width": 800,
+    "height": 800,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "淘宝",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://item.taobao.com/item.htm?abbucket=17&id=1084934884067&mi_id=0000HwOEIRFusGzATe0upANnFc0o8H--CQ9FIBtWokFeNGQ&ns=1&priceTId=2147839e17907687740034577e10b2&skuId=6301874199622&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%22a9da1851d598c91faae7a75120e4f5d4%22%7D&xxc=taobaoSearch",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "功能、结构和使用位置一屏说明，视觉克制且易比较。",
+  "style_analysis": {
+    "palette": "背景#F5F4F6；辅助#E0E0E0；强调#E87B32；正文#242424",
+    "typography": "理性无衬线、卖点加粗、标注清楚",
+    "composition": "左侧功能说明，右侧产品大图，橙色小标签做路径引导",
+    "information_hierarchy": "第一焦点：核心卖点；信息密度：中；促销强度：中",
+    "spacing_and_details": "商品主体占比约50%；避免：避免白色产品融入背景、标签数量过多、连线交叉。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

@@ -1,0 +1,228 @@
+{
+  "passed": 36,
+  "failed": 1,
+  "checks": [
+    {
+      "group": "分类体系",
+      "item": "三类标签 ID 均唯一",
+      "passed": true,
+      "detail": "18 labels"
+    },
+    {
+      "group": "分类体系",
+      "item": "标签 ID 未重新编号",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "分类体系",
+      "item": "定义、正向信号、排除信号和状态完整",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "分类体系",
+      "item": "相邻标签边界能够解释",
+      "passed": true,
+      "detail": "以正向/排除信号说明边界"
+    },
+    {
+      "group": "分类体系",
+      "item": "所有 active 标签可由输入判断",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "分类 Prompt 与测试",
+      "item": "Prompt 只依据输入且不得补写",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "分类 Prompt 与测试",
+      "item": "Prompt 只输出约定 JSON",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "分类 Prompt 与测试",
+      "item": "至少10条测试输入",
+      "passed": true,
+      "detail": "12"
+    },
+    {
+      "group": "分类 Prompt 与测试",
+      "item": "每条测试运行3次",
+      "passed": true,
+      "detail": "{'T01': 3, 'T02': 3, 'T03': 3, 'T04': 3, 'T05': 3, 'T06': 3, 'T07': 3, 'T08': 3, 'T09': 3, 'T10': 3, 'T11': 3, 'T12': 3}"
+    },
+    {
+      "group": "分类 Prompt 与测试",
+      "item": "所有输出ID存在于taxonomy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "分类 Prompt 与测试",
+      "item": "信息缺失可请求人工确认",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "视觉规则",
+      "item": "rule_id唯一",
+      "passed": true,
+      "detail": "27"
+    },
+    {
+      "group": "视觉规则",
+      "item": "标签引用均使用ID",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "视觉规则",
+      "item": "存在且仅存在一个R-DEFAULT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "视觉规则",
+      "item": "四级降级路径各测试一次",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "视觉规则",
+      "item": "product_ratio在0至1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "视觉规则",
+      "item": "密度和促销强度为1至5整数",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "视觉规则",
+      "item": "hex格式有效",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "视觉规则",
+      "item": "active规则案例ID均存在",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "案例库",
+      "item": "case ID唯一且JSON/图片/索引一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "案例库",
+      "item": "来源链接为真实URL格式",
+      "passed": true,
+      "detail": "网络逐页可打开性仍需人工复核"
+    },
+    {
+      "group": "案例库",
+      "item": "未把AI生成图片作为市场案例",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "案例库",
+      "item": "来源、日期、状态、整理人与审核人字段非空",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "案例库",
+      "item": "发布方和审核人已完成真人核验",
+      "passed": false,
+      "detail": "当前22条均为draft，发布方与审核人待补签"
+    },
+    {
+      "group": "案例库",
+      "item": "本地案例路径存在且远程地址有效",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "案例库",
+      "item": "每条高频精确规则至少一个种子案例",
+      "passed": true,
+      "detail": "12"
+    },
+    {
+      "group": "案例库",
+      "item": "风格分析具体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "用户画像",
+      "item": "每个主要audience至少一份active画像",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "用户画像",
+      "item": "audience和scenario ID存在",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "用户画像",
+      "item": "五项关注权重之和为1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "用户画像",
+      "item": "无评分阈值、Loop或停止规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "交付包",
+      "item": "JSON均可解析",
+      "passed": true,
+      "detail": "29"
+    },
+    {
+      "group": "交付包",
+      "item": "JSONL每行合法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "交付包",
+      "item": "CSV为UTF-8且可解析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "交付包",
+      "item": "未增加案例冻结字段同义项",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "交付包",
+      "item": "CHANGELOG已记录版本",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "交付包",
+      "item": "待确认问题已填写",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

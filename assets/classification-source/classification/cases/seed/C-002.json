@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-002",
+  "tags": {
+    "audience_id": "P02",
+    "motivation_id": "M03",
+    "scenario_id": "S03"
+  },
+  "rule_ids": [
+    "R-001"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-002.jpg",
+    "external_uri": "https://gw.alicdn.com/imgextra/O1CN01hoHm4DIr8AC2vHAO_!!2215928625471-0-picasso.jpg",
+    "format": "jpg",
+    "width": 1440,
+    "height": 1920,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "天猫",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://detail.tmall.com/item.htm?ali_refid=a3_430673_1006%3A1121224139%3AH%3AuKySGzIxCBE20iB5lNKBmg%3D%3D%3Af8efc08a005af7770f6dc52bca8a4714&ali_trackid=318_f8efc08a005af7770f6dc52bca8a4714&id=964645377689&loginBonus=1&mi_id=0000I1HdS2uSbpaF5nT9C19LQSeU27U_QxsoApJWBKSr96A&mm_sceneid=0_0_111683677_0_0&priceTId=213e030b17907625617238766e10d7&skuId=6111573592996&spm=a21n57.sem.item.103&utparam=%7B%22aplus_abtest%22%3A%2267ac047d5235ba6cf69ee65aa3db21a5%22%7D&xxc=ad_ztc",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "产品与使用氛围同时成立，品牌色能快速形成记忆点。",
+  "style_analysis": {
+    "palette": "背景#EAE5DC；辅助#DAD1C2；强调#A82824；正文#292522",
+    "typography": "简洁现代、标题略粗、说明克制",
+    "composition": "居中静物陈列，包体为核心，配饰营造通勤氛围，底部促销条",
+    "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：中",
+    "spacing_and_details": "商品主体占比约58%；避免：避免配饰抢主体、同色导致轮廓不清、促销条遮挡商品。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

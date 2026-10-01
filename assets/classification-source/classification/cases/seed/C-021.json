@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-021",
+  "tags": {
+    "audience_id": "P04",
+    "motivation_id": "M05",
+    "scenario_id": "S05"
+  },
+  "rule_ids": [
+    "R-008"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-021.webp",
+    "external_uri": "https://img.alicdn.com/imgextra/i3/2219802899119/O1CN01S4ybOifUKHI1WPjS_!!2219802899119.jpg_q50.jpg_.webp",
+    "format": "webp",
+    "width": 750,
+    "height": 1000,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "天猫",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://detail.tmall.com/item.htm?ali_refid=a3_420434_1006%3A2569175837%3AN%3A7QwQ9NQKZK559F0j22ii2w%3D%3D%3A9d372bce70e161779c4d0db6e86f2b7e&ali_trackid=199_9d372bce70e161779c4d0db6e86f2b7e&id=964363483125&mi_id=0000QYByRDtG0Q8aQ8qxVD0Qg5T6cdsmrblZEOsOzbdaxZw&mm_sceneid=5_1_7835744917_0_0&priceTId=214786f917907752036984345e11f9&skuId=6072683042054&spm=a21n57.1.hoverItem.3&utparam=%7B%22aplus_abtest%22%3A%2271cbb26958726c1184a79da1ea814258%22%7D&xxc=ad_ztc",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "统一冷调突出瓶身与包装材质，适合表达精致与品牌价值。",
+  "style_analysis": {
+    "palette": "背景#A4BECF；辅助#92A4B5；强调#668197；正文#25313A",
+    "typography": "优雅衬线与简洁无衬线组合、品牌字突出",
+    "composition": "香水与礼盒错落居中，品牌置顶，浅蓝背景保留留白",
+    "information_hierarchy": "第一焦点：商品主体；信息密度：低；促销强度：低",
+    "spacing_and_details": "商品主体占比约50%；避免：避免蓝色层次太近、过度闪光、附加促销元素破坏高级感。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

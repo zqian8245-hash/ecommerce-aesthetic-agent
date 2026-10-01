@@ -1,0 +1,26 @@
+{
+  "test_mode": "visual_diagnostic_only",
+  "dimension_scores": {
+    "composition": 8,
+    "hierarchy": 8,
+    "color": 8.5,
+    "typography": 7.5,
+    "consistency": 8.5,
+    "finish": 8.5
+  },
+  "visual_score_unrounded": 8.1,
+  "visual_score": 8.1,
+  "visual_pass": false,
+  "formal_pass": false,
+  "evidence": [
+    "真实墙面、地面及落地阴影建立卫浴空间，产品较突出",
+    "历史宣传句与英文字跨出文字面板，排版未到线",
+    "原占位品牌与不完整文案保留，但不是可核验正式内容",
+    "水印与来源ID保留，重绘字形不保证与原像素一致"
+  ],
+  "next_actions": [
+    "长句分两行并保持左侧边界",
+    "去英文填色框，形成稳定三级字级",
+    "删前景叶片，收敛杂乱光影"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "v2 fixed input",
+  "type": "object",
+  "properties": {
+    "poster_image": {
+      "type": "string",
+      "minLength": 1
+    },
+    "product_input": {
+      "type": "object",
+      "properties": {
+        "product_img": {
+          "type": "string",
+          "minLength": 1
+        },
+        "selling_points": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "price_text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "marketing_target": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scene_tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "product_img",
+        "selling_points",
+        "price_text",
+        "marketing_target",
+        "scene_tags"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "poster_image",
+    "product_input"
+  ],
+  "additionalProperties": false
+}

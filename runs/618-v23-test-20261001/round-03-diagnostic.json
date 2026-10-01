@@ -1,0 +1,20 @@
+{
+  "test_mode": "visual_diagnostic_only",
+  "dimension_scores": {
+    "composition": 8,
+    "hierarchy": 8.5,
+    "color": 8.5,
+    "typography": 8.5,
+    "consistency": 8,
+    "finish": 8
+  },
+  "visual_score": 8.28,
+  "visual_pass": false,
+  "formal_pass": false,
+  "remaining_issues": [
+    "居中主体改善重心，但底部优惠色块过重且字号接近主标题",
+    "台面纹理与反光仍偏生成式展台",
+    "原始品牌与瓶身微字变化未解决"
+  ],
+  "selected": false
+}

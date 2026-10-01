@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "purpose": "AI visual observations for reference selection, not quality training labels",
+  "records": [
+    {
+      "case_id": "C-002",
+      "product_category": "bags",
+      "observed_subject": "通勤包与容量场景",
+      "style_family": "暖米色生活静物",
+      "visual_strengths": [
+        "包体与生活配件建立容量感；中部商品与底部活动信息分区清楚。"
+      ],
+      "visual_risks": [
+        "配件较多，帽子和水杯只应在支持容量/使用情境时出现；底部活动条不能遮挡商品。"
+      ],
+      "transferable_principles": [
+        "以生活静物说明使用场景；优惠条与主画面独立。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-003",
+      "product_category": "coffee",
+      "observed_subject": "手持便携咖啡机演示",
+      "style_family": "暖白功能演示",
+      "visual_strengths": [
+        "手部操作、咖啡杯和出液过程直接说明使用方式；左侧短卖点分组清楚。"
+      ],
+      "visual_risks": [
+        "手部不能压过商品关键结构，胶囊卖点标签不能在新任务中机械复制。"
+      ],
+      "transferable_principles": [
+        "用使用动作替代无功能道具，短卖点配合商品演示。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-004",
+      "product_category": "cosmetics",
+      "observed_subject": "粉色唇部化妆品",
+      "style_family": "粉色同色系促销",
+      "visual_strengths": [
+        "瓶体放大、同色系背景统一，卖点和优惠区围绕商品组织。"
+      ],
+      "visual_risks": [
+        "大标题、容量和价格标签较多；不应从图中借用95%或5元等事实。"
+      ],
+      "transferable_principles": [
+        "统一色系并区分商品与背景，促销条件独立可读。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-005",
+      "product_category": "audio",
+      "observed_subject": "耳机功能与手机辅助",
+      "style_family": "浅紫科技功能",
+      "visual_strengths": [
+        "耳机主体清楚，手机承担连接/播放场景解释，左侧信息形成层级。"
+      ],
+      "visual_risks": [
+        "左下参数/示意区密度较高，浅紫小字对比要结合输出尺寸检查。"
+      ],
+      "transferable_principles": [
+        "辅助设备支持功能，避免把手机变成主角。"
+      ],
+      "metadata_note": "核对后原JSON已正确写明耳机为主体、手机辅助，不列描述错误。",
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-006",
+      "product_category": "cleaning",
+      "observed_subject": "扫地机吸力展示",
+      "style_family": "黄色功能可视化",
+      "visual_strengths": [
+        "机身、颗粒与吸力示意共同说明功能；下方样本形成可比较分组。"
+      ],
+      "visual_risks": [
+        "特效和巨大10000Pa可竞争注意力；效果与数值必须来自新任务母本。"
+      ],
+      "transferable_principles": [
+        "功能效果图与证据分区，不把特效替代商品。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-007",
+      "product_category": "storage",
+      "observed_subject": "窄缝收纳柜尺寸演示",
+      "style_family": "真实厨房场景",
+      "visual_strengths": [
+        "使用位置和尺寸箭头解释适配关系，手部动作显示开门方式。"
+      ],
+      "visual_risks": [
+        "多方向标注易拥挤；尺寸信息不能来自参考图自动迁移。"
+      ],
+      "transferable_principles": [
+        "用真实场景展示适配，用少量尺寸说明关键结构。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-008",
+      "product_category": "stationery",
+      "observed_subject": "笔与储墨/数量规格",
+      "style_family": "灰阶规格信息",
+      "visual_strengths": [
+        "多支笔与剖面细节建立规格识别，黑白字级和局部红色品牌区清楚。"
+      ],
+      "visual_risks": [
+        "大数字1100m与12支是性能/规格和数量，不是价格；灰底黑字局部对比需检查。"
+      ],
+      "transferable_principles": [
+        "商品成组与规格信息双焦点；不要把所有大数字当售价。"
+      ],
+      "metadata_note": "原元数据将第一焦点描述为促销价格，实际图像未见明确售价；改用规格/数量解释。",
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "full_image_and_contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-009",
+      "product_category": "lighting",
+      "observed_subject": "夹式台灯功能与定制",
+      "style_family": "浅色工作台场景",
+      "visual_strengths": [
+        "完整灯臂、桌面和夹持结构说明使用方式，标题和底部信息分组明确。"
+      ],
+      "visual_risks": [
+        "底部定制/生产文字较多，对普通零售海报可能不适合；不可借用厂商属性。"
+      ],
+      "transferable_principles": [
+        "展示结构与安装关系，场景配件少而有功能。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-010",
+      "product_category": "fragrance",
+      "observed_subject": "香水礼盒成组陈列",
+      "style_family": "浅蓝礼赠",
+      "visual_strengths": [
+        "正面礼盒与产品形成稳定组块，背景低干扰，品牌与商品层级清楚。"
+      ],
+      "visual_risks": [
+        "品牌较大、小字很小；低信息密度不等于满足所有促销任务。"
+      ],
+      "transferable_principles": [
+        "完整礼盒组合、统一底色和可控阴影营造仪式感。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-011",
+      "product_category": "gift",
+      "observed_subject": "工艺礼盒展示",
+      "style_family": "深红礼赠",
+      "visual_strengths": [
+        "深红空间与金色工艺建立统一气质，前后礼盒结构完整。"
+      ],
+      "visual_risks": [
+        "金色与暗背景细节需要保留，不能额外添加夸大的礼赠功效或认证。"
+      ],
+      "transferable_principles": [
+        "用材质与包装表达礼赠，比堆节日符号更有效。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-012",
+      "product_category": "audio",
+      "observed_subject": "耳机翻译功能",
+      "style_family": "浅色单品极简",
+      "visual_strengths": [
+        "放大的耳机与短标题聚焦核心功能；背景留白、少量颜色区分辅助文字。"
+      ],
+      "visual_risks": [
+        "没有促销价并不构成美学缺陷，但不足以校准促销价格可见度；参考功能不能迁移。"
+      ],
+      "transferable_principles": [
+        "一个核心功能、一个清晰主体，语言信息与视觉焦点配合。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-013",
+      "product_category": "coffee",
+      "observed_subject": "咖啡机与功能列表",
+      "style_family": "暖白家电信息",
+      "visual_strengths": [
+        "右侧完整机身与左侧图标功能列表形成稳定双栏，黑字在浅底上清楚。"
+      ],
+      "visual_risks": [
+        "功能列表较密，英文行长和图标密度要按实际屏幕阅读条件判断。"
+      ],
+      "transferable_principles": [
+        "两栏功能架构与等距对齐，保留主图和文本各自空间。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-014",
+      "product_category": "home_fragrance",
+      "observed_subject": "趣味香氛静物",
+      "style_family": "明黄悦己",
+      "visual_strengths": [
+        "黄色、绿果与几何台体形成明确色彩主题，商品和包装有统一展示关系。"
+      ],
+      "visual_risks": [
+        "水果和造型装饰可能压过小件商品；不能把“没有极简留白”直接当差案例。"
+      ],
+      "transferable_principles": [
+        "有理由的高饱和主题与少量几何陈列，配件支持情绪。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-015",
+      "product_category": "accessories",
+      "observed_subject": "潮流挂件会员活动",
+      "style_family": "深青撞色",
+      "visual_strengths": [
+        "对角商品摆放有动势，主体和底部会员优惠分区清楚。"
+      ],
+      "visual_risks": [
+        "满减条件与日期小字要按最终尺寸复核，不能借用参考角色或优惠事实。"
+      ],
+      "transferable_principles": [
+        "动势构图仍需独立信息区和清楚主体。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-016",
+      "product_category": "razor",
+      "observed_subject": "刀片套装数量与价格",
+      "style_family": "浅色强促销",
+      "visual_strengths": [
+        "刀片组合与8.35元价格条形成明确双焦点，数量条件紧邻价格。"
+      ],
+      "visual_risks": [
+        "价格区相对强，需避免吞没主体；锐利边缘和品牌细节不能在新图中重画。"
+      ],
+      "transferable_principles": [
+        "强促销也可以整洁，价格、数量和条件成组。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-017",
+      "product_category": "cleaning",
+      "observed_subject": "扫地机导航示意",
+      "style_family": "真实居家加效果线",
+      "visual_strengths": [
+        "室内布局与前景机身共同说明导航用途，功能词组有规律。"
+      ],
+      "visual_risks": [
+        "多条光线与三项功能形成较高密度；不能以激光线数量暗示真实性能。"
+      ],
+      "transferable_principles": [
+        "真实使用情景支持功能说明，效果线保持最少必要数量。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-018",
+      "product_category": "battery",
+      "observed_subject": "电池续航与材料证据",
+      "style_family": "白粉蓝参数",
+      "visual_strengths": [
+        "粉色电池居中，顶部续航标题、三组证据圆点和箭头构成功能路径。"
+      ],
+      "visual_risks": [
+        "240%与证据文案、脚注需原母本支持；圆点/光箭头较多，容易产生证据堆叠感。"
+      ],
+      "transferable_principles": [
+        "中心单品加分组证据；不要复制参数或无理由的发光箭头。"
+      ],
+      "metadata_note": "原风格分析含待原图复核字段；本次已观察实际图片补充定性布局与色彩，不补造精确色号。",
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "full_image_and_contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-019",
+      "product_category": "camera",
+      "observed_subject": "专业电影机展示",
+      "style_family": "深蓝专业设备",
+      "visual_strengths": [
+        "暗背景衬托黑色机身，有限轮廓光帮助结构识别，下方三项特性分组。"
+      ],
+      "visual_risks": [
+        "黑色机身局部细节可能压暗；需保持技术名词和参数真实，不能泛用科技风。"
+      ],
+      "transferable_principles": [
+        "深色可成熟可信，照明用于结构识别而不是堆光效。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-020",
+      "product_category": "home_fragrance",
+      "observed_subject": "扩香晶石与包装",
+      "style_family": "白绿自然材质",
+      "visual_strengths": [
+        "产品、包装、石材与滴管形成成组关系，颜色和真实表面纹理统一。"
+      ],
+      "visual_risks": [
+        "大包装比小瓶更强，只适用于套装展示；不能从配件推断所有商品用途。"
+      ],
+      "transferable_principles": [
+        "通过真实材质与有功能配件建立气质，留白为商品服务。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "full_image_and_contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-021",
+      "product_category": "fragrance",
+      "observed_subject": "香水赠品与手提包组合",
+      "style_family": "浅蓝品牌套装",
+      "visual_strengths": [
+        "上方品牌、中部礼赠组合、下方赠送条件分成三区；整体背景统一。"
+      ],
+      "visual_risks": [
+        "赠品手提包比单瓶更显眼；不同于单瓶特写，赠送条件小字需仔细排版。"
+      ],
+      "transferable_principles": [
+        "按信息任务决定主焦点；套装展示与单品主视觉不应混为一类。"
+      ],
+      "metadata_note": "实际画面核心是手提袋、包装、香水等完整赠品组合，应补充此信息任务，避免按单瓶特写套用。",
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "full_image_and_contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-022",
+      "product_category": "food_gift",
+      "observed_subject": "食品礼盒近景",
+      "style_family": "暖米红礼赠",
+      "visual_strengths": [
+        "斜向开盒近景强调礼盒内容与包装，红底与暖色光保持统一。"
+      ],
+      "visual_risks": [
+        "商品靠边较多，礼盒近景不适用于所有单品；食品和文案不能来自参考自动复制。"
+      ],
+      "transferable_principles": [
+        "近景展示真实礼盒内容，用包装与光照表达赠礼。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    },
+    {
+      "case_id": "C-023",
+      "product_category": "skincare",
+      "observed_subject": "护肤罐与质地/功能",
+      "style_family": "浅灰白功能",
+      "visual_strengths": [
+        "上方主标题与三项短卖点、下方商品和质地形成清晰信息结构。"
+      ],
+      "visual_risks": [
+        "大标题、圆角功能标签和圆章可能竞争焦点；功效承诺必须由新任务母本支持。"
+      ],
+      "transferable_principles": [
+        "质地背景解释商品，短卖点与主图分区；容器高光不过曝。"
+      ],
+      "metadata_note": null,
+      "quality_label": null,
+      "quality_label_status": "unlabeled_not_ground_truth",
+      "visual_review_level": "full_image_and_contact_sheet",
+      "visual_review_date": "2026-10-01",
+      "human_quality_review": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "poster_image": "当前生成海报（图像）",
+  "product_input": {
+    "product_img": "原始商品图",
+    "selling_points": [
+      "卖点1",
+      "卖点2"
+    ],
+    "price_text": "价格文案",
+    "marketing_target": "营销目标",
+    "scene_tags": [
+      "人群",
+      "动机",
+      "场景"
+    ]
+  }
+}

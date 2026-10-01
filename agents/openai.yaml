@@ -1,0 +1,4 @@
+interface:
+  display_name: "电商海报美学专家 v2"
+  short_description: "结合原商品与场景标签评价海报，返回固定JSON，支持自然质感诊断和大幅重构"
+  default_prompt: "使用 $poster-aesthetic-agent 按统一接口评价海报及原商品图，提出有依据的大幅重构方案，保留商品身份与关键信息。"

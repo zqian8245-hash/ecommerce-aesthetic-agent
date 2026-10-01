@@ -1,0 +1,56 @@
+{
+  "test_mode": "visual_diagnostic_only",
+  "source_dimensions": [
+    474,
+    758
+  ],
+  "original_product_available": false,
+  "scene_tags_available": false,
+  "dimensions": {
+    "composition": {
+      "score": 7.5,
+      "evidence": "瓶体居中且完整，但边缘悬浮果片和近景裁切元素较多"
+    },
+    "hierarchy": {
+      "score": 7.5,
+      "evidence": "标题与商品可见，右侧两列竖排产品名称和解渴文案形成额外阅读入口"
+    },
+    "color": {
+      "score": 8,
+      "evidence": "蓝色背景与金黄色茶液形成清爽互补，浅色字局部对比不足"
+    },
+    "typography": {
+      "score": 7,
+      "evidence": "上方层级基本清楚，竖排与底部重复微字增加阅读成本"
+    },
+    "consistency": {
+      "score": 7.5,
+      "evidence": "水与柑橘贴合夏日饮料；泡泡、飘叶和悬浮果片主要起装饰作用"
+    },
+    "finish": {
+      "score": 6.5,
+      "evidence": "悬浮果片、气泡、水面大倒影造成合成感；低清图源限制标签与细节观察，不将模糊全部归为设计缺陷"
+    }
+  },
+  "visual_score_unrounded": 7.375,
+  "visual_score": 7.38,
+  "visual_pass": false,
+  "formal_pass": false,
+  "confidence": 0.7,
+  "protected_visible_copy": [
+    "酸甜橙C",
+    "0糖真过滤",
+    "添加真果汁",
+    "低卡轻负担",
+    "橙C乌龙茶",
+    "解锁你的夏日解渴公式"
+  ],
+  "claim_verification": "not_verified; preserve only as source copy",
+  "loop_rules": {
+    "max_rounds": 8,
+    "stagnation_rounds": 2,
+    "min_total_gain": 0.2,
+    "stagnation_action": "change_design_direction",
+    "retain_best": true
+  }
+}

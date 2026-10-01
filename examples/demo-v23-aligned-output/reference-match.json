@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "library_version": "2.2",
+  "input_scene_tags": [
+    "P03",
+    "M02",
+    "S01"
+  ],
+  "product_category": "cleaning",
+  "resolved_tags": {
+    "audience_id": "P03",
+    "motivation_id": "M02",
+    "scenario_id": "S01"
+  },
+  "rule_id": "R-003",
+  "rule_match_level": "exact",
+  "style_guidance": {
+    "palette": [
+      {
+        "role": "background",
+        "name": "background_1",
+        "hex": "#F7F2E8"
+      },
+      {
+        "role": "background",
+        "name": "background_2",
+        "hex": "#F2F6F0"
+      },
+      {
+        "role": "background",
+        "name": "background_3",
+        "hex": "#EEF4F7"
+      },
+      {
+        "role": "support",
+        "name": "support_1",
+        "hex": "#D9CBB9"
+      },
+      {
+        "role": "support",
+        "name": "support_2",
+        "hex": "#BFD2C1"
+      },
+      {
+        "role": "support",
+        "name": "support_3",
+        "hex": "#C6D8E1"
+      },
+      {
+        "role": "accent",
+        "name": "accent_1",
+        "hex": "#E89A55"
+      },
+      {
+        "role": "accent",
+        "name": "accent_2",
+        "hex": "#6FA77A"
+      },
+      {
+        "role": "accent",
+        "name": "accent_3",
+        "hex": "#4F91A8"
+      },
+      {
+        "role": "text",
+        "name": "text_1",
+        "hex": "#3E443E"
+      },
+      {
+        "role": "text",
+        "name": "text_2",
+        "hex": "#304238"
+      },
+      {
+        "role": "text",
+        "name": "text_3",
+        "hex": "#2F3E45"
+      },
+      {
+        "role": "material",
+        "name": "material_1",
+        "hex": "#B99B79"
+      },
+      {
+        "role": "material",
+        "name": "material_2",
+        "hex": "#D7C5A6"
+      }
+    ],
+    "headline_character": "亲和清晰无衬线，功能数字醒目",
+    "body_character": "简洁易读",
+    "composition": "真实家庭场景，主体居中，周围2至3个功能点",
+    "product_ratio": 0.62,
+    "info_density": 3,
+    "promotion_intensity": 2,
+    "cta_guidance": "使用与购买动机一致的短行动提示",
+    "prohibited_styles": [
+      "避免暗黑科技风",
+      "功能点过多和背景杂乱"
+    ]
+  },
+  "warnings": [],
+  "cases": [
+    {
+      "case_id": "C-006",
+      "image_path": "assets/classification-source/classification/cases/seed/C-006.jpg",
+      "image_sha256": "fc65d6eb4bbbfd1a3af39b152347e9f7588a1e32ef8c91d85833530da696238a",
+      "style_family": "黄色功能可视化",
+      "observed_subject": "扫地机吸力展示",
+      "matched_tag_count": 3,
+      "category_match": true,
+      "match_level": "exact_tags",
+      "cross_category_transfer_only": false,
+      "visual_strengths": [
+        "机身、颗粒与吸力示意共同说明功能；下方样本形成可比较分组。"
+      ],
+      "visual_risks": [
+        "特效和巨大10000Pa可竞争注意力；效果与数值必须来自新任务母本。"
+      ],
+      "transferable_principles": [
+        "功能效果图与证据分区，不把特效替代商品。"
+      ],
+      "metadata_note": null,
+      "source_review_status": "draft",
+      "quality_label": null,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-017",
+      "image_path": "assets/classification-source/classification/cases/seed/C-017.jpg",
+      "image_sha256": "4b350d79a07713b8043d76b6847819e90585aae6f9ab2ffa9dec009941d47539",
+      "style_family": "真实居家加效果线",
+      "observed_subject": "扫地机导航示意",
+      "matched_tag_count": 3,
+      "category_match": true,
+      "match_level": "exact_tags",
+      "cross_category_transfer_only": false,
+      "visual_strengths": [
+        "室内布局与前景机身共同说明导航用途，功能词组有规律。"
+      ],
+      "visual_risks": [
+        "多条光线与三项功能形成较高密度；不能以激光线数量暗示真实性能。"
+      ],
+      "transferable_principles": [
+        "真实使用情景支持功能说明，效果线保持最少必要数量。"
+      ],
+      "metadata_note": null,
+      "source_review_status": "draft",
+      "quality_label": null,
+      "eligible_for_score_calibration": false
+    },
+    {
+      "case_id": "C-007",
+      "image_path": "assets/classification-source/classification/cases/seed/C-007.webp",
+      "image_sha256": "2d6b8d57eda186b029e047b39ece65278374e33cc73a8d30634ffb1593057d5d",
+      "style_family": "真实厨房场景",
+      "observed_subject": "窄缝收纳柜尺寸演示",
+      "matched_tag_count": 3,
+      "category_match": false,
+      "match_level": "exact_tags",
+      "cross_category_transfer_only": true,
+      "visual_strengths": [
+        "使用位置和尺寸箭头解释适配关系，手部动作显示开门方式。"
+      ],
+      "visual_risks": [
+        "多方向标注易拥挤；尺寸信息不能来自参考图自动迁移。"
+      ],
+      "transferable_principles": [
+        "用真实场景展示适配，用少量尺寸说明关键结构。"
+      ],
+      "metadata_note": null,
+      "source_review_status": "draft",
+      "quality_label": null,
+      "eligible_for_score_calibration": false
+    }
+  ],
+  "known_tag_count": 3
+}

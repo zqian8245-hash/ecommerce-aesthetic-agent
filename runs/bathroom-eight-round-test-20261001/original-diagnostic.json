@@ -1,0 +1,44 @@
+{
+  "test_mode": "visual_diagnostic_only",
+  "original_product_available": false,
+  "scene_tags_available": false,
+  "dimensions": {
+    "composition": {
+      "score": 6,
+      "evidence": "浴缸与花洒为右侧商品，但花洒顶部贴边，山峦、叶片、灯及边桌分散注意"
+    },
+    "hierarchy": {
+      "score": 6,
+      "evidence": "左大标题可见，多个英文、框条和底部小字形成多余入口，产品不够集中"
+    },
+    "color": {
+      "score": 7.5,
+      "evidence": "蓝白基本统一，明暗对比清楚；地面层叠亮条与水幕抢高光"
+    },
+    "typography": {
+      "score": 5.5,
+      "evidence": "主标题叠加金色斜体，横线、英文行和框条冗余；活动小字不易读"
+    },
+    "consistency": {
+      "score": 6,
+      "evidence": "无可信浴室建筑，山峦水波与卫浴商品使用缺乏空间支撑"
+    },
+    "finish": {
+      "score": 6,
+      "evidence": "花洒水幕、雾、水滴外壁与丝状地面叠加，接触与水路关系不清"
+    }
+  },
+  "visual_score_unrounded": 6.125,
+  "visual_score": 6.13,
+  "visual_pass": false,
+  "formal_pass": false,
+  "copy_status": "source_placeholder_not_verified",
+  "watermark_policy": "retain_source_attribution_not_penalized_as_design_flaw",
+  "loop_rules": {
+    "max_rounds": 8,
+    "min_total_gain": 0.2,
+    "stagnation_rounds": 2,
+    "stagnation_action": "change_design_direction",
+    "retain_best": true
+  }
+}

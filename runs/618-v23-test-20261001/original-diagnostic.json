@@ -1,0 +1,47 @@
+{
+  "test_mode": "visual_diagnostic_only",
+  "source_poster": "runs/618-v23-test-20261001/original.png",
+  "original_product_available": false,
+  "scene_tags_available": false,
+  "reference_observations": [
+    "C-023：短标题与主商品分区，不借功效文案",
+    "G-008：强促销仍可保持字体简明和产品辨识"
+  ],
+  "dimensions": {
+    "composition": {
+      "score": 6,
+      "evidence": "主体偏小；大台座和两侧器械占用商品展示面积"
+    },
+    "hierarchy": {
+      "score": 5.5,
+      "evidence": "两行厚重橙字成为绝对焦点，商品信息较难读"
+    },
+    "color": {
+      "score": 7,
+      "evidence": "蓝橙对比明确，但青色灯条和橙色底灯争夺注意"
+    },
+    "typography": {
+      "score": 6,
+      "evidence": "主活动可读；挤压字形、立体投影和倾斜优惠条增加噪声"
+    },
+    "consistency": {
+      "score": 5.5,
+      "evidence": "科技实验室可表达科研联想，但巨大仪器和珍珠缺乏明确商品用途支持"
+    },
+    "finish": {
+      "score": 5.5,
+      "evidence": "金属、瓶体、珍珠都有统一强亮塑料感，光效偏舞台化"
+    }
+  },
+  "weights": {
+    "composition": 20,
+    "hierarchy": 20,
+    "color": 15,
+    "typography": 20,
+    "consistency": 15,
+    "finish": 10
+  },
+  "visual_score": 5.93,
+  "visual_pass": false,
+  "formal_pass": false
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-020",
+  "tags": {
+    "audience_id": "P04",
+    "motivation_id": "M05",
+    "scenario_id": "S01"
+  },
+  "rule_ids": [
+    "R-007"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-020.png",
+    "external_uri": "https://img.alicdn.com/imgextra/i3/2213953248029/O1CN01YvomcmomzhJ2vH2e_!!4611686018427386653-2-item_pic.png_q50.jpg_.webp",
+    "format": "png",
+    "width": 1440,
+    "height": 1440,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "天猫",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://detail.tmall.com/item.htm?abbucket=17&id=743619549404&mi_id=0000tsK4XFWj71hg34elWrdkW9IS3_r_rcLb-2-BUsS7Lnw&ns=1&priceTId=214786f917907751372941631e11f9&skuId=5704271585729&spm=a21n57.1.hoverItem.6&utparam=%7B%22aplus_abtest%22%3A%22155ce7be8f5613a59b1f1944398e7465%22%7D&xxc=taobaoSearch",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "自然低饱和色与留白契合香氛品类，包装和产品关系清楚。",
+  "style_analysis": {
+    "palette": "背景#F5F5F5；辅助#9BA686；强调#3E4C2C；正文#252A22",
+    "typography": "简洁衬线或人文无衬线、字距舒展",
+    "composition": "产品与包装成组置中偏下，大面积留白，植物色块辅助",
+    "information_hierarchy": "第一焦点：商品主体；信息密度：低；促销强度：低",
+    "spacing_and_details": "商品主体占比约40%；避免：避免高饱和荧光色、道具过满、长文案破坏留白。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

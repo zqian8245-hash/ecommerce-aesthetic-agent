@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-004",
+  "tags": {
+    "audience_id": "P01",
+    "motivation_id": "M05",
+    "scenario_id": "S05"
+  },
+  "rule_ids": [
+    "R-002"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-004.webp",
+    "external_uri": "https://gw.alicdn.com/imgextra/O1CN01fVTsBTksaEH1WPjS_!!776151038-0-picasso.jpg_.webp",
+    "format": "webp",
+    "width": 750,
+    "height": 1000,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "天猫",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://detail.tmall.com/item.htm?abbucket=17&id=1046008003404&mi_id=0000VaEg3Ra8xnA5cN_WdNcn9OViaowW49-gFgYkIZGJyjM&ns=1&priceTId=213e01f617907656020187070e0f41&skuId=6239069839489&spm=a21n57.1.hoverItem.17&utparam=%7B%22aplus_abtest%22%3A%22025bb29a1cdc62d133c1e23f90cfcc22%22%7D&xxc=taobaoSearch",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "同色系能强化品类氛围，产品轮廓和促销信息仍然清晰。",
+  "style_analysis": {
+    "palette": "背景#F2D4D7；辅助#D2929C；强调#B64E64；正文#4A2930",
+    "typography": "圆润时尚、标题醒目、数字强调",
+    "composition": "产品居中放大，粉色同色系层叠，价格角标独立",
+    "information_hierarchy": "第一焦点：商品主体；信息密度：中；促销强度：中",
+    "spacing_and_details": "商品主体占比约62%；避免：避免粉色层次过近、装饰遮盖色号、价格与产品争抢中心。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

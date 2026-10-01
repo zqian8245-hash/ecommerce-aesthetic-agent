@@ -1,0 +1,24 @@
+{
+  "test_mode": "visual_diagnostic_only",
+  "dimension_scores": {
+    "composition": 8.5,
+    "hierarchy": 8.5,
+    "color": 8.5,
+    "typography": 8.5,
+    "consistency": 8,
+    "finish": 8
+  },
+  "visual_score": 8.38,
+  "visual_pass": false,
+  "formal_pass": false,
+  "remaining_issues": [
+    "左下空区与右侧商品重心仍不平衡",
+    "阶梯已移除，但背景高光仍明显",
+    "瓶身品牌变化与删去微字无法正式验收"
+  ],
+  "next_actions": [
+    "居中商品并精简上方标题区",
+    "将优惠归入统一底部平面信息区",
+    "保持身份核验失败/缺失独立于视觉评分"
+  ]
+}

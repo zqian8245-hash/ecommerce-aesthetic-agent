@@ -1,0 +1,22 @@
+{
+  "strategy": "redesign",
+  "direction": "围绕商品及C组标签建立可信的商品广告；用原始素材做主角，不模仿旧科技促销模板",
+  "product_presentation": "原商品图做主视觉，允许等比放大及重新定位，包装和标签不重绘",
+  "layout": "重建商品区与独立信息区；核心卖点相邻分组，价格形成明确但不过度抢眼的行动节点",
+  "typography": "采用适合商品气质的清晰字级与统一对齐；取消膨胀立体文字，保留输入原文",
+  "palette": "从原商品与场景推导主色，控制辅助色和高亮，避免无理由霓虹",
+  "background": "使用低干扰且支持场景标签的背景；有空间和支撑关系，不堆叠透明器械",
+  "lighting": "采用一致方向的柔和主光和自然接触阴影，区分玻璃、金属及包装表面",
+  "remove_elements": [
+    "无功能发光底座",
+    "无关器械",
+    "多余悬浮珍珠",
+    "膨胀立体文字"
+  ],
+  "preserve_additional": [],
+  "strategy_reason": {
+    "structural_failed_count": 3,
+    "naturalness_failure": true,
+    "model_proposal": "redesign"
+  }
+}

@@ -1,0 +1,1547 @@
+[
+  {
+    "test_id": "T01",
+    "run": 1,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T01",
+      "audience": {
+        "primary_id": "P02",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "上班族",
+          "通勤"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M01",
+        "secondary_ids": [],
+        "confidence": 0.94,
+        "evidence": [
+          "限时直降",
+          "到手价"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S03",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "地铁出行",
+          "通勤"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-201"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T02",
+    "run": 1,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T02",
+      "audience": {
+        "primary_id": "P01",
+        "secondary_ids": [],
+        "confidence": 0.97,
+        "evidence": [
+          "大学宿舍",
+          "学生"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M02",
+        "secondary_ids": [],
+        "confidence": 0.95,
+        "evidence": [
+          "一键降噪",
+          "长续航"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S02",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "书桌",
+          "备考"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-202"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T03",
+    "run": 1,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T03",
+      "audience": {
+        "primary_id": "P03",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "新手妈妈",
+          "婴儿"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M03",
+        "secondary_ids": [],
+        "confidence": 0.97,
+        "evidence": [
+          "食品级材质",
+          "安全认证"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.95,
+        "evidence": [
+          "家庭喂养"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-203"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T04",
+    "run": 1,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T04",
+      "audience": {
+        "primary_id": "P04",
+        "secondary_ids": [],
+        "confidence": 0.95,
+        "evidence": [
+          "成熟消费者",
+          "长期体验"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M03",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "金属材质",
+          "品牌质保"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.91,
+        "evidence": [
+          "家用"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-203"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T05",
+    "run": 1,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T05",
+      "audience": {
+        "primary_id": "P05",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "普通消费者",
+          "实惠耐用"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M01",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "满减",
+          "到手价"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S02",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "办公",
+          "工作学习"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-004"
+      ],
+      "recommended_case_ids": [
+        "C-008",
+        "C-009"
+      ],
+      "fallback_level": "exact",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T06",
+    "run": 1,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T06",
+      "audience": {
+        "primary_id": "P06",
+        "secondary_ids": [],
+        "confidence": 0.97,
+        "evidence": [
+          "父母",
+          "字要大",
+          "操作简单"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M02",
+        "secondary_ids": [],
+        "confidence": 0.91,
+        "evidence": [
+          "一键热敷",
+          "舒适体验"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.94,
+        "evidence": [
+          "在家使用"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-202"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T07",
+    "run": 1,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T07",
+      "audience": {
+        "primary_id": "P04",
+        "secondary_ids": [],
+        "confidence": 0.89,
+        "evidence": [
+          "专业影像创作者"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M04",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "8K规格",
+          "防护等级",
+          "稳定性能"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S04",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "户外",
+          "徒步拍摄"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-107"
+      ],
+      "recommended_case_ids": [
+        "C-019"
+      ],
+      "fallback_level": "two_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T08",
+    "run": 1,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T08",
+      "audience": {
+        "primary_id": "P01",
+        "secondary_ids": [],
+        "confidence": 0.72,
+        "evidence": [
+          "25岁女友"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M06",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "生日香水礼盒",
+          "祝福",
+          "纪念意义"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S06",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "生日",
+          "开盒仪式感"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-DEFAULT"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "global",
+      "needs_human_review": true,
+      "review_reason": "收礼人的身份或生活阶段是否更接近学生/初入职场？"
+    }
+  },
+  {
+    "test_id": "T09",
+    "run": 1,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T09",
+      "audience": {
+        "primary_id": "P02",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "每天坐地铁上班"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M02",
+        "secondary_ids": [],
+        "confidence": 0.94,
+        "evidence": [
+          "轻薄",
+          "快速充电"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S03",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "地铁",
+          "通勤途中"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-202"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T10",
+    "run": 1,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T10",
+      "audience": {
+        "primary_id": "P05",
+        "secondary_ids": [],
+        "confidence": 0.18,
+        "evidence": []
+      },
+      "purchase_motivation": {
+        "primary_id": "M02",
+        "secondary_ids": [],
+        "confidence": 0.12,
+        "evidence": []
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.1,
+        "evidence": []
+      },
+      "selected_rule_ids": [
+        "R-202"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": true,
+      "review_reason": "请补充目标用户、主要购买理由和商品的主要使用环境。"
+    }
+  },
+  {
+    "test_id": "T11",
+    "run": 1,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T11",
+      "audience": {
+        "primary_id": "P05",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "重视性价比"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M01",
+        "secondary_ids": [],
+        "confidence": 0.99,
+        "evidence": [
+          "囤货装",
+          "满减",
+          "到手价"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.9,
+        "evidence": [
+          "家庭自用",
+          "厨房"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-011"
+      ],
+      "recommended_case_ids": [
+        "C-016"
+      ],
+      "fallback_level": "exact",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T12",
+    "run": 1,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T12",
+      "audience": {
+        "primary_id": "P01",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "年轻新人",
+          "潮流穿搭"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M05",
+        "secondary_ids": [],
+        "confidence": 0.97,
+        "evidence": [
+          "限定色",
+          "设计感",
+          "个性"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S05",
+        "secondary_ids": [],
+        "confidence": 0.97,
+        "evidence": [
+          "朋友聚会",
+          "拍照打卡"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-002"
+      ],
+      "recommended_case_ids": [
+        "C-004",
+        "C-005"
+      ],
+      "fallback_level": "exact",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T01",
+    "run": 2,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T01",
+      "audience": {
+        "primary_id": "P02",
+        "secondary_ids": [],
+        "confidence": 0.94,
+        "evidence": [
+          "上班族",
+          "通勤"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M01",
+        "secondary_ids": [],
+        "confidence": 0.92,
+        "evidence": [
+          "限时直降",
+          "到手价"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S03",
+        "secondary_ids": [],
+        "confidence": 0.94,
+        "evidence": [
+          "地铁出行",
+          "通勤"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-201"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T02",
+    "run": 2,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T02",
+      "audience": {
+        "primary_id": "P01",
+        "secondary_ids": [],
+        "confidence": 0.95,
+        "evidence": [
+          "大学宿舍",
+          "学生"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M02",
+        "secondary_ids": [],
+        "confidence": 0.93,
+        "evidence": [
+          "一键降噪",
+          "长续航"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S02",
+        "secondary_ids": [],
+        "confidence": 0.94,
+        "evidence": [
+          "书桌",
+          "备考"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-202"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T03",
+    "run": 2,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T03",
+      "audience": {
+        "primary_id": "P03",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "新手妈妈",
+          "婴儿"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M03",
+        "secondary_ids": [],
+        "confidence": 0.95,
+        "evidence": [
+          "食品级材质",
+          "安全认证"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.93,
+        "evidence": [
+          "家庭喂养"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-203"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T04",
+    "run": 2,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T04",
+      "audience": {
+        "primary_id": "P04",
+        "secondary_ids": [],
+        "confidence": 0.93,
+        "evidence": [
+          "成熟消费者",
+          "长期体验"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M03",
+        "secondary_ids": [],
+        "confidence": 0.94,
+        "evidence": [
+          "金属材质",
+          "品牌质保"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.89,
+        "evidence": [
+          "家用"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-203"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T05",
+    "run": 2,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T05",
+      "audience": {
+        "primary_id": "P05",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "普通消费者",
+          "实惠耐用"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M01",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "满减",
+          "到手价"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S02",
+        "secondary_ids": [],
+        "confidence": 0.94,
+        "evidence": [
+          "办公",
+          "工作学习"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-004"
+      ],
+      "recommended_case_ids": [
+        "C-008",
+        "C-009"
+      ],
+      "fallback_level": "exact",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T06",
+    "run": 2,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T06",
+      "audience": {
+        "primary_id": "P06",
+        "secondary_ids": [],
+        "confidence": 0.95,
+        "evidence": [
+          "父母",
+          "字要大",
+          "操作简单"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M02",
+        "secondary_ids": [],
+        "confidence": 0.89,
+        "evidence": [
+          "一键热敷",
+          "舒适体验"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.92,
+        "evidence": [
+          "在家使用"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-202"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T07",
+    "run": 2,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T07",
+      "audience": {
+        "primary_id": "P04",
+        "secondary_ids": [],
+        "confidence": 0.87,
+        "evidence": [
+          "专业影像创作者"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M04",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "8K规格",
+          "防护等级",
+          "稳定性能"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S04",
+        "secondary_ids": [],
+        "confidence": 0.94,
+        "evidence": [
+          "户外",
+          "徒步拍摄"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-107"
+      ],
+      "recommended_case_ids": [
+        "C-019"
+      ],
+      "fallback_level": "two_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T08",
+    "run": 2,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T08",
+      "audience": {
+        "primary_id": "P01",
+        "secondary_ids": [],
+        "confidence": 0.7,
+        "evidence": [
+          "25岁女友"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M06",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "生日香水礼盒",
+          "祝福",
+          "纪念意义"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S06",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "生日",
+          "开盒仪式感"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-DEFAULT"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "global",
+      "needs_human_review": true,
+      "review_reason": "收礼人的身份或生活阶段是否更接近学生/初入职场？"
+    }
+  },
+  {
+    "test_id": "T09",
+    "run": 2,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T09",
+      "audience": {
+        "primary_id": "P02",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "每天坐地铁上班"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M02",
+        "secondary_ids": [],
+        "confidence": 0.92,
+        "evidence": [
+          "轻薄",
+          "快速充电"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S03",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "地铁",
+          "通勤途中"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-202"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T10",
+    "run": 2,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T10",
+      "audience": {
+        "primary_id": "P05",
+        "secondary_ids": [],
+        "confidence": 0.16,
+        "evidence": []
+      },
+      "purchase_motivation": {
+        "primary_id": "M02",
+        "secondary_ids": [],
+        "confidence": 0.1,
+        "evidence": []
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.08,
+        "evidence": []
+      },
+      "selected_rule_ids": [
+        "R-202"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": true,
+      "review_reason": "请补充目标用户、主要购买理由和商品的主要使用环境。"
+    }
+  },
+  {
+    "test_id": "T11",
+    "run": 2,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T11",
+      "audience": {
+        "primary_id": "P05",
+        "secondary_ids": [],
+        "confidence": 0.94,
+        "evidence": [
+          "重视性价比"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M01",
+        "secondary_ids": [],
+        "confidence": 0.97,
+        "evidence": [
+          "囤货装",
+          "满减",
+          "到手价"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.88,
+        "evidence": [
+          "家庭自用",
+          "厨房"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-011"
+      ],
+      "recommended_case_ids": [
+        "C-016"
+      ],
+      "fallback_level": "exact",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T12",
+    "run": 2,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T12",
+      "audience": {
+        "primary_id": "P01",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "年轻新人",
+          "潮流穿搭"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M05",
+        "secondary_ids": [],
+        "confidence": 0.95,
+        "evidence": [
+          "限定色",
+          "设计感",
+          "个性"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S05",
+        "secondary_ids": [],
+        "confidence": 0.95,
+        "evidence": [
+          "朋友聚会",
+          "拍照打卡"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-002"
+      ],
+      "recommended_case_ids": [
+        "C-004",
+        "C-005"
+      ],
+      "fallback_level": "exact",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T01",
+    "run": 3,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T01",
+      "audience": {
+        "primary_id": "P02",
+        "secondary_ids": [],
+        "confidence": 0.97,
+        "evidence": [
+          "上班族",
+          "通勤"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M01",
+        "secondary_ids": [],
+        "confidence": 0.95,
+        "evidence": [
+          "限时直降",
+          "到手价"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S03",
+        "secondary_ids": [],
+        "confidence": 0.97,
+        "evidence": [
+          "地铁出行",
+          "通勤"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-201"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T02",
+    "run": 3,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T02",
+      "audience": {
+        "primary_id": "P01",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "大学宿舍",
+          "学生"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M02",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "一键降噪",
+          "长续航"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S02",
+        "secondary_ids": [],
+        "confidence": 0.97,
+        "evidence": [
+          "书桌",
+          "备考"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-202"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T03",
+    "run": 3,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T03",
+      "audience": {
+        "primary_id": "P03",
+        "secondary_ids": [],
+        "confidence": 0.99,
+        "evidence": [
+          "新手妈妈",
+          "婴儿"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M03",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "食品级材质",
+          "安全认证"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "家庭喂养"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-203"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T04",
+    "run": 3,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T04",
+      "audience": {
+        "primary_id": "P04",
+        "secondary_ids": [],
+        "confidence": 0.96,
+        "evidence": [
+          "成熟消费者",
+          "长期体验"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M03",
+        "secondary_ids": [],
+        "confidence": 0.97,
+        "evidence": [
+          "金属材质",
+          "品牌质保"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.92,
+        "evidence": [
+          "家用"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-203"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T05",
+    "run": 3,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T05",
+      "audience": {
+        "primary_id": "P05",
+        "secondary_ids": [],
+        "confidence": 0.99,
+        "evidence": [
+          "普通消费者",
+          "实惠耐用"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M01",
+        "secondary_ids": [],
+        "confidence": 0.99,
+        "evidence": [
+          "满减",
+          "到手价"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S02",
+        "secondary_ids": [],
+        "confidence": 0.97,
+        "evidence": [
+          "办公",
+          "工作学习"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-004"
+      ],
+      "recommended_case_ids": [
+        "C-008",
+        "C-009"
+      ],
+      "fallback_level": "exact",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T06",
+    "run": 3,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T06",
+      "audience": {
+        "primary_id": "P06",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "父母",
+          "字要大",
+          "操作简单"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M02",
+        "secondary_ids": [],
+        "confidence": 0.92,
+        "evidence": [
+          "一键热敷",
+          "舒适体验"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.95,
+        "evidence": [
+          "在家使用"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-202"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T07",
+    "run": 3,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T07",
+      "audience": {
+        "primary_id": "P04",
+        "secondary_ids": [],
+        "confidence": 0.9,
+        "evidence": [
+          "专业影像创作者"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M04",
+        "secondary_ids": [],
+        "confidence": 0.99,
+        "evidence": [
+          "8K规格",
+          "防护等级",
+          "稳定性能"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S04",
+        "secondary_ids": [],
+        "confidence": 0.97,
+        "evidence": [
+          "户外",
+          "徒步拍摄"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-107"
+      ],
+      "recommended_case_ids": [
+        "C-019"
+      ],
+      "fallback_level": "two_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T08",
+    "run": 3,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T08",
+      "audience": {
+        "primary_id": "P01",
+        "secondary_ids": [],
+        "confidence": 0.73,
+        "evidence": [
+          "25岁女友"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M06",
+        "secondary_ids": [],
+        "confidence": 0.99,
+        "evidence": [
+          "生日香水礼盒",
+          "祝福",
+          "纪念意义"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S06",
+        "secondary_ids": [],
+        "confidence": 0.99,
+        "evidence": [
+          "生日",
+          "开盒仪式感"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-DEFAULT"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "global",
+      "needs_human_review": true,
+      "review_reason": "收礼人的身份或生活阶段是否更接近学生/初入职场？"
+    }
+  },
+  {
+    "test_id": "T09",
+    "run": 3,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T09",
+      "audience": {
+        "primary_id": "P02",
+        "secondary_ids": [],
+        "confidence": 0.99,
+        "evidence": [
+          "每天坐地铁上班"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M02",
+        "secondary_ids": [],
+        "confidence": 0.95,
+        "evidence": [
+          "轻薄",
+          "快速充电"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S03",
+        "secondary_ids": [],
+        "confidence": 0.99,
+        "evidence": [
+          "地铁",
+          "通勤途中"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-202"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T10",
+    "run": 3,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T10",
+      "audience": {
+        "primary_id": "P05",
+        "secondary_ids": [],
+        "confidence": 0.19,
+        "evidence": []
+      },
+      "purchase_motivation": {
+        "primary_id": "M02",
+        "secondary_ids": [],
+        "confidence": 0.13,
+        "evidence": []
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.11,
+        "evidence": []
+      },
+      "selected_rule_ids": [
+        "R-202"
+      ],
+      "recommended_case_ids": [],
+      "fallback_level": "single_dimension",
+      "needs_human_review": true,
+      "review_reason": "请补充目标用户、主要购买理由和商品的主要使用环境。"
+    }
+  },
+  {
+    "test_id": "T11",
+    "run": 3,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T11",
+      "audience": {
+        "primary_id": "P05",
+        "secondary_ids": [],
+        "confidence": 0.97,
+        "evidence": [
+          "重视性价比"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M01",
+        "secondary_ids": [],
+        "confidence": 1,
+        "evidence": [
+          "囤货装",
+          "满减",
+          "到手价"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S01",
+        "secondary_ids": [],
+        "confidence": 0.91,
+        "evidence": [
+          "家庭自用",
+          "厨房"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-011"
+      ],
+      "recommended_case_ids": [
+        "C-016"
+      ],
+      "fallback_level": "exact",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  },
+  {
+    "test_id": "T12",
+    "run": 3,
+    "output": {
+      "schema_version": "1.0",
+      "taxonomy_version": "1.0",
+      "request_id": "T12",
+      "audience": {
+        "primary_id": "P01",
+        "secondary_ids": [],
+        "confidence": 0.99,
+        "evidence": [
+          "年轻新人",
+          "潮流穿搭"
+        ]
+      },
+      "purchase_motivation": {
+        "primary_id": "M05",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "限定色",
+          "设计感",
+          "个性"
+        ]
+      },
+      "scenario": {
+        "primary_id": "S05",
+        "secondary_ids": [],
+        "confidence": 0.98,
+        "evidence": [
+          "朋友聚会",
+          "拍照打卡"
+        ]
+      },
+      "selected_rule_ids": [
+        "R-002"
+      ],
+      "recommended_case_ids": [
+        "C-004",
+        "C-005"
+      ],
+      "fallback_level": "exact",
+      "needs_human_review": false,
+      "review_reason": ""
+    }
+  }
+]

@@ -1,0 +1,1779 @@
+{
+  "schema_version": "1.0",
+  "rules_version": "1.0",
+  "taxonomy_version": "1.0",
+  "fallback_order": [
+    "exact",
+    "two_dimension",
+    "single_dimension",
+    "global"
+  ],
+  "rules": [
+    {
+      "rule_id": "R-001",
+      "priority": 100,
+      "match": {
+        "audience_id": "P02",
+        "motivation_id": "M03",
+        "scenario_id": "S03"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#F6F3EA"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#F3F5F7"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#E9EEF2"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#D8D0C3"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#B8C5CC"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#A9B8A6"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#D9824B"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#557A8B"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#6D8B63"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#2F3437"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#263238"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#3E443E"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#B8BEC2"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#8D735B"
+          }
+        ],
+        "headline_character": "简洁无衬线，标题中粗，正文清晰",
+        "body_character": "简洁易读",
+        "composition": "商品居中或右侧偏大，卖点按网格排列",
+        "product_ratio": 0.58,
+        "info_density": 3,
+        "promotion_intensity": 3,
+        "cta_guidance": "使用与购买动机一致的短行动提示",
+        "prohibited_styles": [
+          "避免荧光撞色",
+          "文字满版和遮挡商品结构"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-002",
+        "C-003"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-002",
+      "priority": 100,
+      "match": {
+        "audience_id": "P01",
+        "motivation_id": "M05",
+        "scenario_id": "S05"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#F4E9FF"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#FFF2F6"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#EAF7F8"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#CBC2EA"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#F2C9D8"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#9ED6D8"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#FFD84D"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#FF7FA3"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#39B8C8"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#30263D"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#3B2D36"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#243438"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#C7B5E5"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#F0B7C8"
+          }
+        ],
+        "headline_character": "圆润或几何无衬线，标题适度加粗",
+        "body_character": "简洁易读",
+        "composition": "商品居中偏大，使用轻度动态色块并保留单一中心",
+        "product_ratio": 0.52,
+        "info_density": 3,
+        "promotion_intensity": 3,
+        "cta_guidance": "使用与购买动机一致的短行动提示",
+        "prohibited_styles": [
+          "避免沉重黑金",
+          "装饰压过商品和难读花体"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-004",
+        "C-005"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-003",
+      "priority": 100,
+      "match": {
+        "audience_id": "P03",
+        "motivation_id": "M02",
+        "scenario_id": "S01"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#F7F2E8"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#F2F6F0"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#EEF4F7"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#D9CBB9"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#BFD2C1"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#C6D8E1"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#E89A55"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#6FA77A"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#4F91A8"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#3E443E"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#304238"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#2F3E45"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#B99B79"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#D7C5A6"
+          }
+        ],
+        "headline_character": "亲和清晰无衬线，功能数字醒目",
+        "body_character": "简洁易读",
+        "composition": "真实家庭场景，主体居中，周围2至3个功能点",
+        "product_ratio": 0.62,
+        "info_density": 3,
+        "promotion_intensity": 2,
+        "cta_guidance": "使用与购买动机一致的短行动提示",
+        "prohibited_styles": [
+          "避免暗黑科技风",
+          "功能点过多和背景杂乱"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-006",
+        "C-007"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-004",
+      "priority": 100,
+      "match": {
+        "audience_id": "P05",
+        "motivation_id": "M01",
+        "scenario_id": "S02"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#F5F6F8"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#FFFFFF"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#EEF1F3"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#D9DEE2"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#C6CDD3"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#E8E1D7"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#F05A28"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#D9363E"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#F2B134"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#222222"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#30343A"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#1F2933"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#9EA4AA"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#C7A77A"
+          }
+        ],
+        "headline_character": "直白醒目的无衬线粗体，价格最大",
+        "body_character": "简洁易读",
+        "composition": "商品居中或右侧，品名、功能、价格和条件分层",
+        "product_ratio": 0.6,
+        "info_density": 5,
+        "promotion_intensity": 5,
+        "cta_guidance": "使用与购买动机一致的短行动提示",
+        "prohibited_styles": [
+          "避免隐藏优惠条件",
+          "颜色过多和商品过小"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-008",
+        "C-009"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-005",
+      "priority": 100,
+      "match": {
+        "audience_id": "P04",
+        "motivation_id": "M06",
+        "scenario_id": "S06"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#4A1F24"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#17382F"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#1F3147"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#7A3B42"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#355B4D"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#4A6078"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#C8A45D"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#B78B55"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#A8322E"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#FFF8EA"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#F3EBDD"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#F7F2E8"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#C6A15B"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#8B5E3C"
+          },
+          {
+            "role": "material",
+            "name": "material_3",
+            "hex": "#D8C7A5"
+          }
+        ],
+        "headline_character": "稳重衬线搭配清晰无衬线",
+        "body_character": "简洁易读",
+        "composition": "商品与礼盒成组陈列，稳定中轴或对称",
+        "product_ratio": 0.55,
+        "info_density": 2,
+        "promotion_intensity": 2,
+        "cta_guidance": "使用与购买动机一致的短行动提示",
+        "prohibited_styles": [
+          "避免俗艳金色",
+          "元素堆满和遮挡礼盒"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-010",
+        "C-011"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-006",
+      "priority": 100,
+      "match": {
+        "audience_id": "P02",
+        "motivation_id": "M03",
+        "scenario_id": "S02"
+      },
+      "style": {
+        "palette": [],
+        "headline_character": "极简现代无衬线；品牌与型号清楚",
+        "body_character": "简洁易读",
+        "composition": "商品居中或偏右，左上短标题，品质证据集中成块",
+        "product_ratio": 0.48,
+        "info_density": 2,
+        "promotion_intensity": 2,
+        "cta_guidance": "使用与购买动机一致的短行动提示；缺少价格或活动信息时不得自行补写。",
+        "prohibited_styles": [
+          "大段参数",
+          "彩色光效",
+          "无依据认证和低对比正文"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-012"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-007",
+      "priority": 100,
+      "match": {
+        "audience_id": "P04",
+        "motivation_id": "M05",
+        "scenario_id": "S01"
+      },
+      "style": {
+        "palette": [],
+        "headline_character": "人文无衬线或克制衬线；字距舒展",
+        "body_character": "简洁易读",
+        "composition": "产品与包装成组置中偏下，大面积留白，少量自然道具",
+        "product_ratio": 0.45,
+        "info_density": 2,
+        "promotion_intensity": 2,
+        "cta_guidance": "使用与购买动机一致的短行动提示；缺少价格或活动信息时不得自行补写。",
+        "prohibited_styles": [
+          "荧光色",
+          "道具过满",
+          "长文案和滤镜导致产品失色"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-020"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-008",
+      "priority": 100,
+      "match": {
+        "audience_id": "P04",
+        "motivation_id": "M05",
+        "scenario_id": "S05"
+      },
+      "style": {
+        "palette": [],
+        "headline_character": "优雅衬线搭配简洁无衬线；品牌字突出",
+        "body_character": "简洁易读",
+        "composition": "产品与礼盒错落居中，品牌置顶，保留社交氛围留白",
+        "product_ratio": 0.5,
+        "info_density": 2,
+        "promotion_intensity": 2,
+        "cta_guidance": "使用与购买动机一致的短行动提示；缺少价格或活动信息时不得自行补写。",
+        "prohibited_styles": [
+          "过度闪光",
+          "促销角标过大",
+          "低级网红滤镜和装饰压过商品"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-021"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-009",
+      "priority": 100,
+      "match": {
+        "audience_id": "P04",
+        "motivation_id": "M04",
+        "scenario_id": "S02"
+      },
+      "style": {
+        "palette": [],
+        "headline_character": "专业科技无衬线；型号与参数高可读",
+        "body_character": "简洁易读",
+        "composition": "深色舞台式居中陈列，轮廓光勾边，性能参数模块化",
+        "product_ratio": 0.58,
+        "info_density": 4,
+        "promotion_intensity": 2,
+        "cta_guidance": "使用与购买动机一致的短行动提示；缺少价格或活动信息时不得自行补写。",
+        "prohibited_styles": [
+          "伪造测试数据",
+          "科技线堆叠",
+          "参数过小和炫光遮挡结构"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-019"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-010",
+      "priority": 100,
+      "match": {
+        "audience_id": "P05",
+        "motivation_id": "M03",
+        "scenario_id": "S01"
+      },
+      "style": {
+        "palette": [],
+        "headline_character": "高识别黑体；核心数据大字，证据说明常规字重",
+        "body_character": "简洁易读",
+        "composition": "产品居中，顶部核心利益点，周围2—3项品质证据",
+        "product_ratio": 0.45,
+        "info_density": 3,
+        "promotion_intensity": 2,
+        "cta_guidance": "使用与购买动机一致的短行动提示；缺少价格或活动信息时不得自行补写。",
+        "prohibited_styles": [
+          "证据气泡过多",
+          "脚注缺失",
+          "夸大标准数据和箭头遮挡主体"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-018"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-011",
+      "priority": 100,
+      "match": {
+        "audience_id": "P05",
+        "motivation_id": "M01",
+        "scenario_id": "S01"
+      },
+      "style": {
+        "palette": [],
+        "headline_character": "促销粗体；价格数字最大；说明简短",
+        "body_character": "简洁易读",
+        "composition": "产品居中成组陈列，上方卖点，下方独立价格与条件区",
+        "product_ratio": 0.55,
+        "info_density": 4,
+        "promotion_intensity": 5,
+        "cta_guidance": "使用与购买动机一致的短行动提示；缺少价格或活动信息时不得自行补写。",
+        "prohibited_styles": [
+          "红色满版",
+          "价格遮挡产品",
+          "隐藏活动门槛和无依据原价"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-016"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-012",
+      "priority": 100,
+      "match": {
+        "audience_id": "P04",
+        "motivation_id": "M02",
+        "scenario_id": "S01"
+      },
+      "style": {
+        "palette": [],
+        "headline_character": "理性精致；功效标题中粗，说明克制",
+        "body_character": "简洁易读",
+        "composition": "产品居中放大，功能标题置上，重点词小面积强调",
+        "product_ratio": 0.5,
+        "info_density": 3,
+        "promotion_intensity": 3,
+        "cta_guidance": "使用与购买动机一致的短行动提示；缺少价格或活动信息时不得自行补写。",
+        "prohibited_styles": [
+          "功效词堆叠",
+          "强调色过量",
+          "容器高光过曝和无依据功效"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-023"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-101",
+      "priority": 60,
+      "match": {
+        "audience_id": "P02",
+        "motivation_id": "M03",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#F3F5F7"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#F7F3EC"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#EAF0F3"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#C8D1D6"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#D8CEC0"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#B8C6CD"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#557A8B"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#8B7355"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#D9824B"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#263238"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#2F3437"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#3B3B38"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#AEB6BA"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#9B7B5B"
+          }
+        ],
+        "headline_character": "简洁利落的无衬线；标题中粗，正文常规字重。",
+        "body_character": "简洁易读",
+        "composition": "网格化布局；商品居中或右侧；材质、认证或品牌证据集中展示。",
+        "product_ratio": 0.58,
+        "info_density": 3,
+        "promotion_intensity": 2,
+        "cta_guidance": "了解详情、查看品质信息、立即选购。",
+        "prohibited_styles": [
+          "花哨贴纸",
+          "儿童化字体",
+          "无依据品质口号",
+          "过度强促销。"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-002",
+        "C-012"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-102",
+      "priority": 60,
+      "match": {
+        "audience_id": "P01",
+        "motivation_id": "M05",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#F2EAFE"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#FFF0F5"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#E9F7F7"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#CBC0E5"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#F3BED2"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#A8DADC"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#FFCB45"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#FF7597"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#34B3C0"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#332B3A"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#3D2D35"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#26383B"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#C0AEE0"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#E8B2C4"
+          }
+        ],
+        "headline_character": "圆润或几何无衬线；标题可加粗，副文案简短。",
+        "body_character": "简洁易读",
+        "composition": "主体居中偏大，允许轻度动态色块与趣味装饰，但保持单一视觉中心。",
+        "product_ratio": 0.54,
+        "info_density": 3,
+        "promotion_intensity": 3,
+        "cta_guidance": "解锁新色、立即尝鲜、发现更多。",
+        "prohibited_styles": [
+          "传统商务风",
+          "沉重黑金",
+          "装饰压过商品",
+          "难读花体。"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-004",
+        "C-015"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-103",
+      "priority": 60,
+      "match": {
+        "audience_id": "P03",
+        "motivation_id": "M02",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [],
+        "headline_character": "亲和清晰无衬线；功能数字明确",
+        "body_character": "简洁易读",
+        "composition": "真实使用场景加产品前景，2—3个功能点围绕主体",
+        "product_ratio": 0.52,
+        "info_density": 3,
+        "promotion_intensity": 2,
+        "cta_guidance": "使用与购买动机一致的短行动提示；缺少价格或活动信息时不得自行补写。",
+        "prohibited_styles": [
+          "功能点过多",
+          "特效遮挡机身",
+          "暗黑科技风和不真实家庭背景"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-006",
+        "C-017"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-104",
+      "priority": 60,
+      "match": {
+        "audience_id": "P05",
+        "motivation_id": "M01",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [],
+        "headline_character": "粗黑无衬线；价格和数量大字",
+        "body_character": "简洁易读",
+        "composition": "商品与价格双焦点，规格、条件和时间紧邻价格",
+        "product_ratio": 0.57,
+        "info_density": 5,
+        "promotion_intensity": 5,
+        "cta_guidance": "使用与购买动机一致的短行动提示；缺少价格或活动信息时不得自行补写。",
+        "prohibited_styles": [
+          "颜色过多",
+          "商品过小",
+          "隐藏优惠条件和装饰渐变"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-008",
+        "C-016"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-105",
+      "priority": 60,
+      "match": {
+        "audience_id": "P04",
+        "motivation_id": "M06",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [],
+        "headline_character": "稳重衬线搭配清晰无衬线；字距舒展",
+        "body_character": "简洁易读",
+        "composition": "商品和礼盒完整成组，稳定中轴或对称，留白表现仪式感",
+        "product_ratio": 0.55,
+        "info_density": 2,
+        "promotion_intensity": 2,
+        "cta_guidance": "使用与购买动机一致的短行动提示；缺少价格或活动信息时不得自行补写。",
+        "prohibited_styles": [
+          "俗艳金色满版",
+          "节日元素堆叠",
+          "红包式强促销和遮挡礼盒"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-010",
+        "C-022"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-106",
+      "priority": 60,
+      "match": {
+        "audience_id": "P04",
+        "motivation_id": "M05",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [],
+        "headline_character": "具有审美特征但保持可读；标题克制",
+        "body_character": "简洁易读",
+        "composition": "以商品造型和材质为中心，用留白与少量氛围道具建立风格",
+        "product_ratio": 0.48,
+        "info_density": 2,
+        "promotion_intensity": 2,
+        "cta_guidance": "使用与购买动机一致的短行动提示；缺少价格或活动信息时不得自行补写。",
+        "prohibited_styles": [
+          "风格元素混杂",
+          "滤镜失真",
+          "促销信息喧宾夺主和标题难读"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-020",
+        "C-021"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-107",
+      "priority": 60,
+      "match": {
+        "audience_id": "P04",
+        "motivation_id": "M04",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [],
+        "headline_character": "理性硬朗无衬线；参数高可读",
+        "body_character": "简洁易读",
+        "composition": "产品大图结合性能特写，参数按模块排列",
+        "product_ratio": 0.56,
+        "info_density": 4,
+        "promotion_intensity": 2,
+        "cta_guidance": "使用与购买动机一致的短行动提示；缺少价格或活动信息时不得自行补写。",
+        "prohibited_styles": [
+          "伪造数据",
+          "炫光遮挡",
+          "参数过小和装饰科技线泛滥"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-019"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-108",
+      "priority": 60,
+      "match": {
+        "audience_id": "P05",
+        "motivation_id": "M03",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [],
+        "headline_character": "直接清晰；核心证据和数字醒目",
+        "body_character": "简洁易读",
+        "composition": "商品完整居中，品质证据分布在主体周围，脚注可追溯",
+        "product_ratio": 0.48,
+        "info_density": 3,
+        "promotion_intensity": 2,
+        "cta_guidance": "使用与购买动机一致的短行动提示；缺少价格或活动信息时不得自行补写。",
+        "prohibited_styles": [
+          "无依据认证",
+          "夸大数据",
+          "证据小字不可读和廉价促销贴"
+        ]
+      },
+      "recommended_case_ids": [
+        "C-018"
+      ],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-201",
+      "priority": 30,
+      "match": {
+        "audience_id": "*",
+        "motivation_id": "M01",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#F7F7F7"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#FFFFFF"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#F1F3F5"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#D9DDE1"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#E7E1D8"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#C9CED3"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#F05A28"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#D9363E"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#F2B134"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#222222"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#303030"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#1F2933"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#9EA4AA"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#C4A27A"
+          }
+        ],
+        "headline_character": "价格使用粗体无衬线；说明文字直接清楚。",
+        "body_character": "简洁易读",
+        "composition": "商品与价格构成双焦点；优惠条件、时间和规格紧邻价格。",
+        "product_ratio": 0.58,
+        "info_density": 4,
+        "promotion_intensity": 5,
+        "cta_guidance": "到手价、限时立减、立即抢购，并明确活动条件。",
+        "prohibited_styles": [
+          "隐藏优惠条件",
+          "商品过小",
+          "价格低对比",
+          "无依据原价。"
+        ]
+      },
+      "recommended_case_ids": [],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-202",
+      "priority": 30,
+      "match": {
+        "audience_id": "*",
+        "motivation_id": "M02",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#F4F8F7"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#F2F6FA"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#F8F4EE"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#C7DDD8"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#C8D9E7"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#DDD3C4"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#36A69A"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#438FC2"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#E28B4F"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#263238"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#253541"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#3A3832"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#AEB8B5"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#B8A487"
+          }
+        ],
+        "headline_character": "现代无衬线；功能标题中粗；参数简洁可读。",
+        "body_character": "简洁易读",
+        "composition": "主体居中，周围保留2至3个功能点；必要时加入使用动作或前后结果。",
+        "product_ratio": 0.6,
+        "info_density": 3,
+        "promotion_intensity": 2,
+        "cta_guidance": "立即体验、轻松解决、查看功能。",
+        "prohibited_styles": [
+          "功能点过多",
+          "流程图复杂",
+          "夸大效果",
+          "图标风格不统一。"
+        ]
+      },
+      "recommended_case_ids": [],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-203",
+      "priority": 30,
+      "match": {
+        "audience_id": "*",
+        "motivation_id": "M03",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#F5F1E8"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#F4F5F5"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#EDE9E2"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#D5C8B5"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#CBD0D2"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#C7B7A3"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#8B7355"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#557A6B"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#9B6B4A"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#2D2D2D"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#303638"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#3B332D"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#B8BEC2"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#8D6E52"
+          },
+          {
+            "role": "material",
+            "name": "material_3",
+            "hex": "#C8A96A"
+          }
+        ],
+        "headline_character": "稳重无衬线或现代衬线标题；正文清楚克制。",
+        "body_character": "简洁易读",
+        "composition": "商品完整展示，搭配材质或工艺特写；认证与质保信息独立成块。",
+        "product_ratio": 0.62,
+        "info_density": 3,
+        "promotion_intensity": 2,
+        "cta_guidance": "查看品质细节、了解材质、安心选购。",
+        "prohibited_styles": [
+          "无依据权威背书",
+          "过度滤镜",
+          "材质失真",
+          "廉价促销贴纸。"
+        ]
+      },
+      "recommended_case_ids": [],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-204",
+      "priority": 30,
+      "match": {
+        "audience_id": "*",
+        "motivation_id": "M04",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#101820"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#151E28"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#EAF0F5"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#2C3542"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#394656"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#B7C7D4"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#19B5FE"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#45C6A6"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#F2A33B"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#F2F5F7"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#E9EEF2"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#263238"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#6F7B85"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#AEB6BD"
+          }
+        ],
+        "headline_character": "理性硬朗的无衬线；数字与参数采用高可读等宽或窄体风格。",
+        "body_character": "简洁易读",
+        "composition": "产品大图结合结构或性能特写；参数按模块排列，保持明确比较关系。",
+        "product_ratio": 0.56,
+        "info_density": 4,
+        "promotion_intensity": 2,
+        "cta_guidance": "查看参数、了解性能、立即体验。",
+        "prohibited_styles": [
+          "伪造测试数据",
+          "科技线条堆叠",
+          "参数过小",
+          "炫光遮挡产品。"
+        ]
+      },
+      "recommended_case_ids": [],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-205",
+      "priority": 30,
+      "match": {
+        "audience_id": "*",
+        "motivation_id": "M05",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#F3EDF7"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#F8F3F0"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#EEF4F1"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#D9CBE2"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#E5D2CB"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#C8D9D0"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#D56BA6"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#8B6CC2"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#6E9B7A"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#332D36"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#3B3330"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#2E3933"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#C7B6D0"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#D4B6A9"
+          }
+        ],
+        "headline_character": "具有审美特征但可读的标题字；正文简洁。",
+        "body_character": "简洁易读",
+        "composition": "以商品造型和色彩为中心，使用留白、材质或氛围道具形成统一风格。",
+        "product_ratio": 0.55,
+        "info_density": 2,
+        "promotion_intensity": 2,
+        "cta_guidance": "发现新色、选择你的风格、立即拥有。",
+        "prohibited_styles": [
+          "风格元素混杂",
+          "滤镜导致产品失色",
+          "标题难读",
+          "促销信息喧宾夺主。"
+        ]
+      },
+      "recommended_case_ids": [],
+      "status": "active"
+    },
+    {
+      "rule_id": "R-206",
+      "priority": 30,
+      "match": {
+        "audience_id": "*",
+        "motivation_id": "M06",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#F7F0E6"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#4A1F24"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#17382F"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#E2D2BE"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#7A3B42"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#355B4D"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#B2434B"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#C8A45D"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#8F6B45"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#382E2C"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#FFF8EA"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#F2EBDD"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#C6A15B"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#8B5E3C"
+          },
+          {
+            "role": "material",
+            "name": "material_3",
+            "hex": "#D8C7A5"
+          }
+        ],
+        "headline_character": "端正稳重；标题可有适度文化感，正文保持现代易读。",
+        "body_character": "简洁易读",
+        "composition": "商品与包装完整成组展示；少量礼赠道具；留白呈现仪式感。",
+        "product_ratio": 0.55,
+        "info_density": 2,
+        "promotion_intensity": 2,
+        "cta_guidance": "赠予心意、节日甄选、限定礼遇。",
+        "prohibited_styles": [
+          "俗艳金色满版",
+          "节日元素堆叠",
+          "强促销角标",
+          "遮挡礼盒结构。"
+        ]
+      },
+      "recommended_case_ids": [],
+      "status": "draft"
+    },
+    {
+      "rule_id": "R-DEFAULT",
+      "priority": 0,
+      "match": {
+        "audience_id": "*",
+        "motivation_id": "*",
+        "scenario_id": "*"
+      },
+      "style": {
+        "palette": [
+          {
+            "role": "background",
+            "name": "background_1",
+            "hex": "#FFFFFF"
+          },
+          {
+            "role": "background",
+            "name": "background_2",
+            "hex": "#F5F6F8"
+          },
+          {
+            "role": "background",
+            "name": "background_3",
+            "hex": "#F7F3EC"
+          },
+          {
+            "role": "support",
+            "name": "support_1",
+            "hex": "#D9DEE2"
+          },
+          {
+            "role": "support",
+            "name": "support_2",
+            "hex": "#CBD3D8"
+          },
+          {
+            "role": "support",
+            "name": "support_3",
+            "hex": "#DED5C8"
+          },
+          {
+            "role": "accent",
+            "name": "accent_1",
+            "hex": "#4F6B7A"
+          },
+          {
+            "role": "accent",
+            "name": "accent_2",
+            "hex": "#D9824B"
+          },
+          {
+            "role": "accent",
+            "name": "accent_3",
+            "hex": "#557A6B"
+          },
+          {
+            "role": "text",
+            "name": "text_1",
+            "hex": "#222222"
+          },
+          {
+            "role": "text",
+            "name": "text_2",
+            "hex": "#2F3437"
+          },
+          {
+            "role": "text",
+            "name": "text_3",
+            "hex": "#263238"
+          },
+          {
+            "role": "material",
+            "name": "material_1",
+            "hex": "#AEB6BA"
+          },
+          {
+            "role": "material",
+            "name": "material_2",
+            "hex": "#A58A6A"
+          }
+        ],
+        "headline_character": "清晰醒目的无衬线标题，简洁易读的正文。",
+        "body_character": "简洁易读",
+        "composition": "商品主体突出，依次呈现商品、核心卖点、价格或活动信息、行动提示。",
+        "product_ratio": 0.55,
+        "info_density": 3,
+        "promotion_intensity": 3,
+        "cta_guidance": "使用清晰但不过度夸张的行动提示；缺失促销信息时不自行补写。",
+        "prohibited_styles": [
+          "文字遮挡商品",
+          "正文低对比",
+          "编造促销信息",
+          "信息层级混乱。"
+        ]
+      },
+      "recommended_case_ids": [],
+      "status": "active"
+    }
+  ]
+}

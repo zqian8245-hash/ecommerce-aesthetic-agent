@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "library_version": "2.2",
+  "input_scene_tags": [
+    "人群",
+    "动机",
+    "场景"
+  ],
+  "product_category": "skincare",
+  "resolved_tags": {
+    "audience_id": null,
+    "motivation_id": null,
+    "scenario_id": null
+  },
+  "rule_id": "R-DEFAULT",
+  "rule_match_level": "global",
+  "style_guidance": {
+    "palette": [
+      {
+        "role": "background",
+        "name": "background_1",
+        "hex": "#FFFFFF"
+      },
+      {
+        "role": "background",
+        "name": "background_2",
+        "hex": "#F5F6F8"
+      },
+      {
+        "role": "background",
+        "name": "background_3",
+        "hex": "#F7F3EC"
+      },
+      {
+        "role": "support",
+        "name": "support_1",
+        "hex": "#D9DEE2"
+      },
+      {
+        "role": "support",
+        "name": "support_2",
+        "hex": "#CBD3D8"
+      },
+      {
+        "role": "support",
+        "name": "support_3",
+        "hex": "#DED5C8"
+      },
+      {
+        "role": "accent",
+        "name": "accent_1",
+        "hex": "#4F6B7A"
+      },
+      {
+        "role": "accent",
+        "name": "accent_2",
+        "hex": "#D9824B"
+      },
+      {
+        "role": "accent",
+        "name": "accent_3",
+        "hex": "#557A6B"
+      },
+      {
+        "role": "text",
+        "name": "text_1",
+        "hex": "#222222"
+      },
+      {
+        "role": "text",
+        "name": "text_2",
+        "hex": "#2F3437"
+      },
+      {
+        "role": "text",
+        "name": "text_3",
+        "hex": "#263238"
+      },
+      {
+        "role": "material",
+        "name": "material_1",
+        "hex": "#AEB6BA"
+      },
+      {
+        "role": "material",
+        "name": "material_2",
+        "hex": "#A58A6A"
+      }
+    ],
+    "headline_character": "清晰醒目的无衬线标题，简洁易读的正文。",
+    "body_character": "简洁易读",
+    "composition": "商品主体突出，依次呈现商品、核心卖点、价格或活动信息、行动提示。",
+    "product_ratio": 0.55,
+    "info_density": 3,
+    "promotion_intensity": 3,
+    "cta_guidance": "使用清晰但不过度夸张的行动提示；缺失促销信息时不自行补写。",
+    "prohibited_styles": [
+      "文字遮挡商品",
+      "正文低对比",
+      "编造促销信息",
+      "信息层级混乱。"
+    ]
+  },
+  "warnings": [
+    "未识别标签：人群、动机、场景；未按标签位置猜测分类"
+  ],
+  "cases": [
+    {
+      "case_id": "C-023",
+      "image_path": "assets/classification-source/classification/cases/seed/C-023.png",
+      "image_sha256": "a0216fc863c342cebf25339bc3ac4afd3b0015a72fa1213b9ba3ed376bd411c2",
+      "style_family": "浅灰白功能",
+      "observed_subject": "护肤罐与质地/功能",
+      "matched_tag_count": 0,
+      "category_match": true,
+      "match_level": "category_only",
+      "cross_category_transfer_only": false,
+      "visual_strengths": [
+        "上方主标题与三项短卖点、下方商品和质地形成清晰信息结构。"
+      ],
+      "visual_risks": [
+        "大标题、圆角功能标签和圆章可能竞争焦点；功效承诺必须由新任务母本支持。"
+      ],
+      "transferable_principles": [
+        "质地背景解释商品，短卖点与主图分区；容器高光不过曝。"
+      ],
+      "metadata_note": null,
+      "source_review_status": "draft",
+      "quality_label": null,
+      "eligible_for_score_calibration": false
+    }
+  ],
+  "known_tag_count": 0
+}

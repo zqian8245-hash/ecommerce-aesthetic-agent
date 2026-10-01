@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-008",
+  "tags": {
+    "audience_id": "P05",
+    "motivation_id": "M01",
+    "scenario_id": "S02"
+  },
+  "rule_ids": [
+    "R-004"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-008.jpg",
+    "external_uri": "https://gw.alicdn.com/imgextra/i4/2217726865021/O1CN01N4lrr41mxflHrWx0s_!!4611686018427383421-0-item_pic.jpg",
+    "format": "jpg",
+    "width": 1440,
+    "height": 1920,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "天猫",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://detail.tmall.com/item.htm?abbucket=17&id=902067455978&mi_id=0000lq0rD2kq3F_nOUPUPVZxoU4gS4om-1_7QXoYvWNHzfU&ns=1&priceTId=213e026617907678887844857e11de&skuId=5948498141927&spm=a21n57.1.hoverItem.42&utparam=%7B%22aplus_abtest%22%3A%22dce08b6fedbf5a00f3b954994922ef6c%22%7D&xxc=taobaoSearch",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "直接展示套装数量，价格与规格易于扫读，符合效率型购物。",
+  "style_analysis": {
+    "palette": "背景#DEE0E2；辅助#AEB2B5；强调#E84A32；正文#212121",
+    "typography": "粗黑无衬线、数字大、信息紧凑",
+    "composition": "多支产品横向或扇形铺陈，数量与价格形成双焦点",
+    "information_hierarchy": "第一焦点：促销价格；信息密度：高；促销强度：高",
+    "spacing_and_details": "商品主体占比约56%；避免：避免灰度层次不足、型号文字过小、促销标签覆盖笔身。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

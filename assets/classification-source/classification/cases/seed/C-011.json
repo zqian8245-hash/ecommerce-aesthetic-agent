@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "case_id": "C-011",
+  "tags": {
+    "audience_id": "P04",
+    "motivation_id": "M06",
+    "scenario_id": "S06"
+  },
+  "rule_ids": [
+    "R-005"
+  ],
+  "asset": {
+    "local_path": "cases/seed/C-011.webp",
+    "external_uri": "https://img.alicdn.com/imgextra/i3/2212099235170/O1CN01gi1vwu1o3ummmKS1K_!!4611686018427387234-0-item_pic.jpg_q50.jpg_.webp",
+    "format": "webp",
+    "width": 750,
+    "height": 1000,
+    "storage_type": "local"
+  },
+  "source": {
+    "platform": "天猫",
+    "publisher_or_shop": "待人工核验（以来源详情页展示为准）",
+    "url": "https://detail.tmall.com/item.htm?id=1028752736106&mi_id=0000WBrAhcoX9doMQXHUJCadwrv-w66YU0e8c9z56GXtYWI&spm=a21xtw.29978516.0.0&xxc=shop",
+    "collected_date": "2026-09-30",
+    "usage_status": "research_reference_only"
+  },
+  "why_effective": "深红与金色构成成熟礼赠语义，少量文字保留产品质感。",
+  "style_analysis": {
+    "palette": "背景#590C11；辅助#320608；强调#C8A45D；正文#EEE6D9",
+    "typography": "典雅衬线、标题克制、金色细节",
+    "composition": "礼盒居中或偏中轴，深色背景，产品与包装形成前后层次",
+    "information_hierarchy": "第一焦点：商品主体；信息密度：低；促销强度：低",
+    "spacing_and_details": "商品主体占比约55%；避免：避免大面积亮金、廉价光效、红色饱和过高导致细节丢失。"
+  },
+  "contributor": "C组（Codex整理）",
+  "reviewer": "待项目负责人确认",
+  "review_status": "draft",
+  "is_seed": true
+}

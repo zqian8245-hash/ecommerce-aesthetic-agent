@@ -1,0 +1,47 @@
+{
+  "test_mode": "visual_diagnostic_only",
+  "dimensions": {
+    "composition": {
+      "score": 8.5,
+      "evidence": "文字在左上，单瓶在右下，织物软曲线连接两个区域；留白和主次比原图稳定"
+    },
+    "hierarchy": {
+      "score": 8.5,
+      "evidence": "活动标题、折扣和日期三级明确；商品有清晰轮廓"
+    },
+    "color": {
+      "score": 9,
+      "evidence": "暖白背景、深蓝文字与局部珊瑚色构成克制且高对比的配色"
+    },
+    "typography": {
+      "score": 8.5,
+      "evidence": "平面字体与左对齐清楚，优惠数字可见；字体仍较常规"
+    },
+    "consistency": {
+      "score": 8.5,
+      "evidence": "柔和护肤棚拍与瓶装精华呈现相容；仅根据可见品类，未获得C标签验证"
+    },
+    "finish": {
+      "score": 8.5,
+      "evidence": "织物、玻璃、金属材质有分辨，落地阴影合理；局部边缘高光仍有生成感"
+    }
+  },
+  "visual_score_unrounded": 8.575,
+  "visual_score": 8.58,
+  "visual_pass": true,
+  "formal_pass": false,
+  "stop_reason": "visual_target_reached_but_identity_blocked",
+  "total_rounds": 5,
+  "max_rounds": 8,
+  "design_direction_switch_at": 5,
+  "content_check": {
+    "campaign_copy": "visible_offer_and_dates_preserved",
+    "product_identity": "unverified_and_changed_packaging",
+    "original_product_available": false,
+    "complete_product_input_available": false
+  },
+  "limitations": [
+    "单次同模型诊断，不是独立盲评，也不能证明Agent稳定达标率",
+    "品牌和微字已有变化，不能称商品保护成功"
+  ]
+}
